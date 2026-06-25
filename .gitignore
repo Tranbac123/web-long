@@ -33,6 +33,10 @@ pnpm-debug.log*
 
 *.tsbuildinfo
 
+# tsc -b artifacts emitted from compiling vite.config.ts (source is vite.config.ts)
+/vite.config.js
+/vite.config.d.ts
+
 # IDE / Editor
 
 .vscode/*
