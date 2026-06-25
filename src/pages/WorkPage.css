@@ -1,0 +1,126 @@
+/* ============================================================
+   Work — single staggered editorial row (fits ~1440 viewport,
+   scrolls horizontally only if the viewport is very narrow)
+   ============================================================ */
+.work {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 84px);
+}
+
+.work-head {
+  padding-block: var(--space-12) var(--space-6);
+}
+
+.work-rail {
+  flex: 1;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.work-rail__track {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-10);
+  padding-inline: var(--container-pad);
+  padding-block: var(--space-8) var(--space-12);
+}
+
+.work-item {
+  flex: 0 0 auto;
+  color: inherit;
+}
+.work-item__media {
+  overflow: hidden;
+  background: var(--color-bg-alt);
+  margin-bottom: var(--space-4);
+}
+.work-item__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s var(--ease);
+}
+.work-item:hover .work-item__media img {
+  transform: scale(1.03);
+}
+
+.work-item__meta {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+.work-item__index {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+.work-item__title {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--tracking-tight);
+}
+.work-item__cat {
+  display: none; /* reference shows title only under each image */
+}
+
+/* Asymmetric sizing + vertical stagger per project */
+.work-item--luminary-studio {
+  width: 250px;
+  margin-top: 0;
+}
+.work-item--luminary-studio .work-item__media {
+  aspect-ratio: 4 / 5;
+}
+
+.work-item--orbital-finance {
+  width: 220px;
+  margin-top: var(--space-10);
+}
+.work-item--orbital-finance .work-item__media {
+  aspect-ratio: 4 / 3;
+}
+
+.work-item--plant-shop {
+  width: 170px;
+  margin-top: var(--space-20);
+}
+.work-item--plant-shop .work-item__media {
+  aspect-ratio: 1 / 1;
+}
+
+.work-item--aether-ai-studio {
+  width: 250px;
+  margin-top: var(--space-4);
+}
+.work-item--aether-ai-studio .work-item__media {
+  aspect-ratio: 3 / 4;
+}
+.work-item--aether-ai-studio .work-item__title {
+  font-weight: var(--fw-bold);
+}
+
+.work-item--polaris-protocol {
+  width: 210px;
+  margin-top: var(--space-24);
+}
+.work-item--polaris-protocol .work-item__media {
+  aspect-ratio: 3 / 4;
+}
+
+/* Huge WORKS + CTA */
+.work-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-16);
+  padding-block: var(--space-8) var(--space-16);
+}
+.work-end__title {
+  font-size: clamp(6rem, 13vw, 13rem);
+  line-height: 0.82;
+  letter-spacing: -0.05em;
+  font-weight: var(--fw-bold);
+}
+.work-end__cta {
+  padding-bottom: var(--space-6);
+  white-space: nowrap;
+}

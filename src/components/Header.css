@@ -1,0 +1,62 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--color-bg);
+  border-bottom: var(--border-hairline);
+}
+
+/* Overlay variant: transparent header sitting over a dark hero image. */
+.header--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  border-bottom: 0;
+  color: var(--color-invert-text);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 84px;
+}
+
+.header__brand {
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--tracking-tight);
+}
+
+.header__nav ul {
+  display: flex;
+  gap: var(--space-10);
+}
+
+.header__link {
+  font-size: var(--fs-small);
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  transition: color var(--dur) var(--ease), opacity var(--dur) var(--ease);
+}
+.header__link:hover {
+  color: var(--color-text);
+}
+.header__link.is-active {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-thickness: 1px;
+}
+
+/* In overlay mode everything is white. */
+.header--overlay .header__link {
+  color: rgba(255, 255, 255, 0.72);
+}
+.header--overlay .header__link:hover,
+.header--overlay .header__link.is-active {
+  color: var(--color-invert-text);
+}

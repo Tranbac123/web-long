@@ -1,0 +1,154 @@
+/* ============================================================
+   Global / base styles
+   ============================================================ */
+@import "./tokens.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: var(--lh-normal);
+  color: var(--color-text);
+  background: var(--color-bg);
+  /* Desktop-only build: lock a sensible minimum so layout never collapses. */
+  min-width: 1025px;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-tight);
+  letter-spacing: var(--tracking-tight);
+}
+
+p {
+  line-height: var(--lh-relaxed);
+}
+
+::selection {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 3px;
+}
+
+/* ---- Layout primitives ---- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-pad);
+}
+
+.container--narrow {
+  max-width: var(--container-narrow);
+}
+
+.section {
+  padding-block: var(--space-32);
+}
+
+.section--tight {
+  padding-block: var(--space-20);
+}
+
+.section--alt {
+  background: var(--color-bg-alt);
+}
+
+/* ---- Reusable type helpers ---- */
+.eyebrow {
+  font-size: var(--fs-eyebrow);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  font-weight: var(--fw-medium);
+}
+
+.lead {
+  font-size: var(--fs-lead);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--fw-regular);
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
+
+/* ---- Inline arrow link (→ Let's work together) ---- */
+.arrow-link {
+  display: inline-block;
+  font-size: var(--fs-body);
+  letter-spacing: var(--tracking-tight);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: opacity var(--dur) var(--ease);
+}
+.arrow-link:hover {
+  opacity: 0.6;
+}
+
+/* ---- Thin hairline divider ---- */
+.rule {
+  border: 0;
+  border-top: var(--border-hairline);
+}
+
+/* ---- Page skip link for a11y ---- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--color-text);
+  color: var(--color-bg);
+  padding: var(--space-3) var(--space-4);
+  z-index: 100;
+}
+.skip-link:focus {
+  left: var(--space-4);
+  top: var(--space-4);
+}

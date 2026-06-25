@@ -1,0 +1,191 @@
+/* ============================================================
+   Home
+   ============================================================ */
+
+/* 1. Hero */
+.home-hero {
+  position: relative;
+  height: 100vh;
+  min-height: 680px;
+  overflow: hidden;
+  background: var(--color-invert-bg);
+  color: var(--color-invert-text);
+}
+.home-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Darken so white type stays legible. */
+  filter: brightness(0.5);
+}
+.home-hero__inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* Title sits near the top (below the overlay header); Scroll Down anchors
+     the bottom-left, matching the reference. */
+  padding-top: calc(84px + var(--space-12));
+  padding-bottom: var(--space-16);
+}
+.home-hero__title {
+  font-size: clamp(5rem, 12vw, 12rem);
+  line-height: 0.86;
+  letter-spacing: -0.04em;
+  font-weight: var(--fw-bold);
+}
+.home-hero__note {
+  margin-top: var(--space-12);
+  max-width: 36ch;
+  font-size: var(--fs-h4);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+}
+.home-hero__scroll {
+  margin-top: auto;
+  font-size: var(--fs-small);
+  letter-spacing: var(--tracking-wider);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Shared big section title */
+.home-section-title {
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-tight);
+  margin-bottom: var(--space-16);
+  max-width: 18ch;
+}
+
+/* 2. Intro */
+.home-intro__title {
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-tight);
+  max-width: 20ch;
+  margin-bottom: var(--space-16);
+}
+.home-intro__body {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: var(--space-16);
+  align-items: start;
+}
+.home-intro__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  background: var(--color-bg-alt);
+}
+.home-intro__text {
+  max-width: 52ch;
+  padding-top: var(--space-4);
+}
+.home-intro__copy {
+  font-size: var(--fs-lead);
+  line-height: var(--lh-relaxed);
+  margin-block: var(--space-6) var(--space-10);
+}
+
+/* 4. Services */
+.home-services__list {
+  border-top: 1px solid var(--color-text);
+}
+.home-service {
+  display: grid;
+  grid-template-columns: 80px 1fr 1fr 200px;
+  align-items: center;
+  gap: var(--space-8);
+  padding-block: var(--space-10);
+  border-bottom: 1px solid var(--color-line);
+}
+.home-service__index {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+.home-service__title {
+  font-size: var(--fs-h3);
+  letter-spacing: var(--tracking-tight);
+}
+.home-service__desc {
+  color: var(--color-text-muted);
+  max-width: 44ch;
+}
+.home-service__thumb {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--color-bg-alt);
+}
+.home-service__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 5. Testimonials */
+.home-testimonials__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: var(--space-8);
+  margin-bottom: var(--space-12);
+  border-bottom: 1px solid var(--color-text);
+}
+.home-testimonials__counter {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  letter-spacing: var(--tracking-wide);
+}
+.home-testimonial {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: var(--space-16);
+  align-items: stretch;
+}
+.home-testimonial__block {
+  background: var(--color-invert-bg);
+  min-height: 320px;
+}
+.home-testimonial__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-testimonial__quote {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+  max-width: 24ch;
+}
+.home-testimonial__caption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: var(--space-10);
+}
+.home-testimonial__name {
+  font-weight: var(--fw-medium);
+}
+.home-testimonial__role {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+.home-testimonial__arrows {
+  display: flex;
+  gap: var(--space-3);
+  margin-top: var(--space-10);
+}
+.home-testimonial__arrow {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--color-text);
+  background: transparent;
+  font-size: 1.1rem;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.home-testimonial__arrow:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}

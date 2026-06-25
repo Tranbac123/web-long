@@ -1,0 +1,146 @@
+/* ============================================================
+   About
+   ============================================================ */
+
+/* 1. Hero */
+.about-hero {
+  position: relative;
+  height: 92vh;
+  min-height: 640px;
+  overflow: hidden;
+  background: var(--color-invert-bg);
+  color: var(--color-invert-text);
+}
+.about-hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.62);
+}
+.about-hero__inner {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: var(--space-16);
+}
+.about-hero__title {
+  font-size: clamp(5rem, 13vw, 13rem);
+  line-height: 0.88;
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--fw-bold);
+}
+
+/* 2. Statement */
+.about-statement {
+  display: grid;
+  grid-template-columns: 160px 1fr 320px;
+  gap: var(--space-16);
+  align-items: start;
+}
+.about-statement__label {
+  padding-top: var(--space-2);
+}
+.about-statement__text {
+  font-size: var(--fs-h3);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-tight);
+}
+.about-statement__cta {
+  margin-top: var(--space-10);
+}
+.about-drivers__title {
+  font-size: var(--fs-body);
+  margin-bottom: var(--space-4);
+}
+.about-drivers ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-8);
+}
+.about-drivers__note {
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+  max-width: 32ch;
+}
+
+/* 3. Skills + huge AC */
+.about-skills-section {
+  padding-block: var(--space-24);
+}
+.about-skills {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-12);
+  align-items: center;
+}
+.about-skills__dot {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--color-text);
+  align-self: start;
+}
+.about-skills__cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-8);
+}
+.about-skills__group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  font-size: var(--fs-h4);
+  letter-spacing: var(--tracking-tight);
+}
+.about-skills__group li {
+  color: var(--color-text);
+}
+.about-skills__mono {
+  font-size: clamp(12rem, 22vw, 24rem);
+  line-height: 0.8;
+  font-weight: var(--fw-bold);
+  letter-spacing: -0.04em;
+}
+
+/* 4. How I work */
+.about-process__heading {
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-tight);
+  margin-bottom: var(--space-16);
+}
+.about-process__list {
+  border-top: 1px solid var(--color-text);
+}
+.about-process__row {
+  display: grid;
+  grid-template-columns: 320px 1fr 80px;
+  gap: var(--space-12);
+  align-items: baseline;
+  padding-block: var(--space-12);
+  border-bottom: 1px solid var(--color-line);
+}
+.about-process__title {
+  font-size: var(--fs-h3);
+  letter-spacing: var(--tracking-tight);
+}
+.about-process__desc {
+  color: var(--color-text-muted);
+  max-width: 52ch;
+}
+.about-process__num {
+  justify-self: end;
+  font-size: var(--fs-small);
+  color: var(--color-text-muted);
+}
+
+/* 5. Things I've built */
+.about-built-title {
+  font-size: var(--fs-h1);
+  letter-spacing: var(--tracking-tight);
+  margin-bottom: var(--space-16);
+}
