@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
 import { projects, type Project } from "../data/projects";
+import MediaImage from "./MediaImage";
 import "./ProjectShowcase.css";
 
-function Card({ project, size }: { project: Project; size: "lg" | "sm" }) {
+function CardBody({ project }: { project: Project }) {
   return (
-    <Link
-      to={`/work/${project.slug}`}
-      className={`showcase-card showcase-card--${size}`}
-    >
+    <>
       <div className="showcase-card__media">
-        <img src={project.cover.src} alt={project.cover.alt} loading="lazy" />
+        <MediaImage src={project.cover.src} alt={project.cover.alt} />
       </div>
       <div className="showcase-card__meta">
         <span className="showcase-card__title">{project.title}</span>
@@ -19,7 +17,31 @@ function Card({ project, size }: { project: Project; size: "lg" | "sm" }) {
           <span>{project.year}</span>
         </span>
       </div>
-    </Link>
+    </>
+  );
+}
+
+/**
+ * Only projects with a real Figma detail page are links; the rest render as
+ * non-interactive cards (no dead-end navigation).
+ */
+function Card({ project, size }: { project: Project; size: "lg" | "sm" }) {
+  const base = `showcase-card showcase-card--${size}`;
+  if (project.hasDetailPage) {
+    return (
+      <Link
+        to={`/work/${project.slug}`}
+        className={base}
+        aria-label={`${project.title} — view project`}
+      >
+        <CardBody project={project} />
+      </Link>
+    );
+  }
+  return (
+    <article className={`${base} showcase-card--static`}>
+      <CardBody project={project} />
+    </article>
   );
 }
 

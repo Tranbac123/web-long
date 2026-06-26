@@ -1,93 +1,62 @@
 import { Link } from "react-router-dom";
 import ProjectShowcase from "../components/ProjectShowcase";
+import MediaImage from "../components/MediaImage";
 import { site } from "../data/siteContent";
+import { about } from "../data/aboutContent";
 import heroField from "../assets/placeholders/daisy-9.jpg";
 import "./AboutPage.css";
 
-const drivers = [
-  "Clean typography",
-  "Thoughtful micro-interactions",
-  "Performance without compromise",
-  "Interfaces that feel as good as they look",
-];
-
-const skillGroups = [
-  ["Figma", "Adobe XD", "Illustrator", "Photoshop"],
-  ["TypeScript", "Next.js", "Webflow", "Framer", "GSAP"],
-  ["WebGL", "Three.js", "Animations", "Vercel", "Netlify"],
-  ["HTML", "CSS", "JavaScript", "React", "Lottie"],
-];
-
-const process = [
-  {
-    title: "Detail-obsessed",
-    description:
-      "From landing pages to full web applications — built with clean code, smooth animations, and pixel-perfect attention to detail.",
-    num: "(01)",
-  },
-  {
-    title: "Motion with purpose",
-    description:
-      "I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
-    num: "(02)",
-  },
-  {
-    title: "Honest collaboration",
-    description:
-      "I treat every project like it's my own. Clear communication, no surprises.",
-    num: "(03)",
-  },
-];
-
 export default function AboutPage() {
   return (
-    <div className="about">
-      {/* 1. Hero ----------------------------------------------------- */}
+    <div className="page about">
+      {/* Hero — full-bleed band */}
       <section className="about-hero">
-        <img className="about-hero__bg" src={heroField} alt="" aria-hidden="true" />
+        <MediaImage
+          className="about-hero__bg"
+          src={heroField}
+          alt=""
+          decorative
+          loading="eager"
+        />
         <div className="container about-hero__inner">
           <h1 className="about-hero__title">
-            ALEX
+            {about.hero.titleLines[0]}
             <br />
-            CHEN
+            {about.hero.titleLines[1]}
           </h1>
-          <span className="about-hero__scroll">Scroll Down</span>
+          <span className="about-hero__scroll">{about.hero.scroll}</span>
         </div>
       </section>
 
-      {/* 2. Statement ----------------------------------------------- */}
-      <section className="section container about-statement">
-        <p className="about-statement__label">(About Me)</p>
-        <div className="about-statement__main">
-          <p className="about-statement__text">
-            I build digital experiences where design meets code — interactive,
-            intentional, and human-first. I collaborate with brands that have a
-            story to tell, turning ideas into fluid, responsive experiences.
-          </p>
+      {/* Statement */}
+      <section className="about-statement section">
+        <div className="container about-statement__grid">
+          <p className="about-statement__label">{about.statement.label}</p>
+          <p className="about-statement__text">{about.statement.text}</p>
           <span className="about-statement__dot" aria-hidden="true" />
+          <aside className="about-drivers">
+            <p className="about-drivers__title">{about.drivers.title}</p>
+            <ul>
+              {about.drivers.items.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+            <p className="about-drivers__note">{about.drivers.note}</p>
+            <Link
+              to={site.ctaLink.to}
+              className="arrow-link about-drivers__cta"
+            >
+              → {site.ctaLink.label}
+            </Link>
+          </aside>
         </div>
-        <aside className="about-drivers">
-          <p className="about-drivers__title">What drives me:</p>
-          <ul>
-            {drivers.map((d) => (
-              <li key={d}>{d}</li>
-            ))}
-          </ul>
-          <p className="about-drivers__note">
-            When I&rsquo;m not coding, I&rsquo;m probably sketching, collecting
-            vinyl, or chasing good light.
-          </p>
-          <Link to={site.ctaLink.to} className="arrow-link about-drivers__cta">
-            → {site.ctaLink.label}
-          </Link>
-        </aside>
       </section>
 
-      {/* 3. Skills + huge AC ---------------------------------------- */}
-      <section className="section about-skills-section">
+      {/* Skills + huge AC */}
+      <section className="about-skills-section section">
         <div className="container about-skills">
           <div className="about-skills__cols">
-            {skillGroups.map((group, i) => (
+            {about.skillGroups.map((group, i) => (
               <ul key={i} className="about-skills__group">
                 {group.map((skill) => (
                   <li key={skill}>{skill}</li>
@@ -101,27 +70,29 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* 4. How I work ---------------------------------------------- */}
-      <section className="section container about-process">
-        <h2 className="about-process__heading">How I Work</h2>
-        <ul className="about-process__list">
-          {process.map((p) => (
-            <li key={p.title} className="about-process__row">
-              <h3 className="about-process__title">{p.title}</h3>
-              <p className="about-process__desc">{p.description}</p>
-              <span className="about-process__num">{p.num}</span>
-            </li>
-          ))}
-        </ul>
+      {/* How I Work */}
+      <section className="about-process section">
+        <div className="container">
+          <h2 className="about-process__heading">{about.processTitle}</h2>
+          <ul className="about-process__list">
+            {about.process.map((row) => (
+              <li key={row.title} className="about-process__row">
+                <h3 className="about-process__title">{row.title}</h3>
+                <p className="about-process__desc">{row.description}</p>
+                <span className="about-process__num">{row.num}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>
 
-      {/* 5. Things I've built --------------------------------------- */}
-      <section className="section container">
-        <h2 className="about-built-title">Things I&rsquo;ve built.</h2>
-        <ProjectShowcase />
+      {/* Things I've built */}
+      <section className="about-built section">
+        <div className="container">
+          <h2 className="about-built-title">{about.builtTitle}</h2>
+          <ProjectShowcase />
+        </div>
       </section>
-
-      {/* 6. Footer banner + CTA rendered by Layout/Footer ----------- */}
     </div>
   );
 }

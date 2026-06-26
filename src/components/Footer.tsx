@@ -26,7 +26,12 @@ export default function Footer() {
             <span className="footer__cta-mid">SOMETHING</span>
             <span className="footer__cta-last">
               TOGETHER
-              <img className="footer__smile" src={smile} alt="" aria-hidden="true" />
+              <img
+                className="footer__smile"
+                src={smile}
+                alt=""
+                aria-hidden="true"
+              />
             </span>
           </h2>
 
@@ -39,10 +44,10 @@ export default function Footer() {
             <div className="footer__col">
               <span className="footer__col-title">(Socials)</span>
               <ul>
-                {site.footer.socials.map((s) => (
-                  <li key={s}>
-                    <a href="#" rel="noreferrer">
-                      {s}
+                {site.footer.socials.map((social) => (
+                  <li key={social.label}>
+                    <a href={social.href} target="_blank" rel="noreferrer">
+                      {social.label}
                     </a>
                   </li>
                 ))}
@@ -60,8 +65,13 @@ export default function Footer() {
               <a className="footer__email" href={`mailto:${site.email}`}>
                 {site.email}
               </a>
-              <a className="footer__link" href="#">
-                LinkedIn
+              <a
+                className="footer__link"
+                href={site.footer.contactLink.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {site.footer.contactLink.label}
               </a>
             </div>
           </div>

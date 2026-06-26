@@ -43,18 +43,19 @@
   display: block;
   color: inherit;
 }
+/* Non-interactive cards (no Figma detail page): no link affordance. */
+.showcase-card--static {
+  cursor: default;
+}
 .showcase-card__media {
   overflow: hidden;
   background: var(--color-bg);
   margin-bottom: var(--space-6);
 }
 .showcase-card__media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   transition: transform 0.5s var(--ease);
 }
-.showcase-card:hover .showcase-card__media img {
+a.showcase-card:hover .showcase-card__media img {
   transform: scale(1.03);
 }
 

@@ -18,7 +18,11 @@ export default function Header() {
   return (
     <header className={`header${overlay ? " header--overlay" : ""}`}>
       <div className="container header__inner">
-        <Link to="/" className="header__brand" aria-label={`${site.name} — home`}>
+        <Link
+          to="/"
+          className="header__brand"
+          aria-label={`${site.name} — home`}
+        >
           {site.name}
         </Link>
 

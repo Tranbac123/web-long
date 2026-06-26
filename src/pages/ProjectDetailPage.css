@@ -1,7 +1,7 @@
 /* ============================================================
    Project Detail — Figma node 158:52
    ============================================================ */
-.detail-intro {
+.detail-intro__inner {
   min-height: calc(100vh - 84px);
   display: flex;
   flex-direction: column;
@@ -47,12 +47,12 @@
 }
 
 /* Gallery — Figma: full 1680×1117 (1.5:1), 2-col 800×1117 (portrait), gap 72 */
-.detail-gallery {
+/* .detail-gallery section padding comes from .section; grid lives on the inner. */
+.detail-gallery__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: clamp(24px, 4.17vw, 72px);
   row-gap: clamp(24px, 4.17vw, 72px);
-  margin-block: var(--space-12) var(--space-24);
 }
 .detail-gallery__item {
   overflow: hidden;
@@ -74,9 +74,7 @@
 }
 
 /* Next project (centered) */
-.detail-next {
-  padding-block: var(--space-24);
-}
+/* .detail-next vertical rhythm comes from .section. */
 .detail-next__link {
   display: flex;
   flex-direction: column;

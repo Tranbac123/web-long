@@ -15,7 +15,11 @@
   --color-muted: #050505; /* mute at usage with opacity: 0.65 */
 
   /* ---- Type scale (Figma px @1728 → responsive clamp) ---- */
-  --fs-display: clamp(64px, 8.68vw, 150px); /* 150 — hero/section titles, WORKS */
+  --fs-display: clamp(
+    64px,
+    8.68vw,
+    150px
+  ); /* 150 — hero/section titles, WORKS */
   --fs-cta: clamp(48px, 14.47vw, 250px); /* 250 — footer CTA */
   --fs-ac: clamp(180px, 41.7vw, 720px); /* 720 — About AC */
   --fs-statement: clamp(28px, 2.6vw, 45px); /* 45 — About statement */
@@ -24,7 +28,11 @@
   --fs-card-title: clamp(26px, 2.55vw, 44px); /* 44 — project card title */
   --fs-32: clamp(22px, 1.85vw, 32px); /* 32 — labels, service title, author */
   --fs-28: clamp(20px, 1.62vw, 28px); /* 28 — work card label */
-  --fs-24: clamp(17px, 1.39vw, 24px); /* 24 — body, meta, scroll, service desc */
+  --fs-24: clamp(
+    17px,
+    1.39vw,
+    24px
+  ); /* 24 — body, meta, scroll, service desc */
 
   /* Legacy size aliases (kept for components not individually re-mapped) */
   --fs-h1: var(--fs-display);

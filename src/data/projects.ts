@@ -40,6 +40,9 @@ export interface Project {
   gallery: GalleryBlock[];
   /** Optional explicit "next project" override (defaults to array order). */
   nextSlug?: string;
+  /** True only for projects with a real Figma detail page (just Luminary).
+   *  Cards for projects without one render as non-interactive (no link). */
+  hasDetailPage?: boolean;
 }
 
 /**
@@ -74,9 +77,13 @@ export const projects: Project[] = [
       "We stripped everything back. No clutter, no noise — just type, motion, and white space doing the heavy lifting. Every scroll triggers something. Every hover has intent.",
     tools: "Figma · GSAP · Next.js · Three.js",
     detailYear: "2024",
-    cover: { src: daisy2, alt: "Cover image for Luminary Studio" },
+    cover: {
+      src: daisy2,
+      alt: "Luminary Studio — light-led branding and web design",
+    },
     gallery: detailGallery,
     nextSlug: "polaris-protocol",
+    hasDetailPage: true,
   },
   {
     slug: "orbital-finance",
@@ -89,7 +96,10 @@ export const projects: Project[] = [
     description:
       "A clean, data-dense product interface that keeps complex finance tools calm and legible.",
     tools: "Figma · React · TypeScript",
-    cover: { src: daisy3, alt: "Cover image for Orbital Finance" },
+    cover: {
+      src: daisy3,
+      alt: "Orbital Finance — calm, data-dense finance UI",
+    },
     gallery: detailGallery,
   },
   {
@@ -103,7 +113,7 @@ export const projects: Project[] = [
     description:
       "A quiet, image-led storefront that lets the product breathe and the typography lead.",
     tools: "Figma · Webflow",
-    cover: { src: daisy4, alt: "Cover image for Plant Shop" },
+    cover: { src: daisy4, alt: "Plant Shop — quiet, image-led storefront" },
     gallery: detailGallery,
   },
   {
@@ -117,7 +127,10 @@ export const projects: Project[] = [
     description:
       "An experimental studio presence where generative 3D and creative coding set the tone.",
     tools: "Three.js · WebGL · GSAP · React",
-    cover: { src: daisy5, alt: "Cover image for Aether - AI Studio" },
+    cover: {
+      src: daisy5,
+      alt: "Aether AI Studio — 3D and creative-coding studio site",
+    },
     gallery: detailGallery,
   },
   {
@@ -131,7 +144,7 @@ export const projects: Project[] = [
     description:
       "A 3D-led brand strategy that gives an emerging protocol a confident, spatial language.",
     tools: "Blender · Three.js · Figma",
-    cover: { src: daisy6, alt: "Cover image for Polaris Protocol" },
+    cover: { src: daisy6, alt: "Polaris Protocol — 3D-led brand strategy" },
     gallery: detailGallery,
   },
   {
@@ -145,7 +158,7 @@ export const projects: Project[] = [
     description:
       "An editorial identity for a sustainability initiative — grounded, warm, and honest.",
     tools: "Figma · React",
-    cover: { src: daisy7, alt: "Cover image for Terra" },
+    cover: { src: daisy7, alt: "Terra — editorial sustainability identity" },
     gallery: detailGallery,
   },
 ];

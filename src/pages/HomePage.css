@@ -84,10 +84,10 @@
   width: clamp(360px, 36.6vw, 632px);
   margin-left: clamp(80px, 22.8vw, 394px);
 }
-.home-intro__img {
+.home-intro__media {
   width: 100%;
   aspect-ratio: 632 / 319; /* Figma landscape image frame */
-  object-fit: cover;
+  overflow: hidden;
   background: var(--color-bg);
 }
 .home-intro__meta {

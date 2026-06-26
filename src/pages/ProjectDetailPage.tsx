@@ -1,5 +1,6 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { getProjectBySlug, getNextProject } from "../data/projects";
+import MediaImage from "../components/MediaImage";
 import "./ProjectDetailPage.css";
 
 export default function ProjectDetailPage() {
@@ -16,52 +17,62 @@ export default function ProjectDetailPage() {
   const titleLines = project.title.split(" ");
 
   return (
-    <article className="detail">
-      {/* Intro ------------------------------------------------------ */}
-      <header className="detail-intro container">
-        <h1 className="detail-intro__title">
-          {titleLines.map((word, i) => (
-            <span key={i}>{word}</span>
-          ))}
-        </h1>
+    <div className="page project-detail">
+      {/* Intro — hero-like band (not a standard rhythm .section) */}
+      <header className="detail-intro">
+        <div className="container detail-intro__inner">
+          <h1 className="detail-intro__title">
+            {titleLines.map((word, i) => (
+              <span key={i}>{word}</span>
+            ))}
+          </h1>
 
-        {/* Metadata: horizontal bottom row — year · role+desc · tools+desc · scroll */}
-        <div className="detail-intro__foot">
-          <span className="detail-intro__year">{project.detailYear}</span>
-          <div className="detail-meta__col">
-            <span className="detail-meta__head">{project.role}</span>
-            <p className="detail-meta__desc">{project.description}</p>
+          {/* Metadata row: year · role+desc · tools+approach · scroll */}
+          <div className="detail-intro__foot">
+            <span className="detail-intro__year">{project.detailYear}</span>
+            <div className="detail-meta__col">
+              <span className="detail-meta__head">{project.role}</span>
+              <p className="detail-meta__desc">{project.description}</p>
+            </div>
+            <div className="detail-meta__col">
+              <span className="detail-meta__head">{project.tools}</span>
+              <p className="detail-meta__desc">{project.approach}</p>
+            </div>
+            <span className="detail-intro__scroll">Scroll Down</span>
           </div>
-          <div className="detail-meta__col">
-            <span className="detail-meta__head">{project.tools}</span>
-            <p className="detail-meta__desc">{project.approach}</p>
-          </div>
-          <span className="detail-intro__scroll">Scroll Down</span>
         </div>
       </header>
 
-      {/* Gallery ---------------------------------------------------- */}
-      <section className="detail-gallery container" aria-label="Project gallery">
-        {project.gallery.map((block, i) => (
-          <figure
-            key={i}
-            className={`detail-gallery__item detail-gallery__item--${block.span}`}
-          >
-            <img src={block.src} alt={block.alt} loading="lazy" />
-          </figure>
-        ))}
+      {/* Gallery ------------------------------------------------- */}
+      <section className="detail-gallery section" aria-label="Project gallery">
+        <div className="container detail-gallery__grid">
+          {project.gallery.map((block, i) => (
+            <figure
+              key={i}
+              className={`detail-gallery__item detail-gallery__item--${block.span}`}
+            >
+              <MediaImage src={block.src} alt={block.alt} />
+            </figure>
+          ))}
+        </div>
       </section>
 
-      {/* Next project ----------------------------------------------- */}
-      <section className="detail-next">
-        <Link to={`/work/${next.slug}`} className="detail-next__link">
-          <span className="detail-next__label">Next project</span>
-          <span className="detail-next__thumb">
-            <img src={next.cover.src} alt={next.cover.alt} />
-          </span>
-          <span className="detail-next__title">{next.title}</span>
-        </Link>
+      {/* Next project (no detail page exists for it → back to /work) */}
+      <section className="detail-next section">
+        <div className="container detail-next__inner">
+          <Link
+            to="/work"
+            className="detail-next__link"
+            aria-label="Back to all work"
+          >
+            <span className="detail-next__label">Next project</span>
+            <span className="detail-next__thumb">
+              <MediaImage src={next.cover.src} alt={next.cover.alt} />
+            </span>
+            <span className="detail-next__title">{next.title}</span>
+          </Link>
+        </div>
       </section>
-    </article>
+    </div>
   );
 }

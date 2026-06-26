@@ -1,0 +1,8 @@
+/* The frame (size/aspect-ratio) is owned by the parent wrapper.
+   The image always fills and covers it. */
+.media-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
