@@ -2,11 +2,10 @@
    Project Detail — Figma node 158:52
    ============================================================ */
 .detail-intro {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-16);
-  align-items: start;
-  padding-block: calc(84px + var(--space-12)) var(--space-12);
+  min-height: calc(100vh - 84px);
+  display: flex;
+  flex-direction: column;
+  padding-block: clamp(120px, 18vh, 230px) var(--space-12);
 }
 .detail-intro__title {
   font-size: var(--fs-display); /* 150 @1728 */
@@ -18,30 +17,33 @@
 .detail-intro__title span {
   display: block;
 }
-.detail-intro__year {
-  display: inline-block;
-  margin-top: var(--space-6);
-  font-size: var(--fs-24);
-  opacity: 0.65;
-}
 
-.detail-meta {
+/* Horizontal metadata row pinned to the bottom of the intro viewport */
+.detail-intro__foot {
+  margin-top: auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-10);
-  padding-top: var(--space-4);
+  grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr) auto;
+  gap: var(--space-12);
+  align-items: start;
 }
-.detail-meta__item dt {
+.detail-intro__year {
   font-size: var(--fs-24);
-  font-weight: var(--fw-medium);
-  margin-bottom: var(--space-2);
 }
-.detail-meta__item dd {
+.detail-meta__head {
+  display: block;
+  font-size: var(--fs-24);
+  margin-bottom: var(--space-6);
+}
+.detail-meta__desc {
   font-size: var(--fs-24);
   line-height: var(--lh-snug);
   letter-spacing: -0.04em;
   opacity: 0.65;
-  max-width: 34ch;
+  max-width: 26ch;
+}
+.detail-intro__scroll {
+  justify-self: end;
+  font-size: var(--fs-24);
 }
 
 /* Gallery — Figma: full 1680×1117 (1.5:1), 2-col 800×1117 (portrait), gap 72 */

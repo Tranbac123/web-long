@@ -56,8 +56,14 @@
   letter-spacing: -0.05em;
   font-weight: var(--fw-medium);
 }
-.about-statement__cta {
-  margin-top: var(--space-10);
+/* Black dot accent below the statement (Figma Ellipse ~300px, in this section) */
+.about-statement__dot {
+  display: block;
+  width: clamp(160px, 17vw, 300px);
+  height: clamp(160px, 17vw, 300px);
+  border-radius: 50%;
+  background: var(--color-text);
+  margin-top: var(--space-24);
 }
 .about-drivers__title {
   font-size: var(--fs-24);
@@ -66,39 +72,30 @@
 .about-drivers ul {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
+  gap: var(--space-3);
   font-size: var(--fs-24);
-  opacity: 0.65;
-  margin-bottom: var(--space-8);
+  margin-bottom: var(--space-10);
 }
 .about-drivers__note {
   font-size: var(--fs-24);
   letter-spacing: -0.04em;
-  opacity: 0.65;
   max-width: 32ch;
+  margin-bottom: var(--space-8);
+}
+.about-drivers__cta {
+  display: inline-block;
 }
 
 /* 3. Skills + huge AC (Figma: skills 2×2 grid + AC 720/800) */
 .about-skills-section {
   padding-block: var(--space-24);
 }
+/* Skill columns (left) + giant AC (right), aligned at the section top */
 .about-skills {
   display: flex;
-  flex-direction: column;
-  gap: var(--space-16);
-}
-.about-skills__row {
-  display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: var(--space-16);
-}
-/* Filled black dot accent (Figma Ellipse ~300px) — a shape, not a card. */
-.about-skills__dot {
-  width: clamp(120px, 17vw, 300px);
-  height: clamp(120px, 17vw, 300px);
-  border-radius: 50%;
-  background: var(--color-text);
 }
 .about-skills__cols {
   display: grid;

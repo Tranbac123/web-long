@@ -19,10 +19,16 @@ export default function HomePage() {
             <br />
             DEVELOPER
           </h1>
-          <p className="home-hero__note">
-            I build immersive web experiences where interaction, motion, and
-            structure meet meaningful design.
-          </p>
+          <div className="home-hero__mid">
+            <span className="home-hero__hi">Hi There</span>
+            <div className="home-hero__copy">
+              <p>
+                I build immersive experiences for brands with direction and
+                momentum. I am Alex Chen.
+              </p>
+              <p className="home-hero__loc">Based in Tokyo, Japan</p>
+            </div>
+          </div>
           <span className="home-hero__scroll">Scroll Down</span>
         </div>
       </section>

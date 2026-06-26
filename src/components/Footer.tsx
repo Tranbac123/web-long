@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="container">
           <h2 className="footer__cta">
             <span>LET&rsquo;S MAKE</span>
-            <span>SOMETHING</span>
+            <span className="footer__cta-mid">SOMETHING</span>
             <span className="footer__cta-last">
               TOGETHER
               <img className="footer__smile" src={smile} alt="" aria-hidden="true" />

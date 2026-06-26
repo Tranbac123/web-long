@@ -22,9 +22,10 @@
 .home-hero__inner {
   position: relative;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-top: calc(84px + var(--space-12));
+  display: grid;
+  /* title (top) · copy (centered) · Scroll Down (bottom) — Figma rhythm */
+  grid-template-rows: auto 1fr auto;
+  padding-top: clamp(120px, 18vh, 230px);
   padding-bottom: var(--space-16);
 }
 .home-hero__title {
@@ -33,15 +34,28 @@
   letter-spacing: var(--tracking-display);
   font-weight: var(--fw-medium);
 }
-.home-hero__note {
-  margin-top: var(--space-12);
-  max-width: 36ch;
+/* Mid block: "Hi There" label + paragraph + location (Figma @y605) */
+.home-hero__mid {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 36ch);
+  gap: var(--space-8);
+}
+.home-hero__hi {
+  font-size: var(--fs-24);
+  letter-spacing: -0.05em;
+}
+.home-hero__copy p {
   font-size: var(--fs-24);
   line-height: var(--lh-snug);
   letter-spacing: -0.05em;
 }
+.home-hero__loc {
+  margin-top: var(--space-4);
+  font-style: italic;
+  opacity: 0.85;
+}
 .home-hero__scroll {
-  margin-top: auto;
   font-size: var(--fs-24);
   letter-spacing: -0.05em;
 }

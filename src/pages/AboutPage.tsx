@@ -64,9 +64,7 @@ export default function AboutPage() {
             intentional, and human-first. I collaborate with brands that have a
             story to tell, turning ideas into fluid, responsive experiences.
           </p>
-          <Link to={site.ctaLink.to} className="arrow-link about-statement__cta">
-            → {site.ctaLink.label}
-          </Link>
+          <span className="about-statement__dot" aria-hidden="true" />
         </div>
         <aside className="about-drivers">
           <p className="about-drivers__title">What drives me:</p>
@@ -79,27 +77,27 @@ export default function AboutPage() {
             When I&rsquo;m not coding, I&rsquo;m probably sketching, collecting
             vinyl, or chasing good light.
           </p>
+          <Link to={site.ctaLink.to} className="arrow-link about-drivers__cta">
+            → {site.ctaLink.label}
+          </Link>
         </aside>
       </section>
 
       {/* 3. Skills + huge AC ---------------------------------------- */}
       <section className="section about-skills-section">
         <div className="container about-skills">
-          <span className="about-skills__dot" aria-hidden="true" />
-          <div className="about-skills__row">
-            <div className="about-skills__cols">
-              {skillGroups.map((group, i) => (
-                <ul key={i} className="about-skills__group">
-                  {group.map((skill) => (
-                    <li key={skill}>{skill}</li>
-                  ))}
-                </ul>
-              ))}
-            </div>
-            <span className="about-skills__mono" aria-hidden="true">
-              AC
-            </span>
+          <div className="about-skills__cols">
+            {skillGroups.map((group, i) => (
+              <ul key={i} className="about-skills__group">
+                {group.map((skill) => (
+                  <li key={skill}>{skill}</li>
+                ))}
+              </ul>
+            ))}
           </div>
+          <span className="about-skills__mono" aria-hidden="true">
+            AC
+          </span>
         </div>
       </section>
 

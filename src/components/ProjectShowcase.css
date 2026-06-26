@@ -81,7 +81,11 @@
 .showcase-card--sm .showcase-card__title {
   font-size: var(--fs-32);
 }
-.showcase-card__cat {
+/* category (left) + year (right) — justified row, per Figma */
+.showcase-card__sub {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
   font-size: var(--fs-24);
   opacity: 0.65;
 }

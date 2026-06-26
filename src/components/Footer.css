@@ -29,6 +29,10 @@
   font-weight: var(--fw-medium);
   margin-bottom: var(--space-24);
 }
+/* Figma: middle line "SOMETHING" is indented (x385 ≈ 22% of frame) */
+.footer__cta-mid {
+  margin-left: 20%;
+}
 .footer__cta-last {
   display: inline-flex;
   align-items: center;
