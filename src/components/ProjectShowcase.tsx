@@ -13,6 +13,7 @@ function Card({ project, size }: { project: Project; size: "lg" | "sm" }) {
       </div>
       <div className="showcase-card__meta">
         <span className="showcase-card__title">{project.title}</span>
+        <span className="showcase-card__rule" aria-hidden="true" />
         <span className="showcase-card__sub">
           <span>{project.category}</span>
           <span>{project.year}</span>

@@ -19,9 +19,9 @@ export default function Footer() {
       {/* ---- CTA + columns (white background, black ink — per Figma) ---- */}
       <div className="footer__panel">
         <div className="container">
-          <p className="footer__credit">{site.footer.credit}</p>
-
           <h2 className="footer__cta">
+            {/* Credit sits inside the CTA, in the gap left of "SOMETHING" (Figma 85:504 @40,10300) */}
+            <span className="footer__credit">{site.footer.credit}</span>
             <span>LET&rsquo;S MAKE</span>
             <span className="footer__cta-mid">SOMETHING</span>
             <span className="footer__cta-last">

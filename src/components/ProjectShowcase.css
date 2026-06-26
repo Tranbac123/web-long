@@ -70,22 +70,27 @@
 .showcase-card__meta {
   display: flex;
   flex-direction: column;
-  gap: var(--space-2);
 }
 .showcase-card__title {
-  font-size: var(--fs-card-title); /* 44 @1728 */
+  font-size: var(--fs-card-title); /* Figma: 44/500 on ALL cards */
   font-weight: var(--fw-medium);
   letter-spacing: -0.05em;
   line-height: 1.1;
 }
-.showcase-card--sm .showcase-card__title {
-  font-size: var(--fs-32);
+/* Faint separator between title and the category/year row.
+   Figma VECTOR stroke rgb(217,217,217) (#d9d9d9), 1px, full width. */
+.showcase-card__rule {
+  height: 0;
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin-block: clamp(14px, 2.26vw, 39px); /* Figma ~39px gaps */
 }
-/* category (left) + year (right) — justified row, per Figma */
+/* category (left) + year (right) — Figma 24/600, solid black (not muted) */
 .showcase-card__sub {
   display: flex;
   justify-content: space-between;
   gap: var(--space-4);
   font-size: var(--fs-24);
-  opacity: 0.65;
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
 }

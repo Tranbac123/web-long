@@ -43,8 +43,10 @@
 .about-statement {
   position: relative;
   display: grid;
+  /* Figma: statement 910 @x25, drivers 474 @x1075 (gap ~140, not flush right) */
   grid-template-columns: minmax(0, 910px) 474px;
-  justify-content: space-between;
+  column-gap: clamp(60px, 8.1vw, 140px);
+  justify-content: start;
   align-items: start;
 }
 /* Figma: (About Me) 18/600, not uppercase — absolute top-left, overlapping
@@ -68,17 +70,22 @@
   /* Figma: first line indented to clear the (About Me) label; lines 2+ run far-left */
   text-indent: clamp(140px, 15vw, 261px);
 }
+/* Figma: "What drives me" block sits LOWER (top @y1855 vs statement @y1321),
+   not top-aligned — offset down ~534px @1728 (vw-scaled). */
 .about-drivers {
   grid-column: 2;
+  margin-top: clamp(220px, 30.9vw, 534px);
 }
-/* Black dot accent below the statement (Figma Ellipse ~300px, in this section) */
+/* Black circle (Figma Ellipse 124:46: 300×300 @x330, low in the section).
+   Indented from the statement-left and set well below the statement text. */
 .about-statement__dot {
   display: block;
-  width: clamp(160px, 17vw, 300px);
-  height: clamp(160px, 17vw, 300px);
+  width: clamp(160px, 17.4vw, 300px);
+  height: clamp(160px, 17.4vw, 300px);
   border-radius: 50%;
   background: var(--color-text);
-  margin-top: var(--space-24);
+  margin-left: clamp(110px, 17.7vw, 306px);
+  margin-top: clamp(150px, 18.4vw, 318px);
 }
 /* Figma: "What drives me" + list + note all 32px */
 .about-drivers__title {
