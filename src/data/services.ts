@@ -16,14 +16,14 @@ export const services: Service[] = [
   },
   {
     id: "s2",
-    index: "02",
+    index: "01",
     title: "Motion & Interaction",
     description:
       "GSAP, Framer Motion, CSS animations — I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
   },
   {
     id: "s3",
-    index: "03",
+    index: "01",
     title: "Design to Code",
     description:
       "Got a Figma file? I'll turn it into a production-ready website that looks exactly like the design — down to the pixel.",

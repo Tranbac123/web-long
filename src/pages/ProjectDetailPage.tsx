@@ -4,12 +4,13 @@ import "./ProjectDetailPage.css";
 
 export default function ProjectDetailPage() {
   const { slug } = useParams<{ slug: string }>();
-  const project = slug ? getProjectBySlug(slug) : undefined;
 
-  // Unknown slug -> fall back to the Luminary Studio detail page.
-  if (!project) {
-    return <Navigate to="/work/luminary-studio" replace />;
+  // Figma only defines the Luminary Studio detail page. Any other slug
+  // redirects back to /work rather than rendering invented content.
+  if (slug !== "luminary-studio") {
+    return <Navigate to="/work" replace />;
   }
+  const project = getProjectBySlug("luminary-studio")!;
 
   const next = getNextProject(project.slug);
   const titleLines = project.title.split(" ");

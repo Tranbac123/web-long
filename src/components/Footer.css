@@ -1,8 +1,7 @@
 /* ---- Banner ---- */
 .footer__banner {
   width: 100%;
-  aspect-ratio: 1728 / 1117; /* Figma break frame */
-  max-height: 80vh;
+  aspect-ratio: 1728 / 1117; /* Figma break frame — full proportion, no cap */
   overflow: hidden;
   background: var(--color-bg);
 }

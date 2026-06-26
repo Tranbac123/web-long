@@ -31,11 +31,11 @@ export interface Project {
   /** Detail-page meta. */
   role: string;
   description: string;
-  /** Second detail paragraph (Figma "approach" copy). */
-  approach: string;
+  /** Second detail paragraph — only defined for projects with a Figma detail page. */
+  approach?: string;
   tools: string;
-  /** Year shown on the project-detail intro (Figma uses 2024 for Luminary). */
-  detailYear: string;
+  /** Year shown on the project-detail intro — only Luminary has a Figma detail page. */
+  detailYear?: string;
   cover: ProjectImage;
   gallery: GalleryBlock[];
   /** Optional explicit "next project" override (defaults to array order). */
@@ -88,10 +88,7 @@ export const projects: Project[] = [
     role: "Product Design, UI Systems",
     description:
       "A clean, data-dense product interface that keeps complex finance tools calm and legible.",
-    approach:
-      "Every component earns its place — clarity first, with motion used only to guide, never to decorate.",
     tools: "Figma · React · TypeScript",
-    detailYear: "2026",
     cover: { src: daisy3, alt: "Cover image for Orbital Finance" },
     gallery: detailGallery,
   },
@@ -105,10 +102,7 @@ export const projects: Project[] = [
     role: "UI Design, Art Direction",
     description:
       "A quiet, image-led storefront that lets the product breathe and the typography lead.",
-    approach:
-      "Generous space, slow motion, and tactile micro-interactions that make the shop feel alive online.",
     tools: "Figma · Webflow",
-    detailYear: "2026",
     cover: { src: daisy4, alt: "Cover image for Plant Shop" },
     gallery: detailGallery,
   },
@@ -122,10 +116,7 @@ export const projects: Project[] = [
     role: "Creative Direction, 3D, Creative Coding",
     description:
       "An experimental studio presence where generative 3D and creative coding set the tone.",
-    approach:
-      "Real-time 3D and shader work, built to run smoothly while staying unmistakably bold.",
     tools: "Three.js · WebGL · GSAP · React",
-    detailYear: "2026",
     cover: { src: daisy5, alt: "Cover image for Aether - AI Studio" },
     gallery: detailGallery,
   },
@@ -139,10 +130,7 @@ export const projects: Project[] = [
     role: "Brand Strategy, 3D Direction",
     description:
       "A 3D-led brand strategy that gives an emerging protocol a confident, spatial language.",
-    approach:
-      "Research-led structure paired with a spatial visual language that scales across touchpoints.",
     tools: "Blender · Three.js · Figma",
-    detailYear: "2026",
     cover: { src: daisy6, alt: "Cover image for Polaris Protocol" },
     gallery: detailGallery,
   },
@@ -156,10 +144,7 @@ export const projects: Project[] = [
     role: "Identity, Editorial Design",
     description:
       "An editorial identity for a sustainability initiative — grounded, warm, and honest.",
-    approach:
-      "Honest materials and a calm type system that keep the focus on the mission, not the noise.",
     tools: "Figma · React",
-    detailYear: "2026",
     cover: { src: daisy7, alt: "Cover image for Terra" },
     gallery: detailGallery,
   },

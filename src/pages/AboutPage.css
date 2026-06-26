@@ -5,7 +5,8 @@
 /* 1. Hero (1728×1117) */
 .about-hero {
   position: relative;
-  height: 100vh;
+  /* Figma hero band 1728×1117 (no viewport-height dependency, no overlay) */
+  aspect-ratio: 1728 / 1117;
   min-height: 640px;
   overflow: hidden;
   background: var(--color-text);
@@ -17,7 +18,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: brightness(0.62);
 }
 .about-hero__inner {
   position: relative;
@@ -42,23 +42,35 @@
 
 /* 2. Statement (Figma 45/500) */
 .about-statement {
+  position: relative;
   display: grid;
-  grid-template-columns: 160px 1fr 474px;
-  gap: var(--space-16);
+  grid-template-columns: minmax(0, 910px) 474px;
+  justify-content: space-between;
   align-items: start;
 }
-/* Figma: (About Me) 18/600, not uppercase */
+/* Figma: (About Me) 18/600, not uppercase — absolute top-left, overlapping
+   the statement's indented first line. */
 .about-statement__label {
-  padding-top: var(--space-2);
+  position: absolute;
+  top: var(--space-2);
+  left: 0;
   font-size: 1.125rem; /* 18px */
   font-weight: var(--fw-semibold);
   letter-spacing: -0.03em;
+}
+.about-statement__main {
+  grid-column: 1;
 }
 .about-statement__text {
   font-size: var(--fs-statement);
   line-height: 1.28;
   letter-spacing: -0.05em;
   font-weight: var(--fw-medium);
+  /* Figma: first line indented to clear the (About Me) label; lines 2+ run far-left */
+  text-indent: clamp(140px, 15vw, 261px);
+}
+.about-drivers {
+  grid-column: 2;
 }
 /* Black dot accent below the statement (Figma Ellipse ~300px, in this section) */
 .about-statement__dot {
