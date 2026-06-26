@@ -5,9 +5,8 @@
 /* 1. Hero (1728×1117) */
 .about-hero {
   position: relative;
-  /* Figma hero band 1728×1117 (no viewport-height dependency, no overlay) */
+  /* Figma hero band 1728×1117 (ratio only — no min-height override) */
   aspect-ratio: 1728 / 1117;
-  min-height: 640px;
   overflow: hidden;
   background: var(--color-text);
   color: var(--color-bg);

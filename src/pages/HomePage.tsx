@@ -33,26 +33,36 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2. Intro ---------------------------------------------------- */}
+      {/* 2. Intro (Figma Home node 85:460) ------------------------- */}
       <section className="section container home-intro">
         <h2 className="home-intro__title">
-          Turning ideas into immersive experiences.
+          Turning ideas into
+          <br />
+          immersive experiences.
         </h2>
-        <div className="home-intro__body">
+        <div className="home-intro__block">
           <img
             className="home-intro__img"
             src={introThumb}
-            alt="Close-up of a daisy in soft natural light"
+            alt="Field of daisies in soft natural light"
           />
-          <div className="home-intro__text">
-            <p className="eyebrow">About me</p>
-            <p className="home-intro__copy">
-              I build interactive web spaces that connect feeling with function —
-              crafted with attention to motion, structure, and human-first detail.
-            </p>
-            <Link to={site.ctaLink.to} className="arrow-link">
-              → {site.ctaLink.label}
-            </Link>
+          <div className="home-intro__meta">
+            <p className="home-intro__label">About Me</p>
+            <div className="home-intro__right">
+              <p>
+                A creative developer with 5 years of experience building
+                high-performance websites and digital products. I work at the
+                intersection of design and code, where aesthetics meet
+                functionality.
+              </p>
+              <p>
+                My focus is on motion, interaction, and the details that make a
+                product feel alive.
+              </p>
+              <Link to={site.ctaLink.to} className="arrow-link home-intro__cta">
+                → {site.ctaLink.label}
+              </Link>
+            </div>
           </div>
         </div>
       </section>

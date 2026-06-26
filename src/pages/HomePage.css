@@ -5,9 +5,8 @@
 /* 1. Hero (1728×1117) */
 .home-hero {
   position: relative;
-  /* Figma hero band 1728×1117 (no viewport-height dependency, no overlay) */
+  /* Figma hero band 1728×1117 (ratio only — no min-height override) */
   aspect-ratio: 1728 / 1117;
-  min-height: 680px;
   overflow: hidden;
   background: var(--color-text);
   color: var(--color-bg);
@@ -77,28 +76,43 @@
   font-weight: var(--fw-medium);
   margin-bottom: var(--space-16);
 }
-.home-intro__body {
-  display: grid;
-  /* Figma intro image is 632px wide; text takes the remainder (not 632:1 fr). */
-  grid-template-columns: minmax(360px, 632px) 1fr;
-  gap: var(--space-16);
-  align-items: start;
+/* Figma: content block 632 wide @x418 (indented); image above the meta row */
+.home-intro__block {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; /* 48px image → meta */
+  width: clamp(360px, 36.6vw, 632px);
+  margin-left: clamp(80px, 22.8vw, 394px);
 }
 .home-intro__img {
   width: 100%;
-  aspect-ratio: 632 / 652; /* Figma Frame 7 ~1:1 */
+  aspect-ratio: 632 / 319; /* Figma landscape image frame */
   object-fit: cover;
   background: var(--color-bg);
 }
-.home-intro__text {
-  max-width: 52ch;
-  padding-top: var(--space-4);
+.home-intro__meta {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  column-gap: clamp(40px, 9vw, 158px); /* Figma label → paragraph gap */
 }
-.home-intro__copy {
+.home-intro__label {
   font-size: var(--fs-24);
-  line-height: var(--lh-relaxed);
-  letter-spacing: -0.04em;
-  margin-block: var(--space-6) var(--space-10);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
+}
+.home-intro__right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+.home-intro__right p {
+  font-size: var(--fs-24);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
+  line-height: var(--lh-snug);
+}
+.home-intro__cta {
+  margin-top: var(--space-2);
 }
 
 /* 4. How I can help you (service rows; Figma 1681×224, thumb 371×224) */
