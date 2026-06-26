@@ -65,7 +65,8 @@
 }
 .home-intro__body {
   display: grid;
-  grid-template-columns: 632fr 1fr;
+  /* Figma intro image is 632px wide; text takes the remainder (not 632:1 fr). */
+  grid-template-columns: minmax(360px, 632px) 1fr;
   gap: var(--space-16);
   align-items: start;
 }
