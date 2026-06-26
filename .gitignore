@@ -83,11 +83,17 @@ coverage/
 tmp/
 temp/
 *.tmp
+scratchpad/
 
 # Local preview / deployment metadata
 
 .vercel/
 .netlify/
+
+# Playwright / browser test output
+
+playwright-report/
+test-results/
 
 # Do NOT ignore project source assets and design docs.
 
