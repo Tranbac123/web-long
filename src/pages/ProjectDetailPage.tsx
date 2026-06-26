@@ -26,14 +26,14 @@ export default function ProjectDetailPage() {
 
         {/* Metadata: horizontal bottom row — year · role+desc · tools+desc · scroll */}
         <div className="detail-intro__foot">
-          <span className="detail-intro__year">{project.year}</span>
+          <span className="detail-intro__year">{project.detailYear}</span>
           <div className="detail-meta__col">
             <span className="detail-meta__head">{project.role}</span>
             <p className="detail-meta__desc">{project.description}</p>
           </div>
           <div className="detail-meta__col">
             <span className="detail-meta__head">{project.tools}</span>
-            <p className="detail-meta__desc">{project.summary}</p>
+            <p className="detail-meta__desc">{project.approach}</p>
           </div>
           <span className="detail-intro__scroll">Scroll Down</span>
         </div>

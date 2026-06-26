@@ -1,15 +1,16 @@
-/** Centralized site-wide copy and identity. */
+/** Centralized site-wide copy and identity. Text values match Figma exactly. */
 export const site = {
   name: "Alex Chen",
-  email: "transparencymental@gmail.com",
+  email: "toannguyenvan145@gmail.com",
   ctaLink: { label: "Let’s work together", to: "/about" },
   footer: {
     cta: "LET’S MAKE SOMETHING TOGETHER",
+    credit: "Design & code by Douglus Nguyen",
     location: "Tokyo, Japan",
-    socials: ["Instagram", "Behance", "LinkedIn", "Twitter"],
+    socials: ["hello@alexchen.dev", "Dribbble", "LinkedIn", "Twitter"],
     available:
-      "Currently available for freelance projects and full-time collaboration. Open to work worldwide.",
+      "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
     contactPitch:
-      "Want a portfolio that moves, breathes, and turns users into believers?",
+      "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
   },
 } as const;

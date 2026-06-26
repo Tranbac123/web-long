@@ -14,7 +14,7 @@ const drivers = [
 const skillGroups = [
   ["Figma", "Adobe XD", "Illustrator", "Photoshop"],
   ["TypeScript", "Next.js", "Webflow", "Framer", "GSAP"],
-  ["WebGL", "Three.js", "JavaScript", "Vercel", "Netlify"],
+  ["WebGL", "Three.js", "Animations", "Vercel", "Netlify"],
   ["HTML", "CSS", "JavaScript", "React", "Lottie"],
 ];
 
@@ -57,7 +57,7 @@ export default function AboutPage() {
 
       {/* 2. Statement ----------------------------------------------- */}
       <section className="section container about-statement">
-        <p className="eyebrow about-statement__label">Statement</p>
+        <p className="about-statement__label">(About Me)</p>
         <div className="about-statement__main">
           <p className="about-statement__text">
             I build digital experiences where design meets code — interactive,

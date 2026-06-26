@@ -15,13 +15,13 @@ export const testimonials: Testimonial[] = [
   {
     quote:
       "Finally a designer who understands both aesthetics and strategy. Our conversion rate doubled after the redesign.",
-    author: "Federico Alvarez",
+    author: "Sofia Marquez",
     role: "Founder, Orbital Finance",
   },
   {
     quote:
       "Alex's attention to motion and micro-interactions made our plant shop feel alive online. Customers keep mentioning the experience.",
-    author: "Simone Torres",
-    role: "Founder, Plant Shop",
+    author: "Tom Harper",
+    role: "Owner, Fauna Plant Shop",
   },
 ];

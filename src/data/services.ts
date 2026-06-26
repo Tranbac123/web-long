@@ -12,20 +12,20 @@ export const services: Service[] = [
     index: "01",
     title: "Creative Development",
     description:
-      "Transforming designs into fluid, responsive, and high-performing web experiences with clean code and pixel-perfect attention to detail.",
+      "From landing pages to full web applications - built with clean code, smooth animations, and pixel-perfect attention to detail.",
   },
   {
     id: "s2",
     index: "02",
     title: "Motion & Interaction",
     description:
-      "GSAP-powered effects, CSS animations, and micro-interactions to make interfaces feel expressive without slowing them down.",
+      "GSAP, Framer Motion, CSS animations — I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
   },
   {
     id: "s3",
     index: "03",
-    title: "Design To Code",
+    title: "Design to Code",
     description:
-      "Design systems and UI translated into production-ready, scalable interfaces while preserving the design intent.",
+      "Got a Figma file? I'll turn it into a production-ready website that looks exactly like the design — down to the pixel.",
   },
 ];

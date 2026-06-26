@@ -5,7 +5,7 @@ import "./Header.css";
 const navItems = [
   { to: "/", label: "Home", end: true },
   { to: "/about", label: "About", end: false },
-  { to: "/work", label: "Work", end: false },
+  { to: "/work", label: "Works", end: false },
 ];
 
 /** Pages whose hero is a dark full-bleed image — header overlays in white. */

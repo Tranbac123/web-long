@@ -31,7 +31,11 @@ export interface Project {
   /** Detail-page meta. */
   role: string;
   description: string;
+  /** Second detail paragraph (Figma "approach" copy). */
+  approach: string;
   tools: string;
+  /** Year shown on the project-detail intro (Figma uses 2024 for Luminary). */
+  detailYear: string;
   cover: ProjectImage;
   gallery: GalleryBlock[];
   /** Optional explicit "next project" override (defaults to array order). */
@@ -60,13 +64,16 @@ export const projects: Project[] = [
     slug: "luminary-studio",
     index: "01",
     title: "Luminary Studio",
-    year: "2024",
-    category: "Branding, Web Design, System",
+    year: "2026",
+    category: "Branding · Web Design · Motion",
     summary: "A light-led visual identity and editorial web experience.",
-    role: "Visual Design, Motion, Branding",
+    role: "Web Design, Motion, Branding",
     description:
-      "A visual identity and web experience built around light, motion, and refined editorial composition.",
-    tools: "Figma, GSAP, React, Three.js",
+      "The brief was simple: make it feel alive. Luminary Studio needed a digital presence that matched the energy of their work — bold, confident, and impossible to ignore.",
+    approach:
+      "We stripped everything back. No clutter, no noise — just type, motion, and white space doing the heavy lifting. Every scroll triggers something. Every hover has intent.",
+    tools: "Figma · GSAP · Next.js · Three.js",
+    detailYear: "2024",
     cover: { src: daisy2, alt: "Cover image for Luminary Studio" },
     gallery: detailGallery,
     nextSlug: "polaris-protocol",
@@ -75,13 +82,16 @@ export const projects: Project[] = [
     slug: "orbital-finance",
     index: "02",
     title: "Orbital Finance",
-    year: "2025",
+    year: "2026",
     category: "UI Design",
     summary: "A calm, data-dense interface for a modern finance platform.",
     role: "Product Design, UI Systems",
     description:
       "A clean, data-dense product interface that keeps complex finance tools calm and legible.",
-    tools: "Figma, React, TypeScript",
+    approach:
+      "Every component earns its place — clarity first, with motion used only to guide, never to decorate.",
+    tools: "Figma · React · TypeScript",
+    detailYear: "2026",
     cover: { src: daisy3, alt: "Cover image for Orbital Finance" },
     gallery: detailGallery,
   },
@@ -95,7 +105,10 @@ export const projects: Project[] = [
     role: "UI Design, Art Direction",
     description:
       "A quiet, image-led storefront that lets the product breathe and the typography lead.",
-    tools: "Figma, Webflow",
+    approach:
+      "Generous space, slow motion, and tactile micro-interactions that make the shop feel alive online.",
+    tools: "Figma · Webflow",
+    detailYear: "2026",
     cover: { src: daisy4, alt: "Cover image for Plant Shop" },
     gallery: detailGallery,
   },
@@ -103,13 +116,16 @@ export const projects: Project[] = [
     slug: "aether-ai-studio",
     index: "04",
     title: "Aether - AI Studio",
-    year: "2024",
-    category: "AI Direction, 3D, Creative Coding",
+    year: "2026",
+    category: "Art Direction · 3D · Creative Coding",
     summary: "An experimental AI studio site driven by 3D and creative code.",
     role: "Creative Direction, 3D, Creative Coding",
     description:
       "An experimental studio presence where generative 3D and creative coding set the tone.",
-    tools: "Three.js, WebGL, GSAP, React",
+    approach:
+      "Real-time 3D and shader work, built to run smoothly while staying unmistakably bold.",
+    tools: "Three.js · WebGL · GSAP · React",
+    detailYear: "2026",
     cover: { src: daisy5, alt: "Cover image for Aether - AI Studio" },
     gallery: detailGallery,
   },
@@ -117,13 +133,16 @@ export const projects: Project[] = [
     slug: "polaris-protocol",
     index: "05",
     title: "Polaris Protocol",
-    year: "2025",
-    category: "3D Strategy",
+    year: "2026",
+    category: "UX Strategy",
     summary: "A 3D-led brand strategy for an emerging protocol.",
     role: "Brand Strategy, 3D Direction",
     description:
       "A 3D-led brand strategy that gives an emerging protocol a confident, spatial language.",
-    tools: "Blender, Three.js, Figma",
+    approach:
+      "Research-led structure paired with a spatial visual language that scales across touchpoints.",
+    tools: "Blender · Three.js · Figma",
+    detailYear: "2026",
     cover: { src: daisy6, alt: "Cover image for Polaris Protocol" },
     gallery: detailGallery,
   },
@@ -137,7 +156,10 @@ export const projects: Project[] = [
     role: "Identity, Editorial Design",
     description:
       "An editorial identity for a sustainability initiative — grounded, warm, and honest.",
-    tools: "Figma, React",
+    approach:
+      "Honest materials and a calm type system that keep the focus on the mission, not the noise.",
+    tools: "Figma · React",
+    detailYear: "2026",
     cover: { src: daisy7, alt: "Cover image for Terra" },
     gallery: detailGallery,
   },
