@@ -51,6 +51,7 @@ export default function AboutPage() {
             <br />
             CHEN
           </h1>
+          <span className="about-hero__scroll">Scroll Down</span>
         </div>
       </section>
 
@@ -82,21 +83,23 @@ export default function AboutPage() {
       </section>
 
       {/* 3. Skills + huge AC ---------------------------------------- */}
-      <section className="section--alt about-skills-section">
+      <section className="section about-skills-section">
         <div className="container about-skills">
           <span className="about-skills__dot" aria-hidden="true" />
-          <div className="about-skills__cols">
-            {skillGroups.map((group, i) => (
-              <ul key={i} className="about-skills__group">
-                {group.map((skill) => (
-                  <li key={skill}>{skill}</li>
-                ))}
-              </ul>
-            ))}
+          <div className="about-skills__row">
+            <div className="about-skills__cols">
+              {skillGroups.map((group, i) => (
+                <ul key={i} className="about-skills__group">
+                  {group.map((skill) => (
+                    <li key={skill}>{skill}</li>
+                  ))}
+                </ul>
+              ))}
+            </div>
+            <span className="about-skills__mono" aria-hidden="true">
+              AC
+            </span>
           </div>
-          <span className="about-skills__mono" aria-hidden="true">
-            AC
-          </span>
         </div>
       </section>
 

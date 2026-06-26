@@ -1,0 +1,7282 @@
+[
+  {
+    "id": "162:85",
+    "name": "Frame 62",
+    "type": "FRAME",
+    "x": -2880.0,
+    "y": 41920.0,
+    "width": 33216.0,
+    "height": 14208.0,
+    "area": 471932928
+  },
+  {
+    "id": "77:169",
+    "name": "About Page",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 11170.0,
+    "area": 19301760
+  },
+  {
+    "id": "85:382",
+    "name": "Home Page",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 11109.0,
+    "area": 19196352
+  },
+  {
+    "id": "21:57",
+    "name": "Homepage",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 44254.0,
+    "width": 1728.0,
+    "height": 10224.0,
+    "area": 17667072
+  },
+  {
+    "id": "158:52",
+    "name": "Project Detail Page",
+    "type": "FRAME",
+    "x": 17528.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 9414.0,
+    "area": 16267392
+  },
+  {
+    "id": "161:267",
+    "name": "Services Page",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 44992.0,
+    "width": 1728.0,
+    "height": 5819.0,
+    "area": 10055232
+  },
+  {
+    "id": "38:2",
+    "name": "works",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 46791.0,
+    "width": 1728.0,
+    "height": 3440.0,
+    "area": 5944320
+  },
+  {
+    "id": "85:383",
+    "name": "works",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 46679.0,
+    "width": 1728.0,
+    "height": 3440.0,
+    "area": 5944320
+  },
+  {
+    "id": "77:170",
+    "name": "works",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 49235.0,
+    "width": 1728.0,
+    "height": 3440.0,
+    "area": 5944320
+  },
+  {
+    "id": "77:245",
+    "name": "About",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 45259.0,
+    "width": 1728.0,
+    "height": 1634.0,
+    "area": 2823552
+  },
+  {
+    "id": "52:66",
+    "name": "Services",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 50244.0,
+    "width": 1728.0,
+    "height": 1509.0,
+    "area": 2607552
+  },
+  {
+    "id": "85:477",
+    "name": "Services",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 50132.0,
+    "width": 1728.0,
+    "height": 1509.0,
+    "area": 2607552
+  },
+  {
+    "id": "77:258",
+    "name": "Services",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 47788.0,
+    "width": 1728.0,
+    "height": 1437.0,
+    "area": 2483136
+  },
+  {
+    "id": "32:82",
+    "name": "About",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 45371.0,
+    "width": 1728.0,
+    "height": 1420.0,
+    "area": 2453760
+  },
+  {
+    "id": "85:460",
+    "name": "About",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 45259.0,
+    "width": 1728.0,
+    "height": 1420.0,
+    "area": 2453760
+  },
+  {
+    "id": "60:118",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": -7557.0,
+    "y": 53154.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "162:49",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": 38691.0,
+    "y": 45022.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "161:311",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 49487.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "85:500",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 53927.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "158:96",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": 17528.0,
+    "y": 52232.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "77:281",
+    "name": "Contact",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 53988.0,
+    "width": 1728.0,
+    "height": 1324.0,
+    "area": 2287872
+  },
+  {
+    "id": "160:255",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": 17864.0,
+    "y": 48754.0,
+    "width": 2003.0,
+    "height": 1118.0,
+    "area": 2239354
+  },
+  {
+    "id": "160:246",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": 17856.0,
+    "y": 46424.0,
+    "width": 2003.0,
+    "height": 1118.0,
+    "area": 2239354
+  },
+  {
+    "id": "85:544",
+    "name": "background-img",
+    "type": "RECTANGLE",
+    "x": 11192.0,
+    "y": 44142.0,
+    "width": 2001.0,
+    "height": 1117.0,
+    "area": 2235117
+  },
+  {
+    "id": "60:116",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": -7668.0,
+    "y": 52037.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "161:310",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 32245.0,
+    "y": 48370.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "85:499",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 4204.0,
+    "y": 52810.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "160:249",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 17452.0,
+    "y": 47589.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "160:223",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 17444.0,
+    "y": 45259.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "158:95",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 17420.0,
+    "y": 51115.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "77:280",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 11084.0,
+    "y": 52871.0,
+    "width": 2000.0,
+    "height": 1117.0,
+    "area": 2234000
+  },
+  {
+    "id": "160:253",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 17117.0,
+    "y": 48754.0,
+    "width": 1999.0,
+    "height": 1117.0,
+    "area": 2232883
+  },
+  {
+    "id": "160:226",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 17109.0,
+    "y": 46424.0,
+    "width": 1999.0,
+    "height": 1117.0,
+    "area": 2232883
+  },
+  {
+    "id": "21:60",
+    "name": "background-img",
+    "type": "RECTANGLE",
+    "x": -7645.0,
+    "y": 44254.0,
+    "width": 1955.0,
+    "height": 1117.0,
+    "area": 2183735
+  },
+  {
+    "id": "85:446",
+    "name": "background-img",
+    "type": "RECTANGLE",
+    "x": 4227.0,
+    "y": 44142.0,
+    "width": 1955.0,
+    "height": 1117.0,
+    "area": 2183735
+  },
+  {
+    "id": "77:363",
+    "name": "Testimonials",
+    "type": "FRAME",
+    "x": 7985.0,
+    "y": 51623.0,
+    "width": 1728.0,
+    "height": 1171.0,
+    "area": 2023488
+  },
+  {
+    "id": "77:344",
+    "name": "Testimonials",
+    "type": "FRAME",
+    "x": 6163.0,
+    "y": 51623.0,
+    "width": 1728.0,
+    "height": 1171.0,
+    "area": 2023488
+  },
+  {
+    "id": "85:524",
+    "name": "Testimonials",
+    "type": "FRAME",
+    "x": 4310.0,
+    "y": 51639.0,
+    "width": 1728.0,
+    "height": 1171.0,
+    "area": 2023488
+  },
+  {
+    "id": "60:113",
+    "name": "break",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 52037.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "21:58",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": -7560.0,
+    "y": 44254.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "162:32",
+    "name": "services",
+    "type": "FRAME",
+    "x": 36057.0,
+    "y": 47253.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "162:24",
+    "name": "services",
+    "type": "FRAME",
+    "x": 34205.0,
+    "y": 47253.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "162:6",
+    "name": "services",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 47253.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "161:309",
+    "name": "break",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 48370.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "161:280",
+    "name": "About",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 46109.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "161:268",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": 32353.0,
+    "y": 44992.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "85:498",
+    "name": "break",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 52810.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "85:445",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": 4312.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "151:3",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": 14399.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "151:2",
+    "name": "Works Page",
+    "type": "FRAME",
+    "x": 14399.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "158:94",
+    "name": "break",
+    "type": "FRAME",
+    "x": 17528.0,
+    "y": 51115.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "158:53",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": 17528.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "77:279",
+    "name": "break",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 52871.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "77:228",
+    "name": "Hero",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 44142.0,
+    "width": 1728.0,
+    "height": 1117.0,
+    "area": 1930176
+  },
+  {
+    "id": "160:248",
+    "name": "img4",
+    "type": "FRAME",
+    "x": 17560.0,
+    "y": 47589.0,
+    "width": 1680.0,
+    "height": 1117.0,
+    "area": 1876560
+  },
+  {
+    "id": "160:222",
+    "name": "img1",
+    "type": "FRAME",
+    "x": 17552.0,
+    "y": 45259.0,
+    "width": 1680.0,
+    "height": 1117.0,
+    "area": 1876560
+  },
+  {
+    "id": "160:251",
+    "name": "Frame 61",
+    "type": "FRAME",
+    "x": 17568.0,
+    "y": 48754.0,
+    "width": 1672.0,
+    "height": 1117.0,
+    "area": 1867624
+  },
+  {
+    "id": "160:250",
+    "name": "Frame 60",
+    "type": "FRAME",
+    "x": 17560.0,
+    "y": 46424.0,
+    "width": 1672.0,
+    "height": 1117.0,
+    "area": 1867624
+  },
+  {
+    "id": "161:430",
+    "name": "background-img",
+    "type": "RECTANGLE",
+    "x": 32353.0,
+    "y": 44992.0,
+    "width": 1728.0,
+    "height": 987.0,
+    "area": 1705536
+  },
+  {
+    "id": "161:440",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 32378.0,
+    "y": 46361.0,
+    "width": 1676.0,
+    "height": 936.0,
+    "area": 1568736
+  },
+  {
+    "id": "161:442",
+    "name": "gemini-1779890177896 1",
+    "type": "RECTANGLE",
+    "x": 32378.0,
+    "y": 46364.0,
+    "width": 1670.0,
+    "height": 933.0,
+    "area": 1558110
+  },
+  {
+    "id": "108:2",
+    "name": "Skills",
+    "type": "FRAME",
+    "x": 11192.0,
+    "y": 46893.0,
+    "width": 1728.0,
+    "height": 895.0,
+    "area": 1546560
+  },
+  {
+    "id": "115:37",
+    "name": "Frame 52",
+    "type": "FRAME",
+    "x": 11272.0,
+    "y": 46893.0,
+    "width": 1568.0,
+    "height": 720.0,
+    "area": 1128960
+  },
+  {
+    "id": "58:75",
+    "name": "gemini-1779889820970 1",
+    "type": "RECTANGLE",
+    "x": -6669.0,
+    "y": 48345.0,
+    "width": 1392.0,
+    "height": 778.0,
+    "area": 1082976
+  },
+  {
+    "id": "85:433",
+    "name": "gemini-1779889820970 1",
+    "type": "RECTANGLE",
+    "x": 5203.0,
+    "y": 48233.0,
+    "width": 1392.0,
+    "height": 778.0,
+    "area": 1082976
+  },
+  {
+    "id": "77:220",
+    "name": "gemini-1779889820970 1",
+    "type": "RECTANGLE",
+    "x": 12083.0,
+    "y": 50789.0,
+    "width": 1392.0,
+    "height": 778.0,
+    "area": 1082976
+  },
+  {
+    "id": "58:67",
+    "name": "lucid-origin_Photorealistic_aerial_top-down_photograph_of_a_dense_field_of_white_Daisy_flower-0 1",
+    "type": "RECTANGLE",
+    "x": -7869.0,
+    "y": 47150.0,
+    "width": 1359.0,
+    "height": 777.0,
+    "area": 1055943
+  },
+  {
+    "id": "85:388",
+    "name": "lucid-origin_Photorealistic_aerial_top-down_photograph_of_a_dense_field_of_white_Daisy_flower-0 1",
+    "type": "RECTANGLE",
+    "x": 4003.0,
+    "y": 47038.0,
+    "width": 1359.0,
+    "height": 777.0,
+    "area": 1055943
+  },
+  {
+    "id": "151:108",
+    "name": "lucid-origin_Photorealistic_aerial_top-down_photograph_of_a_dense_field_of_white_Daisy_flower-0 1",
+    "type": "RECTANGLE",
+    "x": 14098.0,
+    "y": 44376.0,
+    "width": 1359.0,
+    "height": 777.0,
+    "area": 1055943
+  },
+  {
+    "id": "77:175",
+    "name": "lucid-origin_Photorealistic_aerial_top-down_photograph_of_a_dense_field_of_white_Daisy_flower-0 1",
+    "type": "RECTANGLE",
+    "x": 10883.0,
+    "y": 49594.0,
+    "width": 1359.0,
+    "height": 777.0,
+    "area": 1055943
+  },
+  {
+    "id": "160:254",
+    "name": "img6",
+    "type": "FRAME",
+    "x": 18440.0,
+    "y": 48754.0,
+    "width": 800.0,
+    "height": 1117.0,
+    "area": 893600
+  },
+  {
+    "id": "160:252",
+    "name": "img5",
+    "type": "FRAME",
+    "x": 17568.0,
+    "y": 48754.0,
+    "width": 800.0,
+    "height": 1117.0,
+    "area": 893600
+  },
+  {
+    "id": "160:244",
+    "name": "img3",
+    "type": "FRAME",
+    "x": 18432.0,
+    "y": 46424.0,
+    "width": 800.0,
+    "height": 1117.0,
+    "area": 893600
+  },
+  {
+    "id": "160:225",
+    "name": "img2",
+    "type": "FRAME",
+    "x": 17560.0,
+    "y": 46424.0,
+    "width": 800.0,
+    "height": 1117.0,
+    "area": 893600
+  },
+  {
+    "id": "108:3",
+    "name": "AC",
+    "type": "TEXT",
+    "x": 11773.0,
+    "y": 46893.0,
+    "width": 1067.0,
+    "height": 720.0,
+    "area": 768240
+  },
+  {
+    "id": "52:65",
+    "name": "Frame 27",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 48345.0,
+    "width": 768.0,
+    "height": 986.0,
+    "area": 757248
+  },
+  {
+    "id": "85:431",
+    "name": "Frame 27",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 48233.0,
+    "width": 768.0,
+    "height": 986.0,
+    "area": 757248
+  },
+  {
+    "id": "77:218",
+    "name": "Frame 27",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 50789.0,
+    "width": 768.0,
+    "height": 986.0,
+    "area": 757248
+  },
+  {
+    "id": "52:44",
+    "name": "Frame 21",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 47150.0,
+    "width": 766.0,
+    "height": 986.0,
+    "area": 755276
+  },
+  {
+    "id": "85:386",
+    "name": "Frame 21",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 47038.0,
+    "width": 766.0,
+    "height": 986.0,
+    "area": 755276
+  },
+  {
+    "id": "77:173",
+    "name": "Frame 21",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 49594.0,
+    "width": 766.0,
+    "height": 986.0,
+    "area": 755276
+  },
+  {
+    "id": "50:14",
+    "name": "Frame 11",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 48345.0,
+    "width": 768.0,
+    "height": 778.0,
+    "area": 597504
+  },
+  {
+    "id": "85:432",
+    "name": "Frame 11",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 48233.0,
+    "width": 768.0,
+    "height": 778.0,
+    "area": 597504
+  },
+  {
+    "id": "77:219",
+    "name": "Frame 11",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 50789.0,
+    "width": 768.0,
+    "height": 778.0,
+    "area": 597504
+  },
+  {
+    "id": "47:11",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 47150.0,
+    "width": 766.0,
+    "height": 778.0,
+    "area": 595948
+  },
+  {
+    "id": "85:387",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 47038.0,
+    "width": 766.0,
+    "height": 778.0,
+    "area": 595948
+  },
+  {
+    "id": "77:174",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 49594.0,
+    "width": 766.0,
+    "height": 778.0,
+    "area": 595948
+  },
+  {
+    "id": "60:98",
+    "name": "Frame 33",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 51489.0,
+    "width": 1681.0,
+    "height": 264.0,
+    "area": 443784
+  },
+  {
+    "id": "60:93",
+    "name": "Frame 32",
+    "type": "FRAME",
+    "x": -7537.0,
+    "y": 51145.0,
+    "width": 1681.0,
+    "height": 264.0,
+    "area": 443784
+  },
+  {
+    "id": "60:92",
+    "name": "Frame 31",
+    "type": "FRAME",
+    "x": -7537.0,
+    "y": 50801.0,
+    "width": 1681.0,
+    "height": 264.0,
+    "area": 443784
+  },
+  {
+    "id": "162:39",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 36525.0,
+    "y": 47430.0,
+    "width": 871.0,
+    "height": 498.0,
+    "area": 433758
+  },
+  {
+    "id": "162:31",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 34673.0,
+    "y": 47430.0,
+    "width": 871.0,
+    "height": 498.0,
+    "area": 433758
+  },
+  {
+    "id": "162:22",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 32821.0,
+    "y": 47430.0,
+    "width": 871.0,
+    "height": 498.0,
+    "area": 433758
+  },
+  {
+    "id": "34:95",
+    "name": "Frame 7",
+    "type": "FRAME",
+    "x": -7142.0,
+    "y": 45833.0,
+    "width": 632.0,
+    "height": 652.0,
+    "area": 412064
+  },
+  {
+    "id": "85:464",
+    "name": "Frame 7",
+    "type": "FRAME",
+    "x": 4730.0,
+    "y": 45721.0,
+    "width": 632.0,
+    "height": 652.0,
+    "area": 412064
+  },
+  {
+    "id": "32:83",
+    "name": "title",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 45491.0,
+    "width": 1476.0,
+    "height": 270.0,
+    "area": 398520
+  },
+  {
+    "id": "85:461",
+    "name": "title",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 45379.0,
+    "width": 1476.0,
+    "height": 270.0,
+    "area": 398520
+  },
+  {
+    "id": "85:492",
+    "name": "Frame 33",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 51377.0,
+    "width": 1681.0,
+    "height": 224.0,
+    "area": 376544
+  },
+  {
+    "id": "85:486",
+    "name": "Frame 32",
+    "type": "FRAME",
+    "x": 4335.0,
+    "y": 51033.0,
+    "width": 1681.0,
+    "height": 224.0,
+    "area": 376544
+  },
+  {
+    "id": "85:480",
+    "name": "Frame 31",
+    "type": "FRAME",
+    "x": 4335.0,
+    "y": 50689.0,
+    "width": 1681.0,
+    "height": 224.0,
+    "area": 376544
+  },
+  {
+    "id": "157:43",
+    "name": "gemini-1779889820970 1",
+    "type": "RECTANGLE",
+    "x": 15471.0,
+    "y": 44376.0,
+    "width": 820.0,
+    "height": 458.0,
+    "area": 375560
+  },
+  {
+    "id": "157:45",
+    "name": "gemini-1779890860969 1",
+    "type": "RECTANGLE",
+    "x": 15603.0,
+    "y": 44381.0,
+    "width": 818.0,
+    "height": 457.0,
+    "area": 373826
+  },
+  {
+    "id": "162:54",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": 38712.0,
+    "y": 46089.0,
+    "width": 1685.0,
+    "height": 203.0,
+    "area": 342055
+  },
+  {
+    "id": "74:144",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": -7533.0,
+    "y": 54238.0,
+    "width": 1670.0,
+    "height": 203.0,
+    "area": 339010
+  },
+  {
+    "id": "161:316",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": 32377.0,
+    "y": 50571.0,
+    "width": 1670.0,
+    "height": 203.0,
+    "area": 339010
+  },
+  {
+    "id": "85:505",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 55011.0,
+    "width": 1670.0,
+    "height": 203.0,
+    "area": 339010
+  },
+  {
+    "id": "158:101",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": 17552.0,
+    "y": 53316.0,
+    "width": 1670.0,
+    "height": 203.0,
+    "area": 339010
+  },
+  {
+    "id": "77:286",
+    "name": "Contact Footer",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 55072.0,
+    "width": 1670.0,
+    "height": 203.0,
+    "area": 339010
+  },
+  {
+    "id": "115:42",
+    "name": "Frame 54",
+    "type": "FRAME",
+    "x": 11224.0,
+    "y": 48156.0,
+    "width": 1678.0,
+    "height": 200.0,
+    "area": 335600
+  },
+  {
+    "id": "60:120",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": -7172.0,
+    "y": 53651.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "162:51",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": 39079.0,
+    "y": 45414.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "161:313",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": 32738.0,
+    "y": 49984.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "85:502",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": 4697.0,
+    "y": 54424.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "158:98",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": 17913.0,
+    "y": 52729.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "77:283",
+    "name": "SOMETHING",
+    "type": "TEXT",
+    "x": 11577.0,
+    "y": 54485.0,
+    "width": 1318.0,
+    "height": 225.0,
+    "area": 296550
+  },
+  {
+    "id": "162:38",
+    "name": "Frame 33",
+    "type": "FRAME",
+    "x": 36525.0,
+    "y": 47524.0,
+    "width": 840.0,
+    "height": 353.0,
+    "area": 296520
+  },
+  {
+    "id": "162:30",
+    "name": "Frame 33",
+    "type": "FRAME",
+    "x": 34673.0,
+    "y": 47524.0,
+    "width": 840.0,
+    "height": 353.0,
+    "area": 296520
+  },
+  {
+    "id": "162:12",
+    "name": "Frame 33",
+    "type": "FRAME",
+    "x": 32821.0,
+    "y": 47524.0,
+    "width": 840.0,
+    "height": 353.0,
+    "area": 296520
+  },
+  {
+    "id": "58:72",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": -6402.0,
+    "y": 47150.0,
+    "width": 721.0,
+    "height": 402.0,
+    "area": 289842
+  },
+  {
+    "id": "85:415",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": 5470.0,
+    "y": 47038.0,
+    "width": 721.0,
+    "height": 402.0,
+    "area": 289842
+  },
+  {
+    "id": "77:202",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": 12350.0,
+    "y": 49594.0,
+    "width": 721.0,
+    "height": 402.0,
+    "area": 289842
+  },
+  {
+    "id": "77:381",
+    "name": "\"Alex's attention to motion and micro-interactions made our plant shop feel alive online. Customers keep mentioning the experience.\"",
+    "type": "TEXT",
+    "x": 8477.0,
+    "y": 51979.0,
+    "width": 970.0,
+    "height": 288.0,
+    "area": 279360
+  },
+  {
+    "id": "77:362",
+    "name": "\"Finally a designer who understands both aesthetics and strategy. Our conversion rate doubled after the redesign.\"",
+    "type": "TEXT",
+    "x": 6655.0,
+    "y": 51979.0,
+    "width": 970.0,
+    "height": 288.0,
+    "area": 279360
+  },
+  {
+    "id": "85:542",
+    "name": "\"Alex didn't just build a website - he built our brand's voice. Clean, intentional, and a pleasure to work with.\"",
+    "type": "TEXT",
+    "x": 4802.0,
+    "y": 51995.0,
+    "width": 970.0,
+    "height": 288.0,
+    "area": 279360
+  },
+  {
+    "id": "60:121",
+    "name": "TOGETHER!",
+    "type": "TEXT",
+    "x": -7539.0,
+    "y": 53876.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "60:119",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": -7539.0,
+    "y": 53426.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "162:50",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": 38712.0,
+    "y": 45189.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "161:312",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": 32371.0,
+    "y": 49759.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "85:501",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": 4330.0,
+    "y": 54199.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "158:97",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": 17546.0,
+    "y": 52504.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "77:282",
+    "name": "LET’S MAKE",
+    "type": "TEXT",
+    "x": 11210.0,
+    "y": 54260.0,
+    "width": 1223.0,
+    "height": 225.0,
+    "area": 275175
+  },
+  {
+    "id": "115:36",
+    "name": "Frame 51",
+    "type": "FRAME",
+    "x": 11272.0,
+    "y": 46940.0,
+    "width": 438.0,
+    "height": 626.0,
+    "area": 274188
+  },
+  {
+    "id": "77:255",
+    "name": "I build digital experiences where design meets code - interactive, intentional, and human-first. I collaborate with brands that have a story to tell, turning ideas into fluid, responsive experiences.",
+    "type": "TEXT",
+    "x": 11217.0,
+    "y": 45463.0,
+    "width": 910.0,
+    "height": 290.0,
+    "area": 263900
+  },
+  {
+    "id": "162:52",
+    "name": "TOGETHER",
+    "type": "TEXT",
+    "x": 38712.0,
+    "y": 45639.0,
+    "width": 1171.0,
+    "height": 225.0,
+    "area": 263475
+  },
+  {
+    "id": "161:314",
+    "name": "TOGETHER",
+    "type": "TEXT",
+    "x": 32371.0,
+    "y": 50209.0,
+    "width": 1171.0,
+    "height": 225.0,
+    "area": 263475
+  },
+  {
+    "id": "85:503",
+    "name": "TOGETHER",
+    "type": "TEXT",
+    "x": 4330.0,
+    "y": 54649.0,
+    "width": 1171.0,
+    "height": 225.0,
+    "area": 263475
+  },
+  {
+    "id": "158:99",
+    "name": "TOGETHER",
+    "type": "TEXT",
+    "x": 17546.0,
+    "y": 52954.0,
+    "width": 1171.0,
+    "height": 225.0,
+    "area": 263475
+  },
+  {
+    "id": "77:284",
+    "name": "TOGETHER",
+    "type": "TEXT",
+    "x": 11210.0,
+    "y": 54710.0,
+    "width": 1171.0,
+    "height": 225.0,
+    "area": 263475
+  },
+  {
+    "id": "34:89",
+    "name": "img",
+    "type": "RECTANGLE",
+    "x": -7142.0,
+    "y": 45813.0,
+    "width": 628.0,
+    "height": 359.0,
+    "area": 225452
+  },
+  {
+    "id": "85:466",
+    "name": "img",
+    "type": "RECTANGLE",
+    "x": 4730.0,
+    "y": 45701.0,
+    "width": 628.0,
+    "height": 359.0,
+    "area": 225452
+  },
+  {
+    "id": "85:447",
+    "name": "title",
+    "type": "FRAME",
+    "x": 4335.0,
+    "y": 44379.0,
+    "width": 797.0,
+    "height": 270.0,
+    "area": 215190
+  },
+  {
+    "id": "32:86",
+    "name": "about-img",
+    "type": "FRAME",
+    "x": -7142.0,
+    "y": 45833.0,
+    "width": 632.0,
+    "height": 319.0,
+    "area": 201608
+  },
+  {
+    "id": "85:465",
+    "name": "about-img",
+    "type": "FRAME",
+    "x": 4730.0,
+    "y": 45721.0,
+    "width": 632.0,
+    "height": 319.0,
+    "area": 201608
+  },
+  {
+    "id": "162:55",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": 38712.0,
+    "y": 46089.0,
+    "width": 992.0,
+    "height": 203.0,
+    "area": 201376
+  },
+  {
+    "id": "32:85",
+    "name": "immersive experiences.",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 45626.0,
+    "width": 1476.0,
+    "height": 135.0,
+    "area": 199260
+  },
+  {
+    "id": "85:463",
+    "name": "immersive experiences.",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 45514.0,
+    "width": 1476.0,
+    "height": 135.0,
+    "area": 199260
+  },
+  {
+    "id": "60:87",
+    "name": "Frame 29",
+    "type": "FRAME",
+    "x": -6224.0,
+    "y": 49542.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "60:86",
+    "name": "Frame 28",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 49542.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "85:422",
+    "name": "Frame 29",
+    "type": "FRAME",
+    "x": 5648.0,
+    "y": 49430.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "85:404",
+    "name": "Frame 28",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49430.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "77:209",
+    "name": "Frame 29",
+    "type": "FRAME",
+    "x": 12528.0,
+    "y": 51986.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "77:191",
+    "name": "Frame 28",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 51986.0,
+    "width": 370.0,
+    "height": 538.0,
+    "area": 199060
+  },
+  {
+    "id": "157:34",
+    "name": "Frame 59",
+    "type": "FRAME",
+    "x": 15905.0,
+    "y": 44381.0,
+    "width": 365.0,
+    "height": 540.0,
+    "area": 197100
+  },
+  {
+    "id": "157:30",
+    "name": "Frame 58",
+    "type": "FRAME",
+    "x": 15516.0,
+    "y": 44376.0,
+    "width": 365.0,
+    "height": 540.0,
+    "area": 197100
+  },
+  {
+    "id": "157:24",
+    "name": "Frame 55",
+    "type": "FRAME",
+    "x": 14431.0,
+    "y": 44376.0,
+    "width": 365.0,
+    "height": 540.0,
+    "area": 197100
+  },
+  {
+    "id": "158:55",
+    "name": "title",
+    "type": "FRAME",
+    "x": 17560.0,
+    "y": 44431.0,
+    "width": 710.0,
+    "height": 270.0,
+    "area": 191700
+  },
+  {
+    "id": "52:64",
+    "name": "Frame 26",
+    "type": "FRAME",
+    "x": -6226.0,
+    "y": 47150.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "52:63",
+    "name": "Frame 25",
+    "type": "FRAME",
+    "x": -6620.0,
+    "y": 47150.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "85:413",
+    "name": "Frame 26",
+    "type": "FRAME",
+    "x": 5646.0,
+    "y": 47038.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "85:395",
+    "name": "Frame 25",
+    "type": "FRAME",
+    "x": 5252.0,
+    "y": 47038.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "77:200",
+    "name": "Frame 26",
+    "type": "FRAME",
+    "x": 12526.0,
+    "y": 49594.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "77:182",
+    "name": "Frame 25",
+    "type": "FRAME",
+    "x": 12132.0,
+    "y": 49594.0,
+    "width": 370.0,
+    "height": 518.0,
+    "area": 191660
+  },
+  {
+    "id": "60:84",
+    "name": "title",
+    "type": "FRAME",
+    "x": -7537.0,
+    "y": 50528.0,
+    "width": 1206.0,
+    "height": 153.0,
+    "area": 184518
+  },
+  {
+    "id": "85:478",
+    "name": "title",
+    "type": "FRAME",
+    "x": 4335.0,
+    "y": 50416.0,
+    "width": 1206.0,
+    "height": 153.0,
+    "area": 184518
+  },
+  {
+    "id": "77:259",
+    "name": "title",
+    "type": "FRAME",
+    "x": 11215.0,
+    "y": 47892.0,
+    "width": 1206.0,
+    "height": 153.0,
+    "area": 184518
+  },
+  {
+    "id": "34:94",
+    "name": "Frame 6",
+    "type": "FRAME",
+    "x": -7142.0,
+    "y": 46200.0,
+    "width": 632.0,
+    "height": 285.0,
+    "area": 180120
+  },
+  {
+    "id": "85:467",
+    "name": "Frame 6",
+    "type": "FRAME",
+    "x": 4730.0,
+    "y": 46088.0,
+    "width": 632.0,
+    "height": 285.0,
+    "area": 180120
+  },
+  {
+    "id": "32:84",
+    "name": "Turning ideas into",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 45491.0,
+    "width": 1330.0,
+    "height": 135.0,
+    "area": 179550
+  },
+  {
+    "id": "161:432",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 33314.0,
+    "y": 45758.0,
+    "width": 570.0,
+    "height": 315.0,
+    "area": 179550
+  },
+  {
+    "id": "85:462",
+    "name": "Turning ideas into",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 45379.0,
+    "width": 1330.0,
+    "height": 135.0,
+    "area": 179550
+  },
+  {
+    "id": "161:434",
+    "name": "gemini-1779889820970 1",
+    "type": "RECTANGLE",
+    "x": 33320.0,
+    "y": 45758.0,
+    "width": 564.0,
+    "height": 315.0,
+    "area": 177660
+  },
+  {
+    "id": "58:68",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": -6729.0,
+    "y": 47150.0,
+    "width": 556.0,
+    "height": 310.0,
+    "area": 172360
+  },
+  {
+    "id": "85:397",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 5143.0,
+    "y": 47038.0,
+    "width": 556.0,
+    "height": 310.0,
+    "area": 172360
+  },
+  {
+    "id": "77:184",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 12023.0,
+    "y": 49594.0,
+    "width": 556.0,
+    "height": 310.0,
+    "area": 172360
+  },
+  {
+    "id": "58:78",
+    "name": "gemini-1779890860969 1",
+    "type": "RECTANGLE",
+    "x": -6788.0,
+    "y": 49542.0,
+    "width": 554.0,
+    "height": 310.0,
+    "area": 171740
+  },
+  {
+    "id": "85:406",
+    "name": "gemini-1779890860969 1",
+    "type": "RECTANGLE",
+    "x": 5084.0,
+    "y": 49430.0,
+    "width": 554.0,
+    "height": 310.0,
+    "area": 171740
+  },
+  {
+    "id": "160:258",
+    "name": "gemini-1779890860969 1",
+    "type": "RECTANGLE",
+    "x": 18060.0,
+    "y": 50424.0,
+    "width": 554.0,
+    "height": 310.0,
+    "area": 171740
+  },
+  {
+    "id": "77:193",
+    "name": "gemini-1779890860969 1",
+    "type": "RECTANGLE",
+    "x": 11964.0,
+    "y": 51986.0,
+    "width": 554.0,
+    "height": 310.0,
+    "area": 171740
+  },
+  {
+    "id": "58:81",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": -6365.0,
+    "y": 49542.0,
+    "width": 542.0,
+    "height": 310.0,
+    "area": 168020
+  },
+  {
+    "id": "162:21",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 24083.0,
+    "y": 52866.0,
+    "width": 542.0,
+    "height": 310.0,
+    "area": 168020
+  },
+  {
+    "id": "85:424",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 5507.0,
+    "y": 49430.0,
+    "width": 542.0,
+    "height": 310.0,
+    "area": 168020
+  },
+  {
+    "id": "77:211",
+    "name": "lucid-origin_Photorealistic_photograph_of_white_Daisy_flowers_Bellis_perennis_growing_wild_al-0 1",
+    "type": "RECTANGLE",
+    "x": 12387.0,
+    "y": 51986.0,
+    "width": 542.0,
+    "height": 310.0,
+    "area": 168020
+  },
+  {
+    "id": "157:35",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 15905.0,
+    "y": 44381.0,
+    "width": 365.0,
+    "height": 458.0,
+    "area": 167170
+  },
+  {
+    "id": "157:31",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 15516.0,
+    "y": 44376.0,
+    "width": 365.0,
+    "height": 458.0,
+    "area": 167170
+  },
+  {
+    "id": "151:107",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 14431.0,
+    "y": 44376.0,
+    "width": 365.0,
+    "height": 458.0,
+    "area": 167170
+  },
+  {
+    "id": "68:138",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": -7533.0,
+    "y": 54238.0,
+    "width": 819.0,
+    "height": 203.0,
+    "area": 166257
+  },
+  {
+    "id": "161:317",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": 32377.0,
+    "y": 50571.0,
+    "width": 819.0,
+    "height": 203.0,
+    "area": 166257
+  },
+  {
+    "id": "85:506",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 55011.0,
+    "width": 819.0,
+    "height": 203.0,
+    "area": 166257
+  },
+  {
+    "id": "158:102",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": 17552.0,
+    "y": 53316.0,
+    "width": 819.0,
+    "height": 203.0,
+    "area": 166257
+  },
+  {
+    "id": "77:287",
+    "name": "Frame 38",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 55072.0,
+    "width": 819.0,
+    "height": 203.0,
+    "area": 166257
+  },
+  {
+    "id": "60:85",
+    "name": "How I can help you.",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 50528.0,
+    "width": 1206.0,
+    "height": 135.0,
+    "area": 162810
+  },
+  {
+    "id": "85:479",
+    "name": "How I can help you.",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 50416.0,
+    "width": 1206.0,
+    "height": 135.0,
+    "area": 162810
+  },
+  {
+    "id": "77:260",
+    "name": "How I Work",
+    "type": "TEXT",
+    "x": 11215.0,
+    "y": 47892.0,
+    "width": 1206.0,
+    "height": 135.0,
+    "area": 162810
+  },
+  {
+    "id": "161:282",
+    "name": "I offer end-to-end digital services to help your business scale, perform, and succeed.",
+    "type": "TEXT",
+    "x": 32378.0,
+    "y": 46277.0,
+    "width": 910.0,
+    "height": 174.0,
+    "area": 158340
+  },
+  {
+    "id": "34:99",
+    "name": "title",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 46879.0,
+    "width": 998.0,
+    "height": 155.0,
+    "area": 154690
+  },
+  {
+    "id": "85:384",
+    "name": "title",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 46767.0,
+    "width": 998.0,
+    "height": 155.0,
+    "area": 154690
+  },
+  {
+    "id": "77:171",
+    "name": "title",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 49323.0,
+    "width": 998.0,
+    "height": 155.0,
+    "area": 154690
+  },
+  {
+    "id": "91:555",
+    "name": "Frame 46",
+    "type": "FRAME",
+    "x": 12267.0,
+    "y": 45997.0,
+    "width": 474.0,
+    "height": 308.0,
+    "area": 145992
+  },
+  {
+    "id": "34:100",
+    "name": "Things I've built.",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 46879.0,
+    "width": 998.0,
+    "height": 135.0,
+    "area": 134730
+  },
+  {
+    "id": "85:385",
+    "name": "Things I've built.",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 46767.0,
+    "width": 998.0,
+    "height": 135.0,
+    "area": 134730
+  },
+  {
+    "id": "77:172",
+    "name": "Things I've built.",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 49323.0,
+    "width": 998.0,
+    "height": 135.0,
+    "area": 134730
+  },
+  {
+    "id": "77:380",
+    "name": "Frame 41",
+    "type": "FRAME",
+    "x": 8009.0,
+    "y": 51981.0,
+    "width": 325.0,
+    "height": 400.0,
+    "area": 130000
+  },
+  {
+    "id": "77:361",
+    "name": "Frame 41",
+    "type": "FRAME",
+    "x": 6187.0,
+    "y": 51981.0,
+    "width": 325.0,
+    "height": 400.0,
+    "area": 130000
+  },
+  {
+    "id": "85:541",
+    "name": "Frame 41",
+    "type": "FRAME",
+    "x": 4334.0,
+    "y": 51997.0,
+    "width": 325.0,
+    "height": 400.0,
+    "area": 130000
+  },
+  {
+    "id": "161:270",
+    "name": "title",
+    "type": "FRAME",
+    "x": 32376.0,
+    "y": 45615.0,
+    "width": 476.0,
+    "height": 270.0,
+    "area": 128520
+  },
+  {
+    "id": "77:264",
+    "name": "From landing pages to full web applications - built with clean code, smooth animations, and pixel-perfect attention to detail.",
+    "type": "TEXT",
+    "x": 11834.0,
+    "y": 48156.0,
+    "width": 640.0,
+    "height": 200.0,
+    "area": 128000
+  },
+  {
+    "id": "52:38",
+    "name": "Frame 20",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 49171.0,
+    "width": 768.0,
+    "height": 160.0,
+    "area": 122880
+  },
+  {
+    "id": "85:434",
+    "name": "Frame 20",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49059.0,
+    "width": 768.0,
+    "height": 160.0,
+    "area": 122880
+  },
+  {
+    "id": "77:221",
+    "name": "Frame 20",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 51615.0,
+    "width": 768.0,
+    "height": 160.0,
+    "area": 122880
+  },
+  {
+    "id": "52:31",
+    "name": "Frame 18",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 47976.0,
+    "width": 766.0,
+    "height": 160.0,
+    "area": 122560
+  },
+  {
+    "id": "85:389",
+    "name": "Frame 18",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 47864.0,
+    "width": 766.0,
+    "height": 160.0,
+    "area": 122560
+  },
+  {
+    "id": "77:176",
+    "name": "Frame 18",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 50420.0,
+    "width": 766.0,
+    "height": 160.0,
+    "area": 122560
+  },
+  {
+    "id": "60:110",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 3",
+    "type": "RECTANGLE",
+    "x": -6272.0,
+    "y": 51489.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "60:108",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 2",
+    "type": "RECTANGLE",
+    "x": -6273.0,
+    "y": 51145.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "60:106",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 1",
+    "type": "RECTANGLE",
+    "x": -6273.0,
+    "y": 50801.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "85:497",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 3",
+    "type": "RECTANGLE",
+    "x": 5601.0,
+    "y": 51357.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "85:491",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 2",
+    "type": "RECTANGLE",
+    "x": 5600.0,
+    "y": 51013.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "85:485",
+    "name": "lucid-origin_Photorealistic_macro_photograph_of_a_single_Bidens_pilosa_Vietnamese_daisy_flowe-0 (1) 1",
+    "type": "RECTANGLE",
+    "x": 5600.0,
+    "y": 50669.0,
+    "width": 462.0,
+    "height": 264.0,
+    "area": 121968
+  },
+  {
+    "id": "160:265",
+    "name": "title",
+    "type": "FRAME",
+    "x": 18032.0,
+    "y": 50165.0,
+    "width": 765.0,
+    "height": 153.0,
+    "area": 117045
+  },
+  {
+    "id": "50:16",
+    "name": "Frame 13",
+    "type": "FRAME",
+    "x": -6224.0,
+    "y": 49542.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "47:10",
+    "name": "Frame 9",
+    "type": "FRAME",
+    "x": -6226.0,
+    "y": 47150.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "50:15",
+    "name": "Frame 12",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 49542.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "47:9",
+    "name": "Frame 8",
+    "type": "FRAME",
+    "x": -6620.0,
+    "y": 47150.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "85:423",
+    "name": "Frame 13",
+    "type": "FRAME",
+    "x": 5648.0,
+    "y": 49430.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "85:414",
+    "name": "Frame 9",
+    "type": "FRAME",
+    "x": 5646.0,
+    "y": 47038.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "85:405",
+    "name": "Frame 12",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49430.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "85:396",
+    "name": "Frame 8",
+    "type": "FRAME",
+    "x": 5252.0,
+    "y": 47038.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "160:257",
+    "name": "Frame 12",
+    "type": "FRAME",
+    "x": 18230.0,
+    "y": 50424.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "77:210",
+    "name": "Frame 13",
+    "type": "FRAME",
+    "x": 12528.0,
+    "y": 51986.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "77:201",
+    "name": "Frame 9",
+    "type": "FRAME",
+    "x": 12526.0,
+    "y": 49594.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "77:192",
+    "name": "Frame 12",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 51986.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "77:183",
+    "name": "Frame 8",
+    "type": "FRAME",
+    "x": 12132.0,
+    "y": 49594.0,
+    "width": 370.0,
+    "height": 310.0,
+    "area": 114700
+  },
+  {
+    "id": "21:63",
+    "name": "DEVELOPER",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 44626.0,
+    "width": 797.0,
+    "height": 135.0,
+    "area": 107595
+  },
+  {
+    "id": "85:449",
+    "name": "DEVELOPER",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 44514.0,
+    "width": 797.0,
+    "height": 135.0,
+    "area": 107595
+  },
+  {
+    "id": "77:230",
+    "name": "title",
+    "type": "FRAME",
+    "x": 11215.0,
+    "y": 44915.0,
+    "width": 393.0,
+    "height": 270.0,
+    "area": 106110
+  },
+  {
+    "id": "34:93",
+    "name": "Frame 5",
+    "type": "FRAME",
+    "x": -6879.0,
+    "y": 46200.0,
+    "width": 369.0,
+    "height": 285.0,
+    "area": 105165
+  },
+  {
+    "id": "85:469",
+    "name": "Frame 5",
+    "type": "FRAME",
+    "x": 4993.0,
+    "y": 46088.0,
+    "width": 369.0,
+    "height": 285.0,
+    "area": 105165
+  },
+  {
+    "id": "160:266",
+    "name": "Next project",
+    "type": "TEXT",
+    "x": 18032.0,
+    "y": 50165.0,
+    "width": 765.0,
+    "height": 135.0,
+    "area": 103275
+  },
+  {
+    "id": "60:102",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": -6226.0,
+    "y": 51489.0,
+    "width": 371.0,
+    "height": 264.0,
+    "area": 97944
+  },
+  {
+    "id": "60:97",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": -6227.0,
+    "y": 51145.0,
+    "width": 371.0,
+    "height": 264.0,
+    "area": 97944
+  },
+  {
+    "id": "60:91",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": -6227.0,
+    "y": 50801.0,
+    "width": 371.0,
+    "height": 264.0,
+    "area": 97944
+  },
+  {
+    "id": "77:276",
+    "name": "I treat every project like it's my own. Clear communication, no surprises.",
+    "type": "TEXT",
+    "x": 11841.0,
+    "y": 48853.0,
+    "width": 640.0,
+    "height": 150.0,
+    "area": 96000
+  },
+  {
+    "id": "77:270",
+    "name": "I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
+    "type": "TEXT",
+    "x": 11841.0,
+    "y": 48500.0,
+    "width": 640.0,
+    "height": 150.0,
+    "area": 96000
+  },
+  {
+    "id": "158:56",
+    "name": "LUMINARY",
+    "type": "TEXT",
+    "x": 17560.0,
+    "y": 44431.0,
+    "width": 710.0,
+    "height": 135.0,
+    "area": 95850
+  },
+  {
+    "id": "157:26",
+    "name": "Frame 57",
+    "type": "FRAME",
+    "x": 15168.0,
+    "y": 44376.0,
+    "width": 324.0,
+    "height": 282.0,
+    "area": 91368
+  },
+  {
+    "id": "157:25",
+    "name": "Frame 56",
+    "type": "FRAME",
+    "x": 14820.0,
+    "y": 44376.0,
+    "width": 324.0,
+    "height": 282.0,
+    "area": 91368
+  },
+  {
+    "id": "124:46",
+    "name": "Ellipse 1",
+    "type": "ELLIPSE",
+    "x": 11522.0,
+    "y": 46071.0,
+    "width": 300.0,
+    "height": 300.0,
+    "area": 90000
+  },
+  {
+    "id": "21:62",
+    "name": "CREATIVE",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 44491.0,
+    "width": 651.0,
+    "height": 135.0,
+    "area": 87885
+  },
+  {
+    "id": "85:448",
+    "name": "CREATIVE",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 44379.0,
+    "width": 651.0,
+    "height": 135.0,
+    "area": 87885
+  },
+  {
+    "id": "85:496",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": 5646.0,
+    "y": 51377.0,
+    "width": 371.0,
+    "height": 224.0,
+    "area": 83104
+  },
+  {
+    "id": "85:490",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": 5645.0,
+    "y": 51033.0,
+    "width": 371.0,
+    "height": 224.0,
+    "area": 83104
+  },
+  {
+    "id": "85:484",
+    "name": "Frame 30",
+    "type": "FRAME",
+    "x": 5645.0,
+    "y": 50689.0,
+    "width": 371.0,
+    "height": 224.0,
+    "area": 83104
+  },
+  {
+    "id": "162:35",
+    "name": "Figma to HTML/CSS Figma to React/Next.js Responsive implementation",
+    "type": "TEXT",
+    "x": 36522.0,
+    "y": 48013.0,
+    "width": 842.0,
+    "height": 97.0,
+    "area": 81674
+  },
+  {
+    "id": "162:27",
+    "name": "Scroll animations Page transitions Micro-interactions",
+    "type": "TEXT",
+    "x": 34670.0,
+    "y": 48013.0,
+    "width": 842.0,
+    "height": 97.0,
+    "area": 81674
+  },
+  {
+    "id": "162:9",
+    "name": "Landing pages Portfolio sites Interactive experiences",
+    "type": "TEXT",
+    "x": 32818.0,
+    "y": 48013.0,
+    "width": 842.0,
+    "height": 97.0,
+    "area": 81674
+  },
+  {
+    "id": "157:41",
+    "name": "gemini-1779890766077 1",
+    "type": "RECTANGLE",
+    "x": 15150.0,
+    "y": 44376.0,
+    "width": 359.0,
+    "height": 200.0,
+    "area": 71800
+  },
+  {
+    "id": "157:39",
+    "name": "gemini-1779889719963 1",
+    "type": "RECTANGLE",
+    "x": 14820.0,
+    "y": 44376.0,
+    "width": 359.0,
+    "height": 200.0,
+    "area": 71800
+  },
+  {
+    "id": "158:57",
+    "name": "STUDIO",
+    "type": "TEXT",
+    "x": 17560.0,
+    "y": 44566.0,
+    "width": 517.0,
+    "height": 135.0,
+    "area": 69795
+  },
+  {
+    "id": "151:6",
+    "name": "WORKS",
+    "type": "TEXT",
+    "x": 14431.0,
+    "y": 45067.0,
+    "width": 508.0,
+    "height": 135.0,
+    "area": 68580
+  },
+  {
+    "id": "151:5",
+    "name": "title",
+    "type": "FRAME",
+    "x": 14422.0,
+    "y": 44915.0,
+    "width": 508.0,
+    "height": 135.0,
+    "area": 68580
+  },
+  {
+    "id": "162:59",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": 39010.0,
+    "y": 46089.0,
+    "width": 343.0,
+    "height": 198.0,
+    "area": 67914
+  },
+  {
+    "id": "162:7",
+    "name": "Creative Development",
+    "type": "TEXT",
+    "x": 32376.0,
+    "y": 47381.0,
+    "width": 790.0,
+    "height": 85.0,
+    "area": 67150
+  },
+  {
+    "id": "74:143",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": -6225.0,
+    "y": 54238.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "162:69",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": 40054.0,
+    "y": 46089.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "161:331",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": 33685.0,
+    "y": 50571.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "85:520",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": 5644.0,
+    "y": 55011.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "158:116",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": 18860.0,
+    "y": 53316.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "77:301",
+    "name": "Frame 39",
+    "type": "FRAME",
+    "x": 12524.0,
+    "y": 55072.0,
+    "width": 362.0,
+    "height": 185.0,
+    "area": 66970
+  },
+  {
+    "id": "161:294",
+    "name": "When I'm not coding, I'm probably sketching, collecting vinyl, or chasing good light. ",
+    "type": "TEXT",
+    "x": 33428.0,
+    "y": 47253.0,
+    "width": 392.0,
+    "height": 167.0,
+    "area": 65464
+  },
+  {
+    "id": "91:553",
+    "name": "When I'm not coding, I'm probably sketching, collecting vinyl, or chasing good light. ",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 46403.0,
+    "width": 392.0,
+    "height": 167.0,
+    "area": 65464
+  },
+  {
+    "id": "157:27",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 15168.0,
+    "y": 44376.0,
+    "width": 324.0,
+    "height": 200.0,
+    "area": 64800
+  },
+  {
+    "id": "157:3",
+    "name": "Frame 10",
+    "type": "FRAME",
+    "x": 14820.0,
+    "y": 44376.0,
+    "width": 324.0,
+    "height": 200.0,
+    "area": 64800
+  },
+  {
+    "id": "161:271",
+    "name": "WHAT I",
+    "type": "TEXT",
+    "x": 32376.0,
+    "y": 45615.0,
+    "width": 476.0,
+    "height": 135.0,
+    "area": 64260
+  },
+  {
+    "id": "32:81",
+    "name": "A creative developer with 5 years of experience building high-performance websites and digital products. I work at the intersection of design and code, where aesthetics meet functionality.",
+    "type": "TEXT",
+    "x": -6879.0,
+    "y": 46200.0,
+    "width": 369.0,
+    "height": 174.0,
+    "area": 64206
+  },
+  {
+    "id": "85:470",
+    "name": "A creative developer with 5 years of experience building high-performance websites and digital products. I work at the intersection of design and code, where aesthetics meet functionality.",
+    "type": "TEXT",
+    "x": 4993.0,
+    "y": 46088.0,
+    "width": 369.0,
+    "height": 174.0,
+    "area": 64206
+  },
+  {
+    "id": "160:221",
+    "name": "We stripped everything back. No clutter, no noise — just type, motion, and white space doing the heavy lifting. Every scroll triggers something. Every hover has intent.",
+    "type": "TEXT",
+    "x": 18641.0,
+    "y": 44899.0,
+    "width": 313.0,
+    "height": 203.0,
+    "area": 63539
+  },
+  {
+    "id": "32:80",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": -7528.0,
+    "y": 44308.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "162:74",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 38723.0,
+    "y": 45076.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "161:273",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 32385.0,
+    "y": 45046.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "85:452",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 4344.0,
+    "y": 44196.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "151:8",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 14431.0,
+    "y": 44196.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "158:58",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 17560.0,
+    "y": 44196.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "77:235",
+    "name": "navbar",
+    "type": "FRAME",
+    "x": 11224.0,
+    "y": 44196.0,
+    "width": 1658.0,
+    "height": 38.0,
+    "area": 63004
+  },
+  {
+    "id": "162:25",
+    "name": "Motion & Interaction",
+    "type": "TEXT",
+    "x": 34228.0,
+    "y": 47381.0,
+    "width": 708.0,
+    "height": 85.0,
+    "area": 60180
+  },
+  {
+    "id": "52:57",
+    "name": "Frame 24",
+    "type": "FRAME",
+    "x": -6224.0,
+    "y": 49920.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "52:45",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": -6226.0,
+    "y": 47508.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "52:51",
+    "name": "Frame 23",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 49920.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "52:32",
+    "name": "Frame 19",
+    "type": "FRAME",
+    "x": -6620.0,
+    "y": 47508.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "85:425",
+    "name": "Frame 24",
+    "type": "FRAME",
+    "x": 5648.0,
+    "y": 49808.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "85:416",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": 5646.0,
+    "y": 47396.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "85:407",
+    "name": "Frame 23",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49808.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "85:398",
+    "name": "Frame 19",
+    "type": "FRAME",
+    "x": 5252.0,
+    "y": 47396.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "77:212",
+    "name": "Frame 24",
+    "type": "FRAME",
+    "x": 12528.0,
+    "y": 52364.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "77:203",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": 12526.0,
+    "y": 49952.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "77:194",
+    "name": "Frame 23",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 52364.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "77:185",
+    "name": "Frame 19",
+    "type": "FRAME",
+    "x": 12132.0,
+    "y": 49952.0,
+    "width": 370.0,
+    "height": 160.0,
+    "area": 59200
+  },
+  {
+    "id": "160:219",
+    "name": "The brief was simple: make it feel alive. Luminary Studio needed a digital presence that matched the energy of their work — bold, confident, and impossible to ignore.",
+    "type": "TEXT",
+    "x": 18170.0,
+    "y": 44899.0,
+    "width": 313.0,
+    "height": 174.0,
+    "area": 54462
+  },
+  {
+    "id": "162:34",
+    "name": "Got a Figma file? I'll turn it into a production-ready website that looks exactly like the design — down to the last pixel.",
+    "type": "TEXT",
+    "x": 36524.0,
+    "y": 47925.0,
+    "width": 842.0,
+    "height": 64.0,
+    "area": 53888
+  },
+  {
+    "id": "162:26",
+    "name": "Purposeful animation that serves the story. Every hover, every transition, every scroll interaction is designed with intent.",
+    "type": "TEXT",
+    "x": 34672.0,
+    "y": 47925.0,
+    "width": 842.0,
+    "height": 64.0,
+    "area": 53888
+  },
+  {
+    "id": "162:8",
+    "name": "From concept to launch — I build websites that move, breathe, and perform. Clean code, smooth animations, pixel-perfect execution.",
+    "type": "TEXT",
+    "x": 32820.0,
+    "y": 47925.0,
+    "width": 842.0,
+    "height": 64.0,
+    "area": 53888
+  },
+  {
+    "id": "77:232",
+    "name": "CHEN",
+    "type": "TEXT",
+    "x": 11215.0,
+    "y": 45050.0,
+    "width": 393.0,
+    "height": 135.0,
+    "area": 53055
+  },
+  {
+    "id": "77:231",
+    "name": "ALEX",
+    "type": "TEXT",
+    "x": 11215.0,
+    "y": 44915.0,
+    "width": 393.0,
+    "height": 135.0,
+    "area": 53055
+  },
+  {
+    "id": "161:335",
+    "name": "smile_face 1",
+    "type": "FRAME",
+    "x": 33542.0,
+    "y": 50209.0,
+    "width": 225.0,
+    "height": 225.0,
+    "area": 50625
+  },
+  {
+    "id": "130:47",
+    "name": "smile_face 1",
+    "type": "FRAME",
+    "x": 5501.0,
+    "y": 54649.0,
+    "width": 225.0,
+    "height": 225.0,
+    "area": 50625
+  },
+  {
+    "id": "158:120",
+    "name": "smile_face 1",
+    "type": "FRAME",
+    "x": 18717.0,
+    "y": 52954.0,
+    "width": 225.0,
+    "height": 225.0,
+    "area": 50625
+  },
+  {
+    "id": "130:53",
+    "name": "smile_face 1",
+    "type": "FRAME",
+    "x": 12381.0,
+    "y": 54710.0,
+    "width": 225.0,
+    "height": 225.0,
+    "area": 50625
+  },
+  {
+    "id": "162:81",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 39883.0,
+    "y": 45638.998107910156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "162:80",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 39883.0,
+    "y": 45638.998107910156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "161:337",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 33542.00781250,
+    "y": 50209.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "161:336",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 33542.00781250,
+    "y": 50209.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "130:49",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5501.005371093750,
+    "y": 54649.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "130:48",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 5501.005371093750,
+    "y": 54649.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "158:122",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 18717.0058593750,
+    "y": 52954.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "158:121",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 18717.0058593750,
+    "y": 52954.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "130:55",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 12381.0058593750,
+    "y": 54710.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "130:54",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 12381.0058593750,
+    "y": 54710.267639160156,
+    "width": 224.96060180664062,
+    "height": 224.70111083984375,
+    "area": 50548.89712115191
+  },
+  {
+    "id": "68:133",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": -6952.0,
+    "y": 54238.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "162:66",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": 39466.0,
+    "y": 46089.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "161:328",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": 32958.0,
+    "y": 50571.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "85:517",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": 4917.0,
+    "y": 55011.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "158:113",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": 18133.0,
+    "y": 53316.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "77:298",
+    "name": "Frame 35",
+    "type": "FRAME",
+    "x": 11797.0,
+    "y": 55072.0,
+    "width": 238.0,
+    "height": 203.0,
+    "area": 48314
+  },
+  {
+    "id": "162:61",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": 39010.0,
+    "y": 46147.0,
+    "width": 343.0,
+    "height": 140.0,
+    "area": 48020
+  },
+  {
+    "id": "162:33",
+    "name": "Design to Code",
+    "type": "TEXT",
+    "x": 36080.0,
+    "y": 47381.0,
+    "width": 549.0,
+    "height": 85.0,
+    "area": 46665
+  },
+  {
+    "id": "60:101",
+    "name": "Got a Figma file? I'll turn it into a production-ready website that looks exactly like the design — down to the pixel.",
+    "type": "TEXT",
+    "x": -6814.0,
+    "y": 51489.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "60:96",
+    "name": "GSAP, Framer Motion, CSS animations — I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
+    "type": "TEXT",
+    "x": -6815.0,
+    "y": 51145.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "60:90",
+    "name": "From landing pages to full web applications - built with clean code, smooth animations, and pixel-perfect attention to detail.",
+    "type": "TEXT",
+    "x": -6815.0,
+    "y": 50801.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "85:495",
+    "name": "Got a Figma file? I'll turn it into a production-ready website that looks exactly like the design — down to the pixel.",
+    "type": "TEXT",
+    "x": 5058.0,
+    "y": 51377.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "85:489",
+    "name": "GSAP, Framer Motion, CSS animations — I bring interfaces to life with purposeful, fluid motion that enhances the user experience.",
+    "type": "TEXT",
+    "x": 5057.0,
+    "y": 51033.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "85:483",
+    "name": "From landing pages to full web applications - built with clean code, smooth animations, and pixel-perfect attention to detail.",
+    "type": "TEXT",
+    "x": 5057.0,
+    "y": 50689.0,
+    "width": 395.0,
+    "height": 116.0,
+    "area": 45820
+  },
+  {
+    "id": "162:36",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": 36522.0,
+    "y": 48158.0,
+    "width": 469.0,
+    "height": 92.0,
+    "area": 43148
+  },
+  {
+    "id": "162:28",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": 34670.0,
+    "y": 48158.0,
+    "width": 469.0,
+    "height": 92.0,
+    "area": 43148
+  },
+  {
+    "id": "162:10",
+    "name": "Frame 22",
+    "type": "FRAME",
+    "x": 32818.0,
+    "y": 48158.0,
+    "width": 469.0,
+    "height": 92.0,
+    "area": 43148
+  },
+  {
+    "id": "68:134",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": -7279.0,
+    "y": 54238.0,
+    "width": 214.0,
+    "height": 198.0,
+    "area": 42372
+  },
+  {
+    "id": "161:321",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": 32631.0,
+    "y": 50571.0,
+    "width": 214.0,
+    "height": 198.0,
+    "area": 42372
+  },
+  {
+    "id": "85:510",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": 4590.0,
+    "y": 55011.0,
+    "width": 214.0,
+    "height": 198.0,
+    "area": 42372
+  },
+  {
+    "id": "158:106",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": 17806.0,
+    "y": 53316.0,
+    "width": 214.0,
+    "height": 198.0,
+    "area": 42372
+  },
+  {
+    "id": "77:291",
+    "name": "Frame 36",
+    "type": "FRAME",
+    "x": 11470.0,
+    "y": 55072.0,
+    "width": 214.0,
+    "height": 198.0,
+    "area": 42372
+  },
+  {
+    "id": "77:365",
+    "name": "Frame 45",
+    "type": "FRAME",
+    "x": 8477.0,
+    "y": 52371.0,
+    "width": 478.0,
+    "height": 88.0,
+    "area": 42064
+  },
+  {
+    "id": "77:346",
+    "name": "Frame 45",
+    "type": "FRAME",
+    "x": 6655.0,
+    "y": 52371.0,
+    "width": 478.0,
+    "height": 88.0,
+    "area": 42064
+  },
+  {
+    "id": "85:526",
+    "name": "Frame 45",
+    "type": "FRAME",
+    "x": 4802.0,
+    "y": 52387.0,
+    "width": 478.0,
+    "height": 88.0,
+    "area": 42064
+  },
+  {
+    "id": "52:39",
+    "name": "Aether - AI Studio",
+    "type": "TEXT",
+    "x": -6618.0,
+    "y": 49171.0,
+    "width": 768.0,
+    "height": 53.0,
+    "area": 40704
+  },
+  {
+    "id": "85:435",
+    "name": "Aether - AI Studio",
+    "type": "TEXT",
+    "x": 5254.0,
+    "y": 49059.0,
+    "width": 768.0,
+    "height": 53.0,
+    "area": 40704
+  },
+  {
+    "id": "77:222",
+    "name": "Aether - AI Studio",
+    "type": "TEXT",
+    "x": 12134.0,
+    "y": 51615.0,
+    "width": 768.0,
+    "height": 53.0,
+    "area": 40704
+  },
+  {
+    "id": "52:17",
+    "name": "Luminary Studio",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 47976.0,
+    "width": 766.0,
+    "height": 53.0,
+    "area": 40598
+  },
+  {
+    "id": "85:390",
+    "name": "Luminary Studio",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 47864.0,
+    "width": 766.0,
+    "height": 53.0,
+    "area": 40598
+  },
+  {
+    "id": "77:177",
+    "name": "Luminary Studio",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 50420.0,
+    "width": 766.0,
+    "height": 53.0,
+    "area": 40598
+  },
+  {
+    "id": "91:552",
+    "name": "Interfaces that feel as good as they look",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 46221.0,
+    "width": 473.0,
+    "height": 84.0,
+    "area": 39732
+  },
+  {
+    "id": "25:64",
+    "name": "I build immersive experiences for brands with direction and momentum. I am Alex Chen.",
+    "type": "TEXT",
+    "x": -7274.0,
+    "y": 44859.0,
+    "width": 429.0,
+    "height": 87.0,
+    "area": 37323
+  },
+  {
+    "id": "85:450",
+    "name": "I build immersive experiences for brands with direction and momentum. I am Alex Chen.",
+    "type": "TEXT",
+    "x": 4598.0,
+    "y": 44747.0,
+    "width": 429.0,
+    "height": 87.0,
+    "area": 37323
+  },
+  {
+    "id": "65:123",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": -6952.0,
+    "y": 54296.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "162:68",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": 39466.0,
+    "y": 46147.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "161:330",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": 32958.0,
+    "y": 50629.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "85:519",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": 4917.0,
+    "y": 55069.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "158:115",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": 18133.0,
+    "y": 53374.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "77:300",
+    "name": "Currently available for freelance projects and full-time opportunities. Open to work worldwide.",
+    "type": "TEXT",
+    "x": 11797.0,
+    "y": 55130.0,
+    "width": 238.0,
+    "height": 145.0,
+    "area": 34510
+  },
+  {
+    "id": "115:30",
+    "name": "Frame 50",
+    "type": "FRAME",
+    "x": 11545.0,
+    "y": 47357.0,
+    "width": 165.0,
+    "height": 209.0,
+    "area": 34485
+  },
+  {
+    "id": "108:9",
+    "name": "Frame 48",
+    "type": "FRAME",
+    "x": 11272.0,
+    "y": 47357.0,
+    "width": 165.0,
+    "height": 209.0,
+    "area": 34485
+  },
+  {
+    "id": "115:24",
+    "name": "Frame 49",
+    "type": "FRAME",
+    "x": 11545.0,
+    "y": 46940.0,
+    "width": 165.0,
+    "height": 209.0,
+    "area": 34485
+  },
+  {
+    "id": "108:8",
+    "name": "Frame 47",
+    "type": "FRAME",
+    "x": 11272.0,
+    "y": 46940.0,
+    "width": 165.0,
+    "height": 209.0,
+    "area": 34485
+  },
+  {
+    "id": "34:91",
+    "name": "My focus is on motion, interaction, and the details that make a product feel alive.",
+    "type": "TEXT",
+    "x": -6879.0,
+    "y": 46398.0,
+    "width": 369.0,
+    "height": 87.0,
+    "area": 32103
+  },
+  {
+    "id": "85:471",
+    "name": "My focus is on motion, interaction, and the details that make a product feel alive.",
+    "type": "TEXT",
+    "x": 4993.0,
+    "y": 46286.0,
+    "width": 369.0,
+    "height": 87.0,
+    "area": 32103
+  },
+  {
+    "id": "69:140",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": -6225.0,
+    "y": 54238.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "162:70",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": 40054.0,
+    "y": 46089.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "161:332",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": 33685.0,
+    "y": 50571.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "85:521",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": 5644.0,
+    "y": 55011.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "158:117",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": 18860.0,
+    "y": 53316.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "77:302",
+    "name": "Want a portfolio that moves, breathes, and leaves an impression? Let's build yours",
+    "type": "TEXT",
+    "x": 12524.0,
+    "y": 55072.0,
+    "width": 362.0,
+    "height": 87.0,
+    "area": 31494
+  },
+  {
+    "id": "68:132",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": -7279.0,
+    "y": 54296.0,
+    "width": 214.0,
+    "height": 140.0,
+    "area": 29960
+  },
+  {
+    "id": "161:323",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": 32631.0,
+    "y": 50629.0,
+    "width": 214.0,
+    "height": 140.0,
+    "area": 29960
+  },
+  {
+    "id": "85:512",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": 4590.0,
+    "y": 55069.0,
+    "width": 214.0,
+    "height": 140.0,
+    "area": 29960
+  },
+  {
+    "id": "158:108",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": 17806.0,
+    "y": 53374.0,
+    "width": 214.0,
+    "height": 140.0,
+    "area": 29960
+  },
+  {
+    "id": "77:293",
+    "name": "Frame 34",
+    "type": "FRAME",
+    "x": 11470.0,
+    "y": 55130.0,
+    "width": 214.0,
+    "height": 140.0,
+    "area": 29960
+  },
+  {
+    "id": "161:272",
+    "name": "DO",
+    "type": "TEXT",
+    "x": 32376.0,
+    "y": 45750.0,
+    "width": 214.0,
+    "height": 135.0,
+    "area": 28890
+  },
+  {
+    "id": "69:139",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": -7517.0,
+    "y": 53669.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "162:53",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": 38734.0,
+    "y": 45432.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "161:315",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": 32393.0,
+    "y": 50002.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "85:504",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": 4352.0,
+    "y": 54442.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "158:100",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": 17568.0,
+    "y": 52747.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "77:285",
+    "name": "Design & code by Douglus Nguyen",
+    "type": "TEXT",
+    "x": 11232.0,
+    "y": 54503.0,
+    "width": 328.0,
+    "height": 68.0,
+    "area": 22304
+  },
+  {
+    "id": "52:41",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 49302.0,
+    "width": 768.0,
+    "height": 29.0,
+    "area": 22272
+  },
+  {
+    "id": "85:437",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49190.0,
+    "width": 768.0,
+    "height": 29.0,
+    "area": 22272
+  },
+  {
+    "id": "77:224",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 51746.0,
+    "width": 768.0,
+    "height": 29.0,
+    "area": 22272
+  },
+  {
+    "id": "52:30",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -7536.0,
+    "y": 48107.0,
+    "width": 766.0,
+    "height": 29.0,
+    "area": 22214
+  },
+  {
+    "id": "85:392",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 47995.0,
+    "width": 766.0,
+    "height": 29.0,
+    "area": 22214
+  },
+  {
+    "id": "77:179",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 50551.0,
+    "width": 766.0,
+    "height": 29.0,
+    "area": 22214
+  },
+  {
+    "id": "162:56",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": 38712.0,
+    "y": 46089.0,
+    "width": 185.0,
+    "height": 116.0,
+    "area": 21460
+  },
+  {
+    "id": "52:58",
+    "name": "Terra",
+    "type": "TEXT",
+    "x": -6224.0,
+    "y": 49920.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "52:46",
+    "name": "Plant Shop",
+    "type": "TEXT",
+    "x": -6226.0,
+    "y": 47508.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "52:52",
+    "name": "Polaris Protocol",
+    "type": "TEXT",
+    "x": -6618.0,
+    "y": 49920.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "52:33",
+    "name": "Orbital Finance",
+    "type": "TEXT",
+    "x": -6620.0,
+    "y": 47508.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "85:426",
+    "name": "Terra",
+    "type": "TEXT",
+    "x": 5648.0,
+    "y": 49808.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "85:417",
+    "name": "Plant Shop",
+    "type": "TEXT",
+    "x": 5646.0,
+    "y": 47396.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "85:408",
+    "name": "Polaris Protocol",
+    "type": "TEXT",
+    "x": 5254.0,
+    "y": 49808.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "85:399",
+    "name": "Orbital Finance",
+    "type": "TEXT",
+    "x": 5252.0,
+    "y": 47396.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "160:260",
+    "name": "Polaris Protocol",
+    "type": "TEXT",
+    "x": 18230.0,
+    "y": 50802.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "160:259",
+    "name": "Frame 23",
+    "type": "FRAME",
+    "x": 18230.0,
+    "y": 50802.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "77:213",
+    "name": "Terra",
+    "type": "TEXT",
+    "x": 12528.0,
+    "y": 52364.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "77:204",
+    "name": "Plant Shop",
+    "type": "TEXT",
+    "x": 12526.0,
+    "y": 49952.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "77:195",
+    "name": "Polaris Protocol",
+    "type": "TEXT",
+    "x": 12134.0,
+    "y": 52364.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "77:186",
+    "name": "Orbital Finance",
+    "type": "TEXT",
+    "x": 12132.0,
+    "y": 49952.0,
+    "width": 370.0,
+    "height": 53.0,
+    "area": 19610
+  },
+  {
+    "id": "77:367",
+    "name": "Owner, Fauna Plant Shop",
+    "type": "TEXT",
+    "x": 8477.0,
+    "y": 52421.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "77:366",
+    "name": "Tom Harper",
+    "type": "TEXT",
+    "x": 8477.0,
+    "y": 52371.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "77:348",
+    "name": "Founder, Orbital Finance",
+    "type": "TEXT",
+    "x": 6655.0,
+    "y": 52421.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "77:347",
+    "name": "Sofia Marquez",
+    "type": "TEXT",
+    "x": 6655.0,
+    "y": 52371.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "85:528",
+    "name": "Creative Director, Luminary Studio",
+    "type": "TEXT",
+    "x": 4802.0,
+    "y": 52437.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "85:527",
+    "name": "Jamie Lin",
+    "type": "TEXT",
+    "x": 4802.0,
+    "y": 52387.0,
+    "width": 478.0,
+    "height": 38.0,
+    "area": 18164
+  },
+  {
+    "id": "91:551",
+    "name": "Performance without compromise",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 46165.0,
+    "width": 474.0,
+    "height": 38.0,
+    "area": 18012
+  },
+  {
+    "id": "91:550",
+    "name": "Thoughtful micro-interactions",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 46109.0,
+    "width": 474.0,
+    "height": 38.0,
+    "area": 18012
+  },
+  {
+    "id": "91:549",
+    "name": "Clean typography",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 46053.0,
+    "width": 474.0,
+    "height": 38.0,
+    "area": 18012
+  },
+  {
+    "id": "91:548",
+    "name": "What drives me:",
+    "type": "TEXT",
+    "x": 12267.0,
+    "y": 45997.0,
+    "width": 474.0,
+    "height": 38.0,
+    "area": 18012
+  },
+  {
+    "id": "32:79",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": -6439.0,
+    "y": 44312.50,
+    "width": 569.0,
+    "height": 29.0,
+    "area": 16501
+  },
+  {
+    "id": "157:33",
+    "name": "Aether - AI Studio",
+    "type": "TEXT",
+    "x": 15516.0,
+    "y": 44882.0,
+    "width": 365.0,
+    "height": 34.0,
+    "area": 12410
+  },
+  {
+    "id": "151:110",
+    "name": "Luminary Studio",
+    "type": "TEXT",
+    "x": 14431.0,
+    "y": 44882.0,
+    "width": 365.0,
+    "height": 34.0,
+    "area": 12410
+  },
+  {
+    "id": "68:137",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": -7533.0,
+    "y": 54238.0,
+    "width": 141.0,
+    "height": 87.0,
+    "area": 12267
+  },
+  {
+    "id": "161:318",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": 32377.0,
+    "y": 50571.0,
+    "width": 141.0,
+    "height": 87.0,
+    "area": 12267
+  },
+  {
+    "id": "85:507",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": 4336.0,
+    "y": 55011.0,
+    "width": 141.0,
+    "height": 87.0,
+    "area": 12267
+  },
+  {
+    "id": "158:103",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": 17552.0,
+    "y": 53316.0,
+    "width": 141.0,
+    "height": 87.0,
+    "area": 12267
+  },
+  {
+    "id": "77:288",
+    "name": "Frame 37",
+    "type": "FRAME",
+    "x": 11216.0,
+    "y": 55072.0,
+    "width": 141.0,
+    "height": 87.0,
+    "area": 12267
+  },
+  {
+    "id": "161:283",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 33428.0,
+    "y": 47467.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "85:472",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 4993.0,
+    "y": 46437.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "85:440",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 4337.0,
+    "y": 50079.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "151:160",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 15782.0,
+    "y": 45162.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "77:310",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 11217.0,
+    "y": 52635.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "77:319",
+    "name": "Frame 40",
+    "type": "FRAME",
+    "x": 12267.0,
+    "y": 46617.0,
+    "width": 306.0,
+    "height": 40.0,
+    "area": 12240
+  },
+  {
+    "id": "60:100",
+    "name": "Design to Code",
+    "type": "TEXT",
+    "x": -7321.0,
+    "y": 51489.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "60:95",
+    "name": "Motion & Interaction",
+    "type": "TEXT",
+    "x": -7322.0,
+    "y": 51145.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "60:89",
+    "name": "Creative Development",
+    "type": "TEXT",
+    "x": -7322.0,
+    "y": 50801.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "85:494",
+    "name": "Design to Code",
+    "type": "TEXT",
+    "x": 4551.0,
+    "y": 51377.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "85:488",
+    "name": "Motion & Interaction",
+    "type": "TEXT",
+    "x": 4550.0,
+    "y": 51033.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "85:482",
+    "name": "Creative Development",
+    "type": "TEXT",
+    "x": 4550.0,
+    "y": 50689.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "77:275",
+    "name": "Honest collaboration",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 48853.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "77:269",
+    "name": "Motion with purpose",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 48500.0,
+    "width": 314.0,
+    "height": 38.0,
+    "area": 11932
+  },
+  {
+    "id": "34:96",
+    "name": "→ Let’s work together",
+    "type": "TEXT",
+    "x": -6879.0,
+    "y": 46549.0,
+    "width": 306.0,
+    "height": 38.0,
+    "area": 11628
+  },
+  {
+    "id": "60:83",
+    "name": "→ Let’s work together",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 50193.0,
+    "width": 306.0,
+    "height": 38.0,
+    "area": 11628
+  },
+  {
+    "id": "157:29",
+    "name": "Plant Shop",
+    "type": "TEXT",
+    "x": 15168.0,
+    "y": 44624.0,
+    "width": 324.0,
+    "height": 34.0,
+    "area": 11016
+  },
+  {
+    "id": "157:6",
+    "name": "Orbital Finance",
+    "type": "TEXT",
+    "x": 14820.0,
+    "y": 44624.0,
+    "width": 324.0,
+    "height": 34.0,
+    "area": 11016
+  },
+  {
+    "id": "52:60",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -6224.0,
+    "y": 50051.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "52:48",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -6226.0,
+    "y": 47639.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "52:54",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -6618.0,
+    "y": 50051.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "52:35",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": -6620.0,
+    "y": 47639.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "162:58",
+    "name": "Ho Chi Minh CIty, VietNam",
+    "type": "TEXT",
+    "x": 38712.0,
+    "y": 46147.0,
+    "width": 185.0,
+    "height": 58.0,
+    "area": 10730
+  },
+  {
+    "id": "85:428",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 5648.0,
+    "y": 49939.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "85:419",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 5646.0,
+    "y": 47527.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "85:410",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 5254.0,
+    "y": 49939.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "85:401",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 5252.0,
+    "y": 47527.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "77:215",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 12528.0,
+    "y": 52495.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "77:206",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 12526.0,
+    "y": 50083.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "77:197",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 12134.0,
+    "y": 52495.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "77:188",
+    "name": "Frame 17",
+    "type": "FRAME",
+    "x": 12132.0,
+    "y": 50083.0,
+    "width": 370.0,
+    "height": 29.0,
+    "area": 10730
+  },
+  {
+    "id": "52:42",
+    "name": "Art Direction · 3D · Creative Coding",
+    "type": "TEXT",
+    "x": -6618.0,
+    "y": 49302.0,
+    "width": 364.0,
+    "height": 29.0,
+    "area": 10556
+  },
+  {
+    "id": "85:438",
+    "name": "Art Direction · 3D · Creative Coding",
+    "type": "TEXT",
+    "x": 5254.0,
+    "y": 49190.0,
+    "width": 364.0,
+    "height": 29.0,
+    "area": 10556
+  },
+  {
+    "id": "77:225",
+    "name": "Art Direction · 3D · Creative Coding",
+    "type": "TEXT",
+    "x": 12134.0,
+    "y": 51746.0,
+    "width": 364.0,
+    "height": 29.0,
+    "area": 10556
+  },
+  {
+    "id": "69:142",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": -6225.0,
+    "y": 54394.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "69:141",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": -6225.0,
+    "y": 54345.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "162:72",
+    "name": "Awwward Honorable Mention",
+    "type": "TEXT",
+    "x": 40054.0,
+    "y": 46245.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "162:71",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 40054.0,
+    "y": 46196.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "161:334",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 33685.0,
+    "y": 50727.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "161:333",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 33685.0,
+    "y": 50678.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "85:523",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 5644.0,
+    "y": 55167.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "85:522",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 5644.0,
+    "y": 55118.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "158:119",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 18860.0,
+    "y": 53472.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "158:118",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 18860.0,
+    "y": 53423.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "77:304",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 12524.0,
+    "y": 55228.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "77:303",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 12524.0,
+    "y": 55179.0,
+    "width": 362.0,
+    "height": 29.0,
+    "area": 10498
+  },
+  {
+    "id": "161:287",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 33462.0,
+    "y": 47468.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "85:476",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 5027.0,
+    "y": 46438.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "85:444",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 4371.0,
+    "y": 50080.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "151:164",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 15816.0,
+    "y": 45163.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "77:227",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 11251.0,
+    "y": 52636.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "77:323",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 12301.0,
+    "y": 46618.0,
+    "width": 271.0,
+    "height": 38.0,
+    "area": 10298
+  },
+  {
+    "id": "162:65",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": 39010.0,
+    "y": 46258.0,
+    "width": 343.0,
+    "height": 29.0,
+    "area": 9947
+  },
+  {
+    "id": "162:64",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 39010.0,
+    "y": 46221.0,
+    "width": 343.0,
+    "height": 29.0,
+    "area": 9947
+  },
+  {
+    "id": "162:63",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": 39010.0,
+    "y": 46184.0,
+    "width": 343.0,
+    "height": 29.0,
+    "area": 9947
+  },
+  {
+    "id": "162:62",
+    "name": "toannguyenvan145@gmail.com",
+    "type": "TEXT",
+    "x": 39010.0,
+    "y": 46147.0,
+    "width": 343.0,
+    "height": 29.0,
+    "area": 9947
+  },
+  {
+    "id": "162:60",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": 39010.0,
+    "y": 46089.0,
+    "width": 343.0,
+    "height": 29.0,
+    "area": 9947
+  },
+  {
+    "id": "52:28",
+    "name": "Branding · Web Design · Motion",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 48107.0,
+    "width": 328.0,
+    "height": 29.0,
+    "area": 9512
+  },
+  {
+    "id": "85:393",
+    "name": "Branding · Web Design · Motion",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 47995.0,
+    "width": 328.0,
+    "height": 29.0,
+    "area": 9512
+  },
+  {
+    "id": "160:220",
+    "name": "Figma · GSAP · Next.js · Three.js",
+    "type": "TEXT",
+    "x": 18641.0,
+    "y": 44822.0,
+    "width": 328.0,
+    "height": 29.0,
+    "area": 9512
+  },
+  {
+    "id": "77:180",
+    "name": "Branding · Web Design · Motion",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 50551.0,
+    "width": 328.0,
+    "height": 29.0,
+    "area": 9512
+  },
+  {
+    "id": "160:218",
+    "name": "Web Design, Motion, Branding",
+    "type": "TEXT",
+    "x": 18170.0,
+    "y": 44822.0,
+    "width": 314.0,
+    "height": 29.0,
+    "area": 9106
+  },
+  {
+    "id": "77:263",
+    "name": "Detail-obsessed",
+    "type": "TEXT",
+    "x": 11224.0,
+    "y": 48156.0,
+    "width": 233.0,
+    "height": 38.0,
+    "area": 8854
+  },
+  {
+    "id": "162:76",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 40086.0,
+    "y": 45080.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "161:275",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 33748.0,
+    "y": 45050.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "85:454",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 5707.0,
+    "y": 44200.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "151:10",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 15794.0,
+    "y": 44200.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "158:60",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 18923.0,
+    "y": 44200.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "77:237",
+    "name": "navlinks",
+    "type": "FRAME",
+    "x": 12587.0,
+    "y": 44200.50,
+    "width": 295.0,
+    "height": 29.0,
+    "area": 8555
+  },
+  {
+    "id": "162:84",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 39932.527343750,
+    "y": 45757.014335632324,
+    "width": 125.93693542480469,
+    "height": 67.376289367675781,
+    "area": 8485.16340325994
+  },
+  {
+    "id": "161:340",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 33591.535156250,
+    "y": 50327.283866882324,
+    "width": 125.93693542480469,
+    "height": 67.376289367675781,
+    "area": 8485.16340325994
+  },
+  {
+    "id": "130:52",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5550.532714843750,
+    "y": 54767.283866882324,
+    "width": 125.93693542480469,
+    "height": 67.376289367675781,
+    "area": 8485.16340325994
+  },
+  {
+    "id": "158:125",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 18766.5332031250,
+    "y": 53072.283866882324,
+    "width": 125.93693542480469,
+    "height": 67.376289367675781,
+    "area": 8485.16340325994
+  },
+  {
+    "id": "130:58",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 12430.5332031250,
+    "y": 54828.283866882324,
+    "width": 125.93693542480469,
+    "height": 67.376289367675781,
+    "area": 8485.16340325994
+  },
+  {
+    "id": "68:131",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": -6952.0,
+    "y": 54238.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "162:67",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": 39466.0,
+    "y": 46089.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "161:329",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": 32958.0,
+    "y": 50571.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "85:518",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": 4917.0,
+    "y": 55011.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "158:114",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": 18133.0,
+    "y": 53316.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "77:299",
+    "name": "(Available)",
+    "type": "TEXT",
+    "x": 11797.0,
+    "y": 55072.0,
+    "width": 238.0,
+    "height": 29.0,
+    "area": 6902
+  },
+  {
+    "id": "77:364",
+    "name": "Testimonials",
+    "type": "TEXT",
+    "x": 8009.0,
+    "y": 51827.0,
+    "width": 179.0,
+    "height": 38.0,
+    "area": 6802
+  },
+  {
+    "id": "77:345",
+    "name": "Testimonials",
+    "type": "TEXT",
+    "x": 6187.0,
+    "y": 51827.0,
+    "width": 179.0,
+    "height": 38.0,
+    "area": 6802
+  },
+  {
+    "id": "85:525",
+    "name": "Testimonials",
+    "type": "TEXT",
+    "x": 4334.0,
+    "y": 51843.0,
+    "width": 179.0,
+    "height": 38.0,
+    "area": 6802
+  },
+  {
+    "id": "30:69",
+    "name": "Based in Tokyo, Japan",
+    "type": "TEXT",
+    "x": -7274.0,
+    "y": 44994.0,
+    "width": 231.0,
+    "height": 29.0,
+    "area": 6699
+  },
+  {
+    "id": "85:458",
+    "name": "Based in Tokyo, Japan",
+    "type": "TEXT",
+    "x": 4598.0,
+    "y": 44882.0,
+    "width": 231.0,
+    "height": 29.0,
+    "area": 6699
+  },
+  {
+    "id": "157:37",
+    "name": "Polaris Protocol",
+    "type": "TEXT",
+    "x": 15905.0,
+    "y": 44887.0,
+    "width": 189.0,
+    "height": 34.0,
+    "area": 6426
+  },
+  {
+    "id": "77:376",
+    "name": "Frame 44",
+    "type": "FRAME",
+    "x": 9609.0,
+    "y": 51827.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "77:372",
+    "name": "Frame 43",
+    "type": "FRAME",
+    "x": 9508.0,
+    "y": 51827.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "77:357",
+    "name": "Frame 44",
+    "type": "FRAME",
+    "x": 7787.0,
+    "y": 51827.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "77:353",
+    "name": "Frame 43",
+    "type": "FRAME",
+    "x": 7686.0,
+    "y": 51827.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "85:537",
+    "name": "Frame 44",
+    "type": "FRAME",
+    "x": 5934.0,
+    "y": 51843.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "85:533",
+    "name": "Frame 43",
+    "type": "FRAME",
+    "x": 5833.0,
+    "y": 51843.0,
+    "width": 80.0,
+    "height": 80.0,
+    "area": 6400
+  },
+  {
+    "id": "162:37",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 36648.50,
+    "y": 48189.0,
+    "width": 217.0,
+    "height": 29.0,
+    "area": 6293
+  },
+  {
+    "id": "162:29",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 34796.50,
+    "y": 48189.0,
+    "width": 217.0,
+    "height": 29.0,
+    "area": 6293
+  },
+  {
+    "id": "162:11",
+    "name": "Let’s work together",
+    "type": "TEXT",
+    "x": 32944.50,
+    "y": 48189.0,
+    "width": 217.0,
+    "height": 29.0,
+    "area": 6293
+  },
+  {
+    "id": "68:129",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": -7279.0,
+    "y": 54407.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "68:128",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": -7279.0,
+    "y": 54370.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "68:127",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": -7279.0,
+    "y": 54333.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "65:125",
+    "name": "hello@alexchen.dev",
+    "type": "TEXT",
+    "x": -7279.0,
+    "y": 54296.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "68:130",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": -7279.0,
+    "y": 54238.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "161:327",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": 32631.0,
+    "y": 50740.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "161:326",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 32631.0,
+    "y": 50703.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "161:325",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": 32631.0,
+    "y": 50666.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "161:324",
+    "name": "hello@alexchen.dev",
+    "type": "TEXT",
+    "x": 32631.0,
+    "y": 50629.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "161:322",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": 32631.0,
+    "y": 50571.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "85:516",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": 4590.0,
+    "y": 55180.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "85:515",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 4590.0,
+    "y": 55143.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "85:514",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": 4590.0,
+    "y": 55106.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "85:513",
+    "name": "hello@alexchen.dev",
+    "type": "TEXT",
+    "x": 4590.0,
+    "y": 55069.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "85:511",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": 4590.0,
+    "y": 55011.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "158:112",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": 17806.0,
+    "y": 53485.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "158:111",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 17806.0,
+    "y": 53448.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "158:110",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": 17806.0,
+    "y": 53411.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "158:109",
+    "name": "hello@alexchen.dev",
+    "type": "TEXT",
+    "x": 17806.0,
+    "y": 53374.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "158:107",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": 17806.0,
+    "y": 53316.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "77:297",
+    "name": "Twitter",
+    "type": "TEXT",
+    "x": 11470.0,
+    "y": 55241.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "77:296",
+    "name": "LinkedIn",
+    "type": "TEXT",
+    "x": 11470.0,
+    "y": 55204.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "77:295",
+    "name": "Dribbble",
+    "type": "TEXT",
+    "x": 11470.0,
+    "y": 55167.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "77:294",
+    "name": "hello@alexchen.dev",
+    "type": "TEXT",
+    "x": 11470.0,
+    "y": 55130.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "77:292",
+    "name": "(Socials)",
+    "type": "TEXT",
+    "x": 11470.0,
+    "y": 55072.0,
+    "width": 214.0,
+    "height": 29.0,
+    "area": 6206
+  },
+  {
+    "id": "32:70",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": -7528.0,
+    "y": 44308.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "162:75",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 38723.0,
+    "y": 45076.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "161:274",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 32385.0,
+    "y": 45046.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "85:453",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 4344.0,
+    "y": 44196.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "151:9",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 14431.0,
+    "y": 44196.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "158:59",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 17560.0,
+    "y": 44196.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "77:236",
+    "name": "Alex Chen",
+    "type": "TEXT",
+    "x": 11224.0,
+    "y": 44196.0,
+    "width": 143.0,
+    "height": 38.0,
+    "area": 5434
+  },
+  {
+    "id": "162:57",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": 38712.0,
+    "y": 46089.0,
+    "width": 185.0,
+    "height": 29.0,
+    "area": 5365
+  },
+  {
+    "id": "115:35",
+    "name": "Lottie",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47537.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:34",
+    "name": "React",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47492.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:33",
+    "name": "Javascript",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47447.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:32",
+    "name": "CSS",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47402.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:13",
+    "name": "Netlify",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47537.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:12",
+    "name": "Vercel",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47492.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:11",
+    "name": "Animations",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47447.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:10",
+    "name": "Three.js",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47402.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:29",
+    "name": "GSAP",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47120.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:28",
+    "name": "Framer",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47075.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:27",
+    "name": "Webflow",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47030.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "115:26",
+    "name": "Next.js",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 46985.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:7",
+    "name": "Photoshop",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47075.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:6",
+    "name": "Illustrator",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47030.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:5",
+    "name": "Adobe XD",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 46985.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "108:4",
+    "name": "Figma",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 46940.0,
+    "width": 165.0,
+    "height": 29.0,
+    "area": 4785
+  },
+  {
+    "id": "77:368",
+    "name": "Frame 42",
+    "type": "FRAME",
+    "x": 8236.0,
+    "y": 51827.0,
+    "width": 123.0,
+    "height": 38.0,
+    "area": 4674
+  },
+  {
+    "id": "77:349",
+    "name": "Frame 42",
+    "type": "FRAME",
+    "x": 6414.0,
+    "y": 51827.0,
+    "width": 122.0,
+    "height": 38.0,
+    "area": 4636
+  },
+  {
+    "id": "115:31",
+    "name": "HTML",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 47357.0,
+    "width": 155.0,
+    "height": 29.0,
+    "area": 4495
+  },
+  {
+    "id": "108:14",
+    "name": "WebGL",
+    "type": "TEXT",
+    "x": 11272.0,
+    "y": 47357.0,
+    "width": 155.0,
+    "height": 29.0,
+    "area": 4495
+  },
+  {
+    "id": "115:25",
+    "name": "TypeScript",
+    "type": "TEXT",
+    "x": 11545.0,
+    "y": 46940.0,
+    "width": 155.0,
+    "height": 29.0,
+    "area": 4495
+  },
+  {
+    "id": "85:529",
+    "name": "Frame 42",
+    "type": "FRAME",
+    "x": 4561.0,
+    "y": 51843.0,
+    "width": 118.0,
+    "height": 38.0,
+    "area": 4484
+  },
+  {
+    "id": "52:61",
+    "name": "Sustainability",
+    "type": "TEXT",
+    "x": -6224.0,
+    "y": 50051.0,
+    "width": 143.0,
+    "height": 29.0,
+    "area": 4147
+  },
+  {
+    "id": "85:429",
+    "name": "Sustainability",
+    "type": "TEXT",
+    "x": 5648.0,
+    "y": 49939.0,
+    "width": 143.0,
+    "height": 29.0,
+    "area": 4147
+  },
+  {
+    "id": "77:216",
+    "name": "Sustainability",
+    "type": "TEXT",
+    "x": 12528.0,
+    "y": 52495.0,
+    "width": 143.0,
+    "height": 29.0,
+    "area": 4147
+  },
+  {
+    "id": "68:136",
+    "name": "Tokyo, Japan",
+    "type": "TEXT",
+    "x": -7533.0,
+    "y": 54296.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "68:135",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": -7533.0,
+    "y": 54238.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "161:320",
+    "name": "Tokyo, Japan",
+    "type": "TEXT",
+    "x": 32377.0,
+    "y": 50629.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "161:319",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": 32377.0,
+    "y": 50571.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "85:509",
+    "name": "Tokyo, Japan",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 55069.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "85:508",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 55011.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "158:105",
+    "name": "Tokyo, Japan",
+    "type": "TEXT",
+    "x": 17552.0,
+    "y": 53374.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "158:104",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": 17552.0,
+    "y": 53316.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "77:290",
+    "name": "Tokyo, Japan",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 55130.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "77:289",
+    "name": "(Location)",
+    "type": "TEXT",
+    "x": 11216.0,
+    "y": 55072.0,
+    "width": 141.0,
+    "height": 29.0,
+    "area": 4089
+  },
+  {
+    "id": "52:55",
+    "name": "UX Strategy",
+    "type": "TEXT",
+    "x": -6618.0,
+    "y": 50051.0,
+    "width": 128.0,
+    "height": 29.0,
+    "area": 3712
+  },
+  {
+    "id": "85:411",
+    "name": "UX Strategy",
+    "type": "TEXT",
+    "x": 5254.0,
+    "y": 49939.0,
+    "width": 128.0,
+    "height": 29.0,
+    "area": 3712
+  },
+  {
+    "id": "77:198",
+    "name": "UX Strategy",
+    "type": "TEXT",
+    "x": 12134.0,
+    "y": 52495.0,
+    "width": 128.0,
+    "height": 29.0,
+    "area": 3712
+  },
+  {
+    "id": "25:66",
+    "name": "Scroll Down",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 45297.0,
+    "width": 125.0,
+    "height": 29.0,
+    "area": 3625
+  },
+  {
+    "id": "161:279",
+    "name": "Scroll Down",
+    "type": "TEXT",
+    "x": 33932.0,
+    "y": 45885.0,
+    "width": 125.0,
+    "height": 29.0,
+    "area": 3625
+  },
+  {
+    "id": "85:459",
+    "name": "Scroll Down",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 45185.0,
+    "width": 125.0,
+    "height": 29.0,
+    "area": 3625
+  },
+  {
+    "id": "158:64",
+    "name": "Scroll Down",
+    "type": "TEXT",
+    "x": 19093.0,
+    "y": 44821.0,
+    "width": 125.0,
+    "height": 29.0,
+    "area": 3625
+  },
+  {
+    "id": "77:244",
+    "name": "Scroll Down",
+    "type": "TEXT",
+    "x": 12771.0,
+    "y": 45185.0,
+    "width": 125.0,
+    "height": 29.0,
+    "area": 3625
+  },
+  {
+    "id": "34:90",
+    "name": "About Me",
+    "type": "TEXT",
+    "x": -7142.0,
+    "y": 46200.0,
+    "width": 105.0,
+    "height": 29.0,
+    "area": 3045
+  },
+  {
+    "id": "85:468",
+    "name": "About Me",
+    "type": "TEXT",
+    "x": 4730.0,
+    "y": 46088.0,
+    "width": 105.0,
+    "height": 29.0,
+    "area": 3045
+  },
+  {
+    "id": "52:49",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": -6226.0,
+    "y": 47639.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "52:36",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": -6620.0,
+    "y": 47639.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "85:420",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": 5646.0,
+    "y": 47527.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "85:402",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": 5252.0,
+    "y": 47527.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "77:207",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": 12526.0,
+    "y": 50083.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "77:189",
+    "name": "UI Design",
+    "type": "TEXT",
+    "x": 12132.0,
+    "y": 50083.0,
+    "width": 102.0,
+    "height": 29.0,
+    "area": 2958
+  },
+  {
+    "id": "32:75",
+    "name": "Services",
+    "type": "TEXT",
+    "x": -6095.0,
+    "y": 44312.50,
+    "width": 91.0,
+    "height": 29.0,
+    "area": 2639
+  },
+  {
+    "id": "25:65",
+    "name": "Hi There",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 44859.0,
+    "width": 89.0,
+    "height": 29.0,
+    "area": 2581
+  },
+  {
+    "id": "85:451",
+    "name": "Hi There",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 44747.0,
+    "width": 89.0,
+    "height": 29.0,
+    "area": 2581
+  },
+  {
+    "id": "32:76",
+    "name": "Contact",
+    "type": "TEXT",
+    "x": -5955.0,
+    "y": 44312.50,
+    "width": 85.0,
+    "height": 29.0,
+    "area": 2465
+  },
+  {
+    "id": "91:547",
+    "name": "(About Me)",
+    "type": "TEXT",
+    "x": 11217.0,
+    "y": 45475.0,
+    "width": 91.0,
+    "height": 22.0,
+    "area": 2002
+  },
+  {
+    "id": "32:74",
+    "name": "Works",
+    "type": "TEXT",
+    "x": -6212.0,
+    "y": 44312.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "162:79",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 40313.0,
+    "y": 45080.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "161:278",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 33975.0,
+    "y": 45050.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "85:457",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 5934.0,
+    "y": 44200.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "151:13",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 16021.0,
+    "y": 44200.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "158:63",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 19150.0,
+    "y": 44200.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "77:240",
+    "name": "Works",
+    "type": "TEXT",
+    "x": 12814.0,
+    "y": 44200.50,
+    "width": 68.0,
+    "height": 29.0,
+    "area": 1972
+  },
+  {
+    "id": "32:73",
+    "name": "About",
+    "type": "TEXT",
+    "x": -6326.0,
+    "y": 44312.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "162:78",
+    "name": "About",
+    "type": "TEXT",
+    "x": 40199.0,
+    "y": 45080.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "161:277",
+    "name": "About",
+    "type": "TEXT",
+    "x": 33861.0,
+    "y": 45050.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "85:456",
+    "name": "About",
+    "type": "TEXT",
+    "x": 5820.0,
+    "y": 44200.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "151:12",
+    "name": "About",
+    "type": "TEXT",
+    "x": 15907.0,
+    "y": 44200.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "158:62",
+    "name": "About",
+    "type": "TEXT",
+    "x": 19036.0,
+    "y": 44200.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "77:239",
+    "name": "About",
+    "type": "TEXT",
+    "x": 12700.0,
+    "y": 44200.50,
+    "width": 65.0,
+    "height": 29.0,
+    "area": 1885
+  },
+  {
+    "id": "32:71",
+    "name": "Home",
+    "type": "TEXT",
+    "x": -6439.0,
+    "y": 44312.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "162:77",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 40086.0,
+    "y": 45080.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "161:276",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 33748.0,
+    "y": 45050.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "85:455",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 5707.0,
+    "y": 44200.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "151:11",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 15794.0,
+    "y": 44200.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "158:61",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 18923.0,
+    "y": 44200.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "77:238",
+    "name": "Home",
+    "type": "TEXT",
+    "x": 12587.0,
+    "y": 44200.50,
+    "width": 64.0,
+    "height": 29.0,
+    "area": 1856
+  },
+  {
+    "id": "161:295",
+    "name": "(Services)",
+    "type": "TEXT",
+    "x": 32378.0,
+    "y": 46289.0,
+    "width": 82.0,
+    "height": 22.0,
+    "area": 1804
+  },
+  {
+    "id": "52:43",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -5908.0,
+    "y": 49302.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "52:62",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -5912.0,
+    "y": 50051.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "52:50",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -5914.0,
+    "y": 47639.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "52:56",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -6306.0,
+    "y": 50051.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "52:37",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -6308.0,
+    "y": 47639.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "52:18",
+    "name": "2026",
+    "type": "TEXT",
+    "x": -6828.0,
+    "y": 48107.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:439",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5964.0,
+    "y": 49190.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:430",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5960.0,
+    "y": 49939.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:421",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5958.0,
+    "y": 47527.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:412",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5566.0,
+    "y": 49939.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:403",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5564.0,
+    "y": 47527.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "85:394",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 5044.0,
+    "y": 47995.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:226",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 12844.0,
+    "y": 51746.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:217",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 12840.0,
+    "y": 52495.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:208",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 12838.0,
+    "y": 50083.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:199",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 12446.0,
+    "y": 52495.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:190",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 12444.0,
+    "y": 50083.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "77:181",
+    "name": "2026",
+    "type": "TEXT",
+    "x": 11924.0,
+    "y": 50551.0,
+    "width": 58.0,
+    "height": 29.0,
+    "area": 1682
+  },
+  {
+    "id": "160:217",
+    "name": "2024",
+    "type": "TEXT",
+    "x": 17560.0,
+    "y": 44807.0,
+    "width": 57.0,
+    "height": 29.0,
+    "area": 1653
+  },
+  {
+    "id": "77:371",
+    "name": "03",
+    "type": "TEXT",
+    "x": 8318.0,
+    "y": 51827.0,
+    "width": 41.0,
+    "height": 38.0,
+    "area": 1558
+  },
+  {
+    "id": "77:369",
+    "name": "03",
+    "type": "TEXT",
+    "x": 8236.0,
+    "y": 51827.0,
+    "width": 41.0,
+    "height": 38.0,
+    "area": 1558
+  },
+  {
+    "id": "77:352",
+    "name": "03",
+    "type": "TEXT",
+    "x": 6495.0,
+    "y": 51827.0,
+    "width": 41.0,
+    "height": 38.0,
+    "area": 1558
+  },
+  {
+    "id": "85:532",
+    "name": "03",
+    "type": "TEXT",
+    "x": 4638.0,
+    "y": 51843.0,
+    "width": 41.0,
+    "height": 38.0,
+    "area": 1558
+  },
+  {
+    "id": "77:350",
+    "name": "02",
+    "type": "TEXT",
+    "x": 6414.0,
+    "y": 51827.0,
+    "width": 40.0,
+    "height": 38.0,
+    "area": 1520
+  },
+  {
+    "id": "85:530",
+    "name": "01",
+    "type": "TEXT",
+    "x": 4561.0,
+    "y": 51843.0,
+    "width": 36.0,
+    "height": 38.0,
+    "area": 1368
+  },
+  {
+    "id": "77:274",
+    "name": "03",
+    "type": "TEXT",
+    "x": 12848.0,
+    "y": 48853.0,
+    "width": 47.0,
+    "height": 29.0,
+    "area": 1363
+  },
+  {
+    "id": "77:268",
+    "name": "(02)",
+    "type": "TEXT",
+    "x": 12848.0,
+    "y": 48500.0,
+    "width": 47.0,
+    "height": 29.0,
+    "area": 1363
+  },
+  {
+    "id": "77:262",
+    "name": "(01)",
+    "type": "TEXT",
+    "x": 12851.0,
+    "y": 48156.0,
+    "width": 43.0,
+    "height": 29.0,
+    "area": 1247
+  },
+  {
+    "id": "161:284",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 33429.0,
+    "y": 47471.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:377",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 9633.0,
+    "y": 51851.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:373",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 9532.0,
+    "y": 51851.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:358",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 7811.0,
+    "y": 51851.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:354",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 7710.0,
+    "y": 51851.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "85:538",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 5958.0,
+    "y": 51867.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "85:534",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 5857.0,
+    "y": 51867.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "85:473",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 4994.0,
+    "y": 46441.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "85:441",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 4338.0,
+    "y": 50083.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "151:161",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 15783.0,
+    "y": 45166.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:315",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 11218.0,
+    "y": 52639.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "77:320",
+    "name": "arrow",
+    "type": "FRAME",
+    "x": 12268.0,
+    "y": 46621.0,
+    "width": 32.0,
+    "height": 32.0,
+    "area": 1024
+  },
+  {
+    "id": "162:82",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 39951.28906250,
+    "y": 45686.912651062012,
+    "width": 22.151542663574219,
+    "height": 40.997505187988281,
+    "area": 908.1579852718278
+  },
+  {
+    "id": "161:338",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 33610.2968750,
+    "y": 50257.182182312012,
+    "width": 22.151542663574219,
+    "height": 40.997505187988281,
+    "area": 908.1579852718278
+  },
+  {
+    "id": "130:50",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5569.294433593750,
+    "y": 54697.182182312012,
+    "width": 22.151542663574219,
+    "height": 40.997505187988281,
+    "area": 908.1579852718278
+  },
+  {
+    "id": "158:123",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 18785.2949218750,
+    "y": 53002.182182312012,
+    "width": 22.151542663574219,
+    "height": 40.997505187988281,
+    "area": 908.1579852718278
+  },
+  {
+    "id": "130:56",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 12449.2949218750,
+    "y": 54758.182182312012,
+    "width": 22.151542663574219,
+    "height": 40.997505187988281,
+    "area": 908.1579852718278
+  },
+  {
+    "id": "162:83",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 40017.558593750,
+    "y": 45686.820201873779,
+    "width": 22.021932601928711,
+    "height": 40.945423126220703,
+    "area": 901.6973484430855
+  },
+  {
+    "id": "161:339",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 33676.566406250,
+    "y": 50257.089733123779,
+    "width": 22.021932601928711,
+    "height": 40.945423126220703,
+    "area": 901.6973484430855
+  },
+  {
+    "id": "130:51",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5635.56347656250,
+    "y": 54697.089733123779,
+    "width": 22.021932601928711,
+    "height": 40.945423126220703,
+    "area": 901.6973484430855
+  },
+  {
+    "id": "158:124",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 18851.5644531250,
+    "y": 53002.089733123779,
+    "width": 22.021932601928711,
+    "height": 40.945423126220703,
+    "area": 901.6973484430855
+  },
+  {
+    "id": "130:57",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 12515.5644531250,
+    "y": 54758.089733123779,
+    "width": 22.021932601928711,
+    "height": 40.945423126220703,
+    "area": 901.6973484430855
+  },
+  {
+    "id": "60:99",
+    "name": "01",
+    "type": "TEXT",
+    "x": -7536.0,
+    "y": 51489.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "60:94",
+    "name": "01",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 51145.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "60:88",
+    "name": "01",
+    "type": "TEXT",
+    "x": -7537.0,
+    "y": 50801.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "85:493",
+    "name": "01",
+    "type": "TEXT",
+    "x": 4336.0,
+    "y": 51377.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "85:487",
+    "name": "01",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 51033.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "85:481",
+    "name": "01",
+    "type": "TEXT",
+    "x": 4335.0,
+    "y": 50689.0,
+    "width": 22.0,
+    "height": 24.0,
+    "area": 528
+  },
+  {
+    "id": "77:370",
+    "name": "/",
+    "type": "TEXT",
+    "x": 8291.0,
+    "y": 51827.0,
+    "width": 13.0,
+    "height": 38.0,
+    "area": 494
+  },
+  {
+    "id": "77:351",
+    "name": "/",
+    "type": "TEXT",
+    "x": 6468.0,
+    "y": 51827.0,
+    "width": 13.0,
+    "height": 38.0,
+    "area": 494
+  },
+  {
+    "id": "85:531",
+    "name": "/",
+    "type": "TEXT",
+    "x": 4611.0,
+    "y": 51843.0,
+    "width": 13.0,
+    "height": 38.0,
+    "area": 494
+  },
+  {
+    "id": "161:286",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 33433.0,
+    "y": 47481.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "161:285",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 33433.0,
+    "y": 47481.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:379",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 9637.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:378",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 9637.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:375",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 9536.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:374",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 9536.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:360",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 7815.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:359",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 7815.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:356",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 7714.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:355",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 7714.0,
+    "y": 51861.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:540",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5962.0,
+    "y": 51877.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:539",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 5962.0,
+    "y": 51877.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:536",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 5861.0,
+    "y": 51877.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:535",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 5861.0,
+    "y": 51877.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:475",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 4998.0,
+    "y": 46451.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:474",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 4998.0,
+    "y": 46451.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:443",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 4342.0,
+    "y": 50093.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "85:442",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 4342.0,
+    "y": 50093.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "151:163",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 15787.0,
+    "y": 45176.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "151:162",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 15787.0,
+    "y": 45176.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:317",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 11222.0,
+    "y": 52649.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:316",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 11222.0,
+    "y": 52649.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:322",
+    "name": "Vector",
+    "type": "VECTOR",
+    "x": 12272.0,
+    "y": 46631.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "77:321",
+    "name": "Group",
+    "type": "GROUP",
+    "x": 12272.0,
+    "y": 46631.0,
+    "width": 24.0,
+    "height": 12.0,
+    "area": 288
+  },
+  {
+    "id": "52:40",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -6618.0,
+    "y": 49263.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "52:59",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -6224.0,
+    "y": 50012.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "52:47",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -6226.0,
+    "y": 47600.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "52:53",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -6618.0,
+    "y": 50012.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "52:34",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -6620.0,
+    "y": 47600.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "52:26",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": -7536.0,
+    "y": 48068.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:436",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 5254.0,
+    "y": 49151.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:427",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 5648.0,
+    "y": 49900.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:418",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 5646.0,
+    "y": 47488.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:409",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 5254.0,
+    "y": 49900.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:400",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 5252.0,
+    "y": 47488.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "85:391",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 4336.0,
+    "y": 47956.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:223",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 12134.0,
+    "y": 51707.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:214",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 12528.0,
+    "y": 52456.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:205",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 12526.0,
+    "y": 50044.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:196",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 12134.0,
+    "y": 52456.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:187",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 12132.0,
+    "y": 50044.0,
+    "width": 369.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "77:178",
+    "name": "Vector 1",
+    "type": "VECTOR",
+    "x": 11216.0,
+    "y": 50512.0,
+    "width": 764.0,
+    "height": 0.0,
+    "area": 0
+  },
+  {
+    "id": "0:1",
+    "name": "Page 1",
+    "type": "CANVAS",
+    "x": null,
+    "y": null,
+    "width": null,
+    "height": null,
+    "area": 0
+  },
+  {
+    "id": "0:0",
+    "name": "Document",
+    "type": "DOCUMENT",
+    "x": null,
+    "y": null,
+    "width": null,
+    "height": null,
+    "area": 0
+  }
+]

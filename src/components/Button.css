@@ -1,3 +1,4 @@
+/* Minimal editorial link — no fill, no border, no radius, no pill. */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -6,40 +7,13 @@
   letter-spacing: var(--tracking-wide);
   text-transform: uppercase;
   font-weight: var(--fw-medium);
-  padding: var(--space-4) var(--space-8);
-  border-radius: var(--radius-pill);
-  border: 1px solid var(--color-text);
-  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
-  white-space: nowrap;
+  color: inherit;
 }
 
-.btn--solid {
-  background: var(--color-text);
-  color: var(--color-bg);
-}
-.btn--solid:hover {
-  background: transparent;
-  color: var(--color-text);
-}
-
-.btn--outline {
-  background: transparent;
-  color: var(--color-text);
-}
-.btn--outline:hover {
-  background: var(--color-text);
-  color: var(--color-bg);
-}
-
+.btn--solid,
+.btn--outline,
 .btn--text {
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  border-bottom: 1px solid var(--color-text);
-  border-radius: 0;
-}
-.btn--text:hover {
-  opacity: 0.55;
+  color: inherit;
 }
 
 .btn__arrow {

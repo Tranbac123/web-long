@@ -1,41 +1,91 @@
-.testimonial-card {
+/* ============================================================
+   Testimonials — Figma node 85:524 (and states 77:344 / 77:363)
+   ============================================================ */
+.testimonials__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-16);
+}
+
+.testimonials__label-group {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-6);
+}
+.testimonials__label {
+  font-size: var(--fs-32); /* 32 @1728 */
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
+}
+.testimonials__counter {
+  font-size: var(--fs-32);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
+  opacity: 0.55;
+}
+.testimonials__counter-total {
+  opacity: 0.55;
+}
+
+/* Arrow controls — Figma 80×80 bordered squares (border shown in Figma) */
+.testimonials__controls {
+  display: flex;
+  gap: var(--space-3);
+}
+.testimonials__arrow {
+  width: clamp(56px, 4.6vw, 80px);
+  height: clamp(56px, 4.6vw, 80px);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-text);
+  font-size: var(--fs-24);
+  line-height: 1;
+  transition: background var(--dur) var(--ease), color var(--dur) var(--ease);
+}
+.testimonials__arrow:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+}
+
+/* Body: dark block (325×400) left, quote + author right */
+.testimonials__body {
+  display: grid;
+  grid-template-columns: clamp(240px, 18.8vw, 325px) 1fr;
+  gap: clamp(48px, 8.3vw, 143px); /* Figma quote x490 - block 347 ≈ 143 */
+  align-items: start;
+}
+.testimonials__block {
+  width: 100%;
+  aspect-ratio: 325 / 400; /* Figma */
+  background: var(--color-text);
+}
+.testimonials__content {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  padding: var(--space-10);
-  background: var(--color-bg);
-  border: var(--border-hairline);
 }
-
-.testimonial-card__mark {
-  font-family: var(--font-serif);
-  font-size: 4rem;
-  line-height: 0.6;
-  color: var(--color-text);
-  margin-bottom: var(--space-6);
-}
-
-.testimonial-card__quote {
-  font-size: var(--fs-h4);
-  line-height: var(--lh-snug);
-  letter-spacing: var(--tracking-tight);
-  flex: 1;
-}
-
-.testimonial-card__caption {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  margin-top: var(--space-10);
-  padding-top: var(--space-4);
-  border-top: 1px solid var(--color-line);
-}
-
-.testimonial-card__name {
+.testimonials__quote {
+  font-size: var(--fs-quote); /* 60 @1728 */
+  line-height: 1.2;
+  letter-spacing: -0.05em;
   font-weight: var(--fw-medium);
+  max-width: 22ch;
 }
-
-.testimonial-card__role {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
+.testimonials__caption {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-top: var(--space-16);
+}
+.testimonials__author {
+  font-size: var(--fs-32);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
+}
+.testimonials__role {
+  font-size: var(--fs-32);
+  font-weight: var(--fw-medium);
+  letter-spacing: -0.05em;
+  opacity: 0.65;
 }

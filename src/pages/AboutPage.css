@@ -1,15 +1,15 @@
 /* ============================================================
-   About
+   About — Figma node 77:169
    ============================================================ */
 
-/* 1. Hero */
+/* 1. Hero (1728×1117) */
 .about-hero {
   position: relative;
-  height: 92vh;
+  height: 100vh;
   min-height: 640px;
   overflow: hidden;
-  background: var(--color-invert-bg);
-  color: var(--color-invert-text);
+  background: var(--color-text);
+  color: var(--color-bg);
 }
 .about-hero__bg {
   position: absolute;
@@ -24,19 +24,26 @@
   height: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: space-between;
   padding-bottom: var(--space-16);
 }
 .about-hero__title {
-  font-size: clamp(5rem, 13vw, 13rem);
-  line-height: 0.88;
-  letter-spacing: var(--tracking-tight);
-  font-weight: var(--fw-bold);
+  font-size: var(--fs-display); /* 150 @1728 */
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: var(--fw-medium);
+}
+.about-hero__scroll {
+  /* Figma: Scroll Down bottom-RIGHT on About hero */
+  align-self: flex-end;
+  font-size: var(--fs-24);
+  letter-spacing: -0.05em;
 }
 
-/* 2. Statement */
+/* 2. Statement (Figma 45/500) */
 .about-statement {
   display: grid;
-  grid-template-columns: 160px 1fr 320px;
+  grid-template-columns: 160px 1fr 474px;
   gap: var(--space-16);
   align-items: start;
 }
@@ -44,77 +51,83 @@
   padding-top: var(--space-2);
 }
 .about-statement__text {
-  font-size: var(--fs-h3);
-  line-height: var(--lh-snug);
-  letter-spacing: var(--tracking-tight);
+  font-size: var(--fs-statement);
+  line-height: 1.28;
+  letter-spacing: -0.05em;
+  font-weight: var(--fw-medium);
 }
 .about-statement__cta {
   margin-top: var(--space-10);
 }
 .about-drivers__title {
-  font-size: var(--fs-body);
+  font-size: var(--fs-24);
   margin-bottom: var(--space-4);
 }
 .about-drivers ul {
   display: flex;
   flex-direction: column;
   gap: var(--space-2);
-  color: var(--color-text-muted);
+  font-size: var(--fs-24);
+  opacity: 0.65;
   margin-bottom: var(--space-8);
 }
 .about-drivers__note {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
+  font-size: var(--fs-24);
+  letter-spacing: -0.04em;
+  opacity: 0.65;
   max-width: 32ch;
 }
 
-/* 3. Skills + huge AC */
+/* 3. Skills + huge AC (Figma: skills 2×2 grid + AC 720/800) */
 .about-skills-section {
   padding-block: var(--space-24);
 }
 .about-skills {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: var(--space-12);
-  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
 }
+.about-skills__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+/* Filled black dot accent (Figma Ellipse ~300px) — a shape, not a card. */
 .about-skills__dot {
-  width: 84px;
-  height: 84px;
+  width: clamp(120px, 17vw, 300px);
+  height: clamp(120px, 17vw, 300px);
   border-radius: 50%;
   background: var(--color-text);
-  align-self: start;
 }
 .about-skills__cols {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-8);
+  grid-template-columns: 1fr 1fr; /* Figma 2×2 grid */
+  gap: var(--space-8) var(--space-16);
+  max-width: 560px;
 }
 .about-skills__group {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
-  font-size: var(--fs-h4);
-  letter-spacing: var(--tracking-tight);
-}
-.about-skills__group li {
-  color: var(--color-text);
+  gap: var(--space-2);
+  font-size: var(--fs-24);
+  letter-spacing: -0.03em;
 }
 .about-skills__mono {
-  font-size: clamp(12rem, 22vw, 24rem);
+  justify-self: end;
+  font-size: var(--fs-ac); /* 720 @1728 */
   line-height: 0.8;
-  font-weight: var(--fw-bold);
-  letter-spacing: -0.04em;
+  font-weight: var(--fw-black); /* 800 */
+  letter-spacing: -0.11em;
 }
 
-/* 4. How I work */
+/* 4. How I work (Figma: desc 42/600) */
 .about-process__heading {
-  font-size: var(--fs-h1);
-  letter-spacing: var(--tracking-tight);
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: var(--fw-medium);
   margin-bottom: var(--space-16);
-}
-.about-process__list {
-  border-top: 1px solid var(--color-text);
 }
 .about-process__row {
   display: grid;
@@ -122,25 +135,30 @@
   gap: var(--space-12);
   align-items: baseline;
   padding-block: var(--space-12);
-  border-bottom: 1px solid var(--color-line);
 }
 .about-process__title {
-  font-size: var(--fs-h3);
-  letter-spacing: var(--tracking-tight);
+  font-size: var(--fs-32);
+  font-weight: var(--fw-semibold);
+  letter-spacing: -0.05em;
 }
 .about-process__desc {
-  color: var(--color-text-muted);
-  max-width: 52ch;
+  font-size: var(--fs-howwork); /* 42 @1728 */
+  font-weight: var(--fw-semibold);
+  line-height: 1.18;
+  letter-spacing: -0.05em;
+  max-width: 16ch;
 }
 .about-process__num {
   justify-self: end;
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
+  font-size: var(--fs-24);
+  opacity: 0.65;
 }
 
 /* 5. Things I've built */
 .about-built-title {
-  font-size: var(--fs-h1);
-  letter-spacing: var(--tracking-tight);
+  font-size: var(--fs-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: var(--fw-medium);
   margin-bottom: var(--space-16);
 }

@@ -1,17 +1,21 @@
 /* ============================================================
-   Work — single staggered editorial row (fits ~1440 viewport,
-   scrolls horizontally only if the viewport is very narrow)
+   Work — Figma node 151:2 (1728×1117, single viewport).
+   Five cards top-aligned at y≈234, uniform 24px gaps, varying
+   heights (Orbital/Plant are short landscape thumbs). Widths/gaps
+   use vw so the 1728 frame proportions scale to 1440/1025.
    ============================================================ */
 .work {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 84px);
+  padding-inline: 32px;
 }
 
 .work-head {
-  padding-block: var(--space-12) var(--space-6);
+  padding-block: var(--space-12) 0;
 }
 
+/* Top-aligned row; horizontal overflow allowed (last card may reach edge). */
 .work-rail {
   flex: 1;
   overflow-x: auto;
@@ -20,9 +24,8 @@
 .work-rail__track {
   display: flex;
   align-items: flex-start;
-  gap: var(--space-10);
-  padding-inline: var(--container-pad);
-  padding-block: var(--space-8) var(--space-12);
+  gap: 1.39vw; /* 24px @1728 */
+  padding-block: var(--space-12);
 }
 
 .work-item {
@@ -31,8 +34,8 @@
 }
 .work-item__media {
   overflow: hidden;
-  background: var(--color-bg-alt);
-  margin-bottom: var(--space-4);
+  background: var(--color-bg);
+  margin-bottom: 1.6rem; /* ~48px gap image→label */
 }
 .work-item__media img {
   width: 100%;
@@ -45,82 +48,60 @@
 }
 
 .work-item__meta {
-  display: flex;
-  align-items: baseline;
-  gap: var(--space-3);
+  display: block;
 }
 .work-item__index {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
+  display: none; /* Figma shows title only */
 }
 .work-item__title {
-  font-size: var(--fs-body);
+  font-size: clamp(18px, 1.62vw, 28px); /* 28 @1728 */
   font-weight: var(--fw-medium);
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.04em;
 }
 .work-item__cat {
-  display: none; /* reference shows title only under each image */
+  display: none;
 }
 
-/* Asymmetric sizing + vertical stagger per project */
-.work-item--luminary-studio {
-  width: 250px;
-  margin-top: 0;
+/* Tall portrait cards: Luminary, Aether, Polaris — image 365×458 (~4:5) */
+.work-item--luminary-studio,
+.work-item--aether-ai-studio,
+.work-item--polaris-protocol {
+  width: 21.1vw; /* 365 @1728 */
 }
-.work-item--luminary-studio .work-item__media {
-  aspect-ratio: 4 / 5;
-}
-
-.work-item--orbital-finance {
-  width: 220px;
-  margin-top: var(--space-10);
-}
-.work-item--orbital-finance .work-item__media {
-  aspect-ratio: 4 / 3;
-}
-
-.work-item--plant-shop {
-  width: 170px;
-  margin-top: var(--space-20);
-}
-.work-item--plant-shop .work-item__media {
-  aspect-ratio: 1 / 1;
-}
-
-.work-item--aether-ai-studio {
-  width: 250px;
-  margin-top: var(--space-4);
-}
-.work-item--aether-ai-studio .work-item__media {
-  aspect-ratio: 3 / 4;
+.work-item--luminary-studio .work-item__media,
+.work-item--aether-ai-studio .work-item__media,
+.work-item--polaris-protocol .work-item__media {
+  aspect-ratio: 365 / 458;
 }
 .work-item--aether-ai-studio .work-item__title {
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-bold); /* Aether label is bold in Figma */
 }
 
-.work-item--polaris-protocol {
-  width: 210px;
-  margin-top: var(--space-24);
+/* Short landscape cards: Orbital, Plant — image 324×200 (~8:5) */
+.work-item--orbital-finance,
+.work-item--plant-shop {
+  width: 18.75vw; /* 324 @1728 */
 }
-.work-item--polaris-protocol .work-item__media {
-  aspect-ratio: 3 / 4;
+.work-item--orbital-finance .work-item__media,
+.work-item--plant-shop .work-item__media {
+  aspect-ratio: 324 / 200;
 }
 
-/* Huge WORKS + CTA */
+/* Huge WORKS + CTA, pinned to the bottom of the viewport */
 .work-end {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   gap: var(--space-16);
-  padding-block: var(--space-8) var(--space-16);
+  padding-block: var(--space-8) var(--space-12);
 }
 .work-end__title {
-  font-size: clamp(6rem, 13vw, 13rem);
-  line-height: 0.82;
-  letter-spacing: -0.05em;
-  font-weight: var(--fw-bold);
+  font-size: clamp(72px, 8.7vw, 150px); /* 150 @1728 */
+  line-height: 0.9;
+  letter-spacing: -0.07em;
+  font-weight: var(--fw-medium);
 }
 .work-end__cta {
-  padding-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
   white-space: nowrap;
 }

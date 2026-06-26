@@ -1,5 +1,5 @@
 /* ============================================================
-   Project Detail
+   Project Detail — Figma node 158:52
    ============================================================ */
 .detail-intro {
   display: grid;
@@ -9,10 +9,10 @@
   padding-block: calc(84px + var(--space-12)) var(--space-12);
 }
 .detail-intro__title {
-  font-size: clamp(4rem, 10vw, 10rem);
-  line-height: 0.86;
-  letter-spacing: -0.05em;
-  font-weight: var(--fw-bold);
+  font-size: var(--fs-display); /* 150 @1728 */
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: var(--fw-medium);
   text-transform: uppercase;
 }
 .detail-intro__title span {
@@ -21,8 +21,8 @@
 .detail-intro__year {
   display: inline-block;
   margin-top: var(--space-6);
-  font-size: var(--fs-h3);
-  color: var(--color-text-muted);
+  font-size: var(--fs-24);
+  opacity: 0.65;
 }
 
 .detail-meta {
@@ -32,28 +32,29 @@
   padding-top: var(--space-4);
 }
 .detail-meta__item dt {
-  font-size: var(--fs-eyebrow);
-  letter-spacing: var(--tracking-wider);
-  text-transform: uppercase;
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-3);
+  font-size: var(--fs-24);
+  font-weight: var(--fw-medium);
+  margin-bottom: var(--space-2);
 }
 .detail-meta__item dd {
-  font-size: var(--fs-body);
-  line-height: var(--lh-normal);
+  font-size: var(--fs-24);
+  line-height: var(--lh-snug);
+  letter-spacing: -0.04em;
+  opacity: 0.65;
   max-width: 34ch;
 }
 
-/* Gallery */
+/* Gallery — Figma: full 1680×1117 (1.5:1), 2-col 800×1117 (portrait), gap 72 */
 .detail-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: var(--space-8);
+  column-gap: clamp(24px, 4.17vw, 72px);
+  row-gap: clamp(24px, 4.17vw, 72px);
   margin-block: var(--space-12) var(--space-24);
 }
 .detail-gallery__item {
   overflow: hidden;
-  background: var(--color-bg-alt);
+  background: var(--color-bg);
 }
 .detail-gallery__item img {
   width: 100%;
@@ -64,33 +65,36 @@
   grid-column: 1 / -1;
 }
 .detail-gallery__item--full img {
-  aspect-ratio: 16 / 7;
+  aspect-ratio: 1680 / 1117;
 }
 .detail-gallery__item--half img {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 800 / 1117;
 }
 
 /* Next project (centered) */
 .detail-next {
-  border-top: 1px solid var(--color-text);
   padding-block: var(--space-24);
 }
 .detail-next__link {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-6);
+  gap: var(--space-8);
   color: inherit;
   text-align: center;
 }
 .detail-next__label {
-  color: var(--color-text-muted);
+  font-size: var(--fs-display); /* "Next project" 150 @1728 */
+  line-height: var(--lh-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: var(--fw-medium);
+  text-transform: none;
 }
 .detail-next__thumb {
-  width: 220px;
-  aspect-ratio: 3 / 4;
+  width: clamp(220px, 21.4vw, 370px); /* Figma 370×310 */
+  aspect-ratio: 370 / 310;
   overflow: hidden;
-  background: var(--color-bg-alt);
+  background: var(--color-bg);
 }
 .detail-next__thumb img {
   width: 100%;
@@ -102,7 +106,7 @@
   transform: scale(1.04);
 }
 .detail-next__title {
-  font-size: var(--fs-h1);
-  letter-spacing: var(--tracking-tight);
+  font-size: var(--fs-card-title); /* 44 @1728 */
+  letter-spacing: -0.05em;
   font-weight: var(--fw-medium);
 }

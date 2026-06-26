@@ -62,7 +62,7 @@ export default function ProjectDetailPage() {
       {/* Next project ----------------------------------------------- */}
       <section className="detail-next">
         <Link to={`/work/${next.slug}`} className="detail-next__link">
-          <span className="eyebrow detail-next__label">Next project</span>
+          <span className="detail-next__label">Next project</span>
           <span className="detail-next__thumb">
             <img src={next.cover.src} alt={next.cover.alt} />
           </span>

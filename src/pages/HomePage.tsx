@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
 import ProjectShowcase from "../components/ProjectShowcase";
+import TestimonialCard from "../components/TestimonialCard";
 import { services } from "../data/services";
-import { testimonials } from "../data/testimonials";
 import { introThumb } from "../data/projects";
 import { site } from "../data/siteContent";
 import heroBg from "../assets/placeholders/home-hero-bg.jpg";
 import "./HomePage.css";
 
 export default function HomePage() {
-  const testimonial = testimonials[0];
-
   return (
     <div className="home">
       {/* 1. Hero ------------------------------------------------------ */}
@@ -76,33 +74,10 @@ export default function HomePage() {
         </ul>
       </section>
 
-      {/* 5. Testimonials -------------------------------------------- */}
-      <section className="section container home-testimonials">
-        <div className="home-testimonials__head">
-          <p className="eyebrow">Testimonials</p>
-          <span className="home-testimonials__counter">01 / 03</span>
-        </div>
-        <figure className="home-testimonial">
-          <div className="home-testimonial__block" aria-hidden="true" />
-          <div className="home-testimonial__body">
-            <blockquote className="home-testimonial__quote">
-              &ldquo;{testimonial.quote}&rdquo;
-            </blockquote>
-            <figcaption className="home-testimonial__caption">
-              <span className="home-testimonial__name">{testimonial.name}</span>
-              <span className="home-testimonial__role">{testimonial.role}</span>
-            </figcaption>
-            <div className="home-testimonial__arrows" aria-hidden="true">
-              <button type="button" className="home-testimonial__arrow" aria-label="Previous testimonial">
-                ←
-              </button>
-              <button type="button" className="home-testimonial__arrow" aria-label="Next testimonial">
-                →
-              </button>
-            </div>
-          </div>
-        </figure>
-      </section>
+      {/* 5. Testimonials (switchable) ------------------------------- */}
+      <div className="section container">
+        <TestimonialCard />
+      </div>
 
       {/* 6. Footer banner + CTA rendered by Layout/Footer ----------- */}
     </div>

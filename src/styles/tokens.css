@@ -1,47 +1,59 @@
 /* ============================================================
-   Design tokens
-   Minimal black & white editorial portfolio.
-   Single source of truth for color, type, spacing, layout.
+   Design tokens — LOCKED visual system, Figma-derived scale
+   One font (Inter). Two colors (black ink / white paper).
+   Type sizes come from Figma node JSON (1728 frame) expressed as
+   vw clamps: figmaPx/1728*100 vw, capped at the Figma px.
+   Muted text = opacity 0.65 (never grays).
    ============================================================ */
 :root {
-  /* ---- Color ---- */
+  /* ---- Font (single family) ---- */
+  --font-main: "Inter", sans-serif;
+
+  /* ---- Color (black & white only) ---- */
   --color-bg: #ffffff;
-  --color-bg-alt: #f3f2ef; /* warm off-white for alternating sections */
-  --color-text: #0a0a0a;
-  --color-text-muted: #6b6b6b;
-  --color-text-faint: #9a9a9a;
-  --color-line: #e3e2df;
-  --color-line-strong: #1a1a1a;
-  --color-invert-bg: #0a0a0a;
-  --color-invert-text: #ffffff;
+  --color-text: #050505;
+  --color-muted: #050505; /* mute at usage with opacity: 0.65 */
 
-  /* ---- Typography ---- */
-  --font-sans: "Helvetica Neue", Helvetica, Arial, "Segoe UI", sans-serif;
-  --font-serif: Georgia, "Times New Roman", serif;
+  /* ---- Type scale (Figma px @1728 → responsive clamp) ---- */
+  --fs-display: clamp(64px, 8.68vw, 150px); /* 150 — hero/section titles, WORKS */
+  --fs-cta: clamp(48px, 14.47vw, 250px); /* 250 — footer CTA */
+  --fs-ac: clamp(180px, 41.7vw, 720px); /* 720 — About AC */
+  --fs-statement: clamp(28px, 2.6vw, 45px); /* 45 — About statement */
+  --fs-howwork: clamp(26px, 2.43vw, 42px); /* 42 — About How I Work desc */
+  --fs-quote: clamp(34px, 3.47vw, 60px); /* 60 — testimonial quote */
+  --fs-card-title: clamp(26px, 2.55vw, 44px); /* 44 — project card title */
+  --fs-32: clamp(22px, 1.85vw, 32px); /* 32 — labels, service title, author */
+  --fs-28: clamp(20px, 1.62vw, 28px); /* 28 — work card label */
+  --fs-24: clamp(17px, 1.39vw, 24px); /* 24 — body, meta, scroll, service desc */
 
-  --fs-display: 7.5rem;   /* 120px — hero display */
-  --fs-h1: 4.5rem;        /* 72px */
-  --fs-h2: 3rem;          /* 48px */
-  --fs-h3: 2rem;          /* 32px */
-  --fs-h4: 1.375rem;      /* 22px */
-  --fs-lead: 1.625rem;    /* 26px — intro paragraphs */
-  --fs-body: 1.0625rem;   /* 17px */
-  --fs-small: 0.875rem;   /* 14px */
-  --fs-eyebrow: 0.75rem;  /* 12px — labels/eyebrows */
+  /* Legacy size aliases (kept for components not individually re-mapped) */
+  --fs-h1: var(--fs-display);
+  --fs-h2: clamp(34px, 3.47vw, 60px);
+  --fs-h3: clamp(24px, 2.2vw, 38px);
+  --fs-h4: var(--fs-28);
+  --fs-lead: var(--fs-24);
+  --fs-body: 1.0625rem; /* 17px */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-eyebrow: 0.75rem; /* 12px */
 
+  /* ---- Line heights (Figma lh ≈ 0.9 display, 1.2 body) ---- */
+  --lh-display: 0.9;
   --lh-tight: 1.02;
   --lh-snug: 1.15;
   --lh-normal: 1.5;
   --lh-relaxed: 1.65;
 
-  --tracking-tight: -0.02em;
-  --tracking-normal: 0;
-  --tracking-wide: 0.08em;
-  --tracking-wider: 0.18em;
+  /* ---- Letter spacing (Figma negative tracking) ---- */
+  --tracking-display: -0.07em; /* -10.5/150 */
+  --tracking-tight: -0.05em;
+  --tracking-wide: 0.04em;
+  --tracking-wider: 0.14em;
 
   --fw-regular: 400;
   --fw-medium: 500;
+  --fw-semibold: 600;
   --fw-bold: 700;
+  --fw-black: 800;
 
   /* ---- Spacing scale ---- */
   --space-1: 0.25rem;
@@ -58,19 +70,10 @@
   --space-32: 8rem;
   --space-40: 10rem;
 
-  /* ---- Layout ---- */
-  --container-max: 1360px;
+  /* ---- Layout (Figma: 1728 frame, ~24/32px gutter) ---- */
+  --container-max: 1680px; /* 1728 - 2x24 gutter */
   --container-narrow: 920px;
-  --container-pad: 56px;
-
-  /* ---- Radius & borders ---- */
-  --radius-none: 0;
-  --radius-sm: 2px;
-  --radius-pill: 999px;
-  --border-hairline: 1px solid var(--color-line);
-
-  /* ---- Shadow (used sparingly) ---- */
-  --shadow-soft: 0 18px 50px rgba(0, 0, 0, 0.08);
+  --container-pad: 24px;
 
   /* ---- Motion ---- */
   --ease: cubic-bezier(0.22, 0.61, 0.36, 1);

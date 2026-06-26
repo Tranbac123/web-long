@@ -5,7 +5,7 @@
 
 .project-card__media {
   overflow: hidden;
-  background: var(--color-bg-alt);
+  background: var(--color-bg);
   margin-bottom: var(--space-6);
 }
 
@@ -31,7 +31,6 @@
   align-items: baseline;
   justify-content: space-between;
   gap: var(--space-4);
-  border-top: 1px solid var(--color-text);
   padding-top: var(--space-3);
 }
 
@@ -46,18 +45,18 @@
 
 .project-card__index {
   font-size: var(--fs-small);
-  color: var(--color-text-muted);
+  opacity: 0.65;
 }
 
 .project-card__category {
   font-size: var(--fs-small);
-  color: var(--color-text-muted);
+  opacity: 0.65;
   white-space: nowrap;
 }
 
 .project-card__summary {
   margin-top: var(--space-3);
   font-size: var(--fs-body);
-  color: var(--color-text-muted);
+  opacity: 0.65;
   max-width: 36ch;
 }

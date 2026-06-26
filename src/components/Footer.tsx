@@ -17,12 +17,16 @@ export default function Footer() {
         <img src={banner} alt="Sunset field of daisies" />
       </div>
 
-      {/* ---- CTA + columns (dark) ---- */}
+      {/* ---- CTA + columns (white background, black ink — per Figma) ---- */}
       <div className="footer__panel">
         <div className="container">
           <h2 className="footer__cta">
-            {site.footer.cta}
-            <img className="footer__smile" src={smile} alt="" aria-hidden="true" />
+            <span>LET&rsquo;S MAKE</span>
+            <span>SOMETHING</span>
+            <span className="footer__cta-last">
+              TOGETHER
+              <img className="footer__smile" src={smile} alt="" aria-hidden="true" />
+            </span>
           </h2>
 
           <div className="footer__cols">

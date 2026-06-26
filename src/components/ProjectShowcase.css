@@ -1,102 +1,87 @@
-/* 12-column asymmetric layout — deliberately not an equal grid. */
+/* ============================================================
+   Things I've built — Figma asymmetric composition
+   3-column grid: Luminary (left 766) · gap (150) · right stack (764).
+   Right stack rows: [Orbital|Plant] · Aether · [Polaris|Terra].
+   Row 1 height is driven by the tall Luminary card, so the small
+   top pair sits top-aligned with whitespace below (as in Figma).
+   ============================================================ */
 .showcase {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: var(--space-8);
-  row-gap: var(--space-16);
+  grid-template-columns: 766fr 150fr 764fr;
+  row-gap: var(--space-12);
   align-items: start;
 }
 
-.showcase__item {
-  color: inherit;
-  display: block;
+.showcase__left {
+  grid-column: 1;
+  grid-row: 1;
+}
+.showcase__top {
+  grid-column: 3;
+  grid-row: 1;
+}
+.showcase__aether {
+  grid-column: 3;
+  grid-row: 2;
+}
+.showcase__bottom {
+  grid-column: 3;
+  grid-row: 3;
 }
 
-.showcase__media {
-  overflow: hidden;
-  background: var(--color-bg-alt);
-  margin-bottom: var(--space-4);
+/* Right-side pairs: two cards, Figma gap 24 / 764 ≈ 3.1% */
+.showcase__top,
+.showcase__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.1%;
+  align-items: start;
 }
-.showcase__media img {
+
+/* ---- Card ---- */
+.showcase-card {
+  display: block;
+  color: inherit;
+}
+.showcase-card__media {
+  overflow: hidden;
+  background: var(--color-bg);
+  margin-bottom: var(--space-6);
+}
+.showcase-card__media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s var(--ease);
 }
-.showcase__item:hover .showcase__media img {
+.showcase-card:hover .showcase-card__media img {
   transform: scale(1.03);
 }
 
-.showcase__meta {
+/* Large cards (Luminary, Aether): image ~766×778 ≈ 1:1 */
+.showcase-card--lg .showcase-card__media {
+  aspect-ratio: 766 / 778;
+}
+/* Small cards (Orbital/Plant/Polaris/Terra): image 370×310 landscape */
+.showcase-card--sm .showcase-card__media {
+  aspect-ratio: 370 / 310;
+}
+
+.showcase-card__meta {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: var(--space-4);
-  border-top: 1px solid var(--color-text);
-  padding-top: var(--space-3);
+  flex-direction: column;
+  gap: var(--space-2);
 }
-.showcase__title {
-  display: inline-flex;
-  align-items: baseline;
-  gap: var(--space-3);
-  font-size: var(--fs-h4);
+.showcase-card__title {
+  font-size: var(--fs-card-title); /* 44 @1728 */
   font-weight: var(--fw-medium);
-  letter-spacing: var(--tracking-tight);
+  letter-spacing: -0.05em;
+  line-height: 1.1;
 }
-.showcase__index {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
+.showcase-card--sm .showcase-card__title {
+  font-size: var(--fs-32);
 }
-.showcase__cat {
-  font-size: var(--fs-small);
-  color: var(--color-text-muted);
-  white-space: nowrap;
-}
-
-/* ---- Asymmetric placement ---- */
-/* Luminary: large card, left, spanning two rows. */
-.showcase__item--luminary-studio {
-  grid-column: 1 / 7;
-  grid-row: 1 / 3;
-}
-.showcase__item--luminary-studio .showcase__media {
-  aspect-ratio: 4 / 5;
-  margin-top: var(--space-12);
-}
-
-/* Orbital + Plant: smaller cards, top right. */
-.showcase__item--orbital-finance {
-  grid-column: 8 / 11;
-  grid-row: 1;
-}
-.showcase__item--plant-shop {
-  grid-column: 11 / 13;
-  grid-row: 1;
-}
-.showcase__item--orbital-finance .showcase__media,
-.showcase__item--plant-shop .showcase__media {
-  aspect-ratio: 3 / 4;
-}
-
-/* Aether: larger card, lower right. */
-.showcase__item--aether-ai-studio {
-  grid-column: 8 / 13;
-  grid-row: 2;
-}
-.showcase__item--aether-ai-studio .showcase__media {
-  aspect-ratio: 16 / 10;
-}
-
-/* Polaris + Terra: smaller cards below, right side. */
-.showcase__item--polaris-protocol {
-  grid-column: 8 / 11;
-  grid-row: 3;
-}
-.showcase__item--terra {
-  grid-column: 11 / 13;
-  grid-row: 3;
-}
-.showcase__item--polaris-protocol .showcase__media,
-.showcase__item--terra .showcase__media {
-  aspect-ratio: 3 / 4;
+.showcase-card__cat {
+  font-size: var(--fs-24);
+  opacity: 0.65;
 }

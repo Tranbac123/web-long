@@ -1,19 +1,18 @@
 # DESIGN CONTRACT — Alex Chen Portfolio Website
 
-This document is the design and implementation contract for the static desktop portfolio website.
+This document is the source of truth for the Alex Chen static portfolio website.
 
-Claude Code must treat this file as the source of truth for:
+Claude Code must read this file before making any implementation or styling changes.
 
-- routes
-- page count
-- page section order
-- text content
-- image asset mapping
-- layout intent
-- styling rules
-- validation requirements
+The goal is to reproduce the provided design references as closely as possible using real React components, HTML text, CSS, and local assets.
 
-The visual reference screenshots are stored in:
+Do not invent a new design.
+
+---
+
+## 1. Design Reference Files
+
+Use these files as visual references only:
 
 ```txt
 docs/design-reference/home-reference.png
@@ -22,56 +21,44 @@ docs/design-reference/work-reference.png
 docs/design-reference/project-detail-reference.png
 ```
 
-These screenshots are design references only.
+Rules:
 
-Do not render full-page screenshots as website UI.
+- Do not render these screenshots as website UI.
+- Do not use them as `<img>` tags.
+- Do not use them as backgrounds.
+- Do not bake text into images.
+- Use them only to understand layout, spacing, typography scale, image placement, and section order.
 
 ---
 
-## 1. Project Goal
+## 2. Website Identity
 
-Build a static desktop portfolio/studio website for:
+The website is for:
 
 ```txt
 Alex Chen
 ```
 
-The website must match the provided page reference screenshots as closely as possible.
-
-The design style is:
-
-- minimal black-and-white editorial portfolio
-- large bold typography
-- tight line height
-- strong whitespace
-- simple navigation
-- asymmetric project layouts
-- image-led composition
-- no rounded cards
-- no shadows
-- no generic SaaS layout
-- no random external images
-- real HTML text, not text baked into images
-
-Desktop only for now.
-
-Minimum supported viewport width:
+Remove and replace any old identity such as:
 
 ```txt
-1025px
+Marlowe Vance
+STUDIO
+old project names
+old placeholder copy
 ```
 
-Optimize primarily for desktop widths around:
+Header logo/name:
 
 ```txt
-1440px
+Alex Chen
 ```
 
 ---
 
-## 2. Required Pages
+## 3. Required Pages
 
-The website has exactly 4 implemented pages:
+The website must implement exactly 4 pages:
 
 ```txt
 1. Home
@@ -80,9 +67,7 @@ The website has exactly 4 implemented pages:
 4. Project Detail
 ```
 
-Important:
-
-The top navigation should only show:
+The top navigation should show only:
 
 ```txt
 Home
@@ -90,13 +75,13 @@ About
 Work
 ```
 
-Project Detail does not need to appear in the top nav, but it must exist and be reachable from project cards and direct URL.
+Project Detail does not need to appear in the top navigation, but it must exist and be reachable from project cards and direct URL.
 
 ---
 
-## 3. Required Routes
+## 4. Required Routes
 
-Implement these routes:
+Use these routes:
 
 ```txt
 /                         -> Home page
@@ -114,48 +99,268 @@ Optional redirects:
 /works/:slug              -> redirect to /work/:slug
 ```
 
-Use `/work` as the main route because the current project uses singular `Work`.
+Use `/work` as the main route.
 
-The Work page may visually display the large word:
+The Work page can visually display the large word:
 
 ```txt
 WORKS
 ```
 
-This matches the design reference.
+This is part of the design.
 
 ---
 
-## 4. Navigation
+## 5. Navigation Contract
 
-Header logo/name:
-
-```txt
-Alex Chen
-```
-
-Navigation links:
+Header links:
 
 ```txt
-Home  -> /
-About -> /about
-Work  -> /work
+Alex Chen -> /
+Home      -> /
+About     -> /about
+Work      -> /work
 ```
 
 Header behavior:
 
-- On Home hero: overlay on dark hero image, text should be white/readable.
-- On About hero: overlay on image, text should be readable.
-- On Work and Project Detail pages: black text on white background.
-- No heavy background box.
-- No oversized nav.
-- No decorative underline unless it matches the reference.
+- Home: header overlays the dark hero image and must be readable.
+- About: header overlays the hero image and must be readable.
+- Work: header uses black text on white background.
+- Project Detail: header uses black text on white background.
+- No heavy header background.
+- No pill nav.
+- No decorative nav boxes.
+- No colorful active states.
 
 ---
 
-## 5. Production Assets
+## 6. Design System Lockdown
 
-Use the files exactly as they currently exist in the project:
+This design uses a very strict visual system.
+
+Claude Code must not add decorative UI styling.
+
+The website should rely on:
+
+```txt
+typography
+whitespace
+image composition
+alignment
+scale
+```
+
+Not on:
+
+```txt
+extra colors
+multiple fonts
+dividers
+borders
+shadows
+rounded cards
+generic buttons
+```
+
+---
+
+## 7. Font System
+
+The website must use exactly one font family:
+
+```css
+font-family: "Inter", sans-serif;
+```
+
+Rules:
+
+- Use Inter for all text.
+- Do not use any other font family.
+- Do not use serif fonts.
+- Do not use monospace fonts.
+- Do not use `system-ui`.
+- Do not use Helvetica.
+- Do not use Arial.
+- Do not use Georgia.
+- Do not use Playfair.
+- Do not use custom display fonts.
+- Large display headings must also use Inter.
+- Footer CTA must use Inter.
+- Navigation must use Inter.
+- Project metadata must use Inter.
+
+All typography variation must come from:
+
+```txt
+font-size
+font-weight
+line-height
+letter-spacing
+text-transform
+spacing
+```
+
+Not from changing font family.
+
+Required token:
+
+```css
+:root {
+  --font-main: "Inter", sans-serif;
+}
+```
+
+Required global body style:
+
+```css
+body {
+  font-family: var(--font-main);
+}
+```
+
+Allowed font declarations:
+
+```css
+font-family: "Inter", sans-serif;
+font-family: var(--font-main);
+```
+
+Everything else must be removed.
+
+---
+
+## 8. Color System
+
+The website UI uses only black and white.
+
+Required tokens:
+
+```css
+:root {
+  --color-bg: #ffffff;
+  --color-text: #050505;
+  --color-muted: #050505;
+}
+```
+
+Rules:
+
+- UI background: white.
+- UI text: black.
+- Links: black.
+- Buttons/CTA text: black.
+- Footer text: black.
+- Muted text should still use black with opacity.
+- Photography is the only source of color.
+
+Allowed muted text:
+
+```css
+color: var(--color-text);
+opacity: 0.65;
+```
+
+Not allowed:
+
+```css
+color: #777;
+color: #999;
+color: #666;
+color: blue;
+color: brown;
+color: beige;
+background: #f8f8f8;
+background: #fafafa;
+background: linear-gradient(...);
+```
+
+No accent colors.
+
+No colored buttons.
+
+No colored links.
+
+No gray UI backgrounds unless the reference explicitly shows them.
+
+---
+
+## 9. Divider, Border, Radius, and Shadow Rules
+
+The reference design is sparse and uses whitespace instead of decorative UI lines.
+
+Forbidden unless clearly visible in the reference:
+
+```txt
+decorative dividers
+card borders
+section borders
+button borders
+pill buttons
+rounded cards
+rounded images
+box shadows
+drop shadows
+gradient backgrounds
+```
+
+Default rules:
+
+```css
+border: none;
+border-radius: 0;
+box-shadow: none;
+filter: none;
+```
+
+If a divider is not clearly required by the reference, remove it.
+
+If a card border is not clearly required by the reference, remove it.
+
+If a button looks like a SaaS button, simplify it into a text link.
+
+---
+
+## 10. Button and Link Rules
+
+Links should be minimal and editorial.
+
+Allowed link style:
+
+```css
+color: var(--color-text);
+text-decoration: none;
+```
+
+Allowed hover style:
+
+```css
+opacity: 0.65;
+```
+
+Not allowed:
+
+```txt
+pill buttons
+filled buttons
+colored buttons
+heavy bordered buttons
+shadow buttons
+gradient buttons
+rounded CTA pills
+```
+
+Use text links such as:
+
+```txt
+→ Let’s work together
+```
+
+---
+
+## 11. Production Assets
+
+Use the files exactly as they currently exist:
 
 ```txt
 src/assets/placeholders/home-hero-bg.jpg
@@ -177,7 +382,7 @@ Do not move these files.
 
 Do not use external image URLs.
 
-Do not import old missing assets such as:
+Do not import old missing assets:
 
 ```txt
 flower-01.svg
@@ -191,7 +396,7 @@ portrait.svg
 
 ---
 
-## 6. Asset Mapping
+## 12. Asset Mapping
 
 Use this exact mapping:
 
@@ -211,7 +416,7 @@ Use this exact mapping:
 
 ---
 
-## 7. Required Project Data
+## 13. Project Data Contract
 
 Project data must be centralized in:
 
@@ -219,7 +424,7 @@ Project data must be centralized in:
 src/data/projects.ts
 ```
 
-Do not duplicate project arrays inside pages.
+Do not duplicate project arrays inside page files.
 
 There must be exactly 6 projects, in this order:
 
@@ -232,7 +437,7 @@ There must be exactly 6 projects, in this order:
 6. Terra
 ```
 
-Project data contract:
+Required project type:
 
 ```ts
 export type Project = {
@@ -295,7 +500,7 @@ getNextProject(slug: string)
 
 ---
 
-## 8. Home Page Contract
+## 14. Home Page Contract
 
 File:
 
@@ -303,7 +508,7 @@ File:
 src/pages/HomePage.tsx
 ```
 
-Reference screenshot:
+Reference:
 
 ```txt
 docs/design-reference/home-reference.png
@@ -320,37 +525,44 @@ Required section order:
 6. Footer banner + CTA footer
 ```
 
-### 8.1 Home Hero
+### 14.1 Home Hero
 
-Use asset:
+Use:
 
 ```txt
 src/assets/placeholders/home-hero-bg.jpg
 ```
 
-Required visible text:
+Visible title:
 
 ```txt
 CREATIVE
 DEVELOPER
 ```
 
-Layout requirements:
-
-- full-width dark image hero
-- header overlays hero
-- large white title on the left
-- small supporting copy near center-left
-- small bottom-left text: `Scroll Down`
-- hero must look like the reference, not a blurry nav-only banner
-
-Suggested supporting copy:
+Supporting copy:
 
 ```txt
 I build immersive web experiences where interaction, motion, and structure meet meaningful design.
 ```
 
-### 8.2 Home Intro
+Small bottom-left text:
+
+```txt
+Scroll Down
+```
+
+Layout requirements:
+
+- Full-width dark image hero.
+- Header overlays hero.
+- Large white title on the left.
+- Supporting copy near center-left.
+- Strong whitespace.
+- No colored overlay unless needed for text readability.
+- No decorative divider.
+
+### 14.2 Home Intro
 
 Title:
 
@@ -358,13 +570,13 @@ Title:
 Turning ideas into immersive experiences.
 ```
 
-Use image:
+Image:
 
 ```txt
 daisy-1.jpg
 ```
 
-Small label:
+Label:
 
 ```txt
 About me
@@ -382,7 +594,15 @@ Link:
 → Let’s work together
 ```
 
-### 8.3 Home Projects
+Layout requirements:
+
+- Large editorial title.
+- Small image below/near title as in reference.
+- Sparse text placement.
+- White background.
+- Black text only.
+
+### 14.3 Home Projects
 
 Title:
 
@@ -396,7 +616,7 @@ Use project data from:
 src/data/projects.ts
 ```
 
-Project/image mapping:
+Project image mapping:
 
 ```txt
 Luminary Studio       -> daisy-2.jpg
@@ -409,15 +629,15 @@ Terra                 -> daisy-7.jpg
 
 Layout requirements:
 
-- asymmetric layout
-- Luminary Studio large card on the left
-- Orbital Finance and Plant Shop small cards top/right
-- Aether - AI Studio larger card lower/right
-- Polaris Protocol and Terra smaller cards below Aether
-- preserve large whitespace
-- do not use a generic equal grid
+- Asymmetric project layout.
+- Luminary Studio large card on the left.
+- Orbital Finance and Plant Shop smaller cards top/right.
+- Aether - AI Studio larger card lower/right.
+- Polaris Protocol and Terra smaller cards below Aether.
+- Preserve whitespace.
+- Do not use a generic equal grid.
 
-### 8.4 Home Services
+### 14.4 Home Services
 
 Title:
 
@@ -433,14 +653,7 @@ Rows:
 03 Design To Code
 ```
 
-Each row must include:
-
-- index
-- title
-- short description
-- thumbnail on right using `daisy-1.jpg`
-
-Service descriptions:
+Descriptions:
 
 ```txt
 Creative Development:
@@ -453,7 +666,18 @@ Design To Code:
 Design systems and UI translated into production-ready, scalable interfaces while preserving the design intent.
 ```
 
-### 8.5 Home Testimonials
+Each row must include:
+
+```txt
+index
+title
+description
+right-side thumbnail using daisy-1.jpg
+```
+
+Avoid decorative row dividers unless clearly required by the reference.
+
+### 14.5 Home Testimonials
 
 Label:
 
@@ -482,19 +706,22 @@ Creative Director, Luminary Studio
 
 Layout requirements:
 
-- dark rectangle on the left
-- quote block on the right
-- small author details below
-- static arrow buttons are acceptable
-- no need for real carousel logic
+- Static testimonial block.
+- Dark rectangle on the left.
+- Quote on the right.
+- Small author details below.
+- Static arrows acceptable.
+- No carousel logic required.
+- No card shadow.
+- No rounded card.
 
-### 8.6 Home Footer
+### 14.6 Home Footer
 
 Use shared Footer component.
 
 ---
 
-## 9. About Page Contract
+## 15. About Page Contract
 
 File:
 
@@ -502,7 +729,7 @@ File:
 src/pages/AboutPage.tsx
 ```
 
-Reference screenshot:
+Reference:
 
 ```txt
 docs/design-reference/about-reference.png
@@ -519,9 +746,9 @@ Required section order:
 6. Footer banner + CTA footer
 ```
 
-### 9.1 About Hero
+### 15.1 About Hero
 
-Use asset:
+Use:
 
 ```txt
 src/assets/placeholders/daisy-9.jpg
@@ -536,15 +763,15 @@ CHEN
 
 Layout requirements:
 
-- full-width hero image
-- header overlays image
-- large title at bottom-left
-- title must be readable
-- crop image with `object-fit: cover`
+- Full-width image hero.
+- Header overlays image.
+- Large title at bottom-left.
+- Title must be readable.
+- Use `object-fit: cover`.
 
-### 9.2 About Statement
+### 15.2 About Statement
 
-Left label:
+Label:
 
 ```txt
 Statement
@@ -556,15 +783,10 @@ Main text:
 I build digital experiences where design meets code — interactive, intentional, and human-first. I collaborate with brands that have a story to tell, turning ideas into fluid, responsive experiences.
 ```
 
-Right block title:
+Right block:
 
 ```txt
 What drives me:
-```
-
-Right block lines:
-
-```txt
 Clean typography
 Thoughtful micro-interactions
 Performance without compromise
@@ -583,9 +805,9 @@ Link:
 → Let’s work together
 ```
 
-### 9.3 Skills + AC Block
+### 15.3 Skills + AC Block
 
-Show skill columns:
+Skills:
 
 ```txt
 Figma
@@ -612,7 +834,7 @@ React
 Lottie
 ```
 
-Show huge typography:
+Huge typography:
 
 ```txt
 AC
@@ -620,11 +842,14 @@ AC
 
 Layout requirements:
 
-- skills appear in small text columns
-- `AC` must be extremely large and bold
-- keep the sparse editorial feel from the reference
+- Skills appear in small text columns.
+- `AC` must be extremely large and bold.
+- Keep sparse editorial layout.
+- Do not add colored skill tags.
+- Do not add pill badges.
+- Do not add card backgrounds.
 
-### 9.4 How I Work
+### 15.4 How I Work
 
 Title:
 
@@ -650,14 +875,15 @@ I treat every project like it's my own. Clear communication, no surprises.
 
 Layout requirements:
 
-- sparse rows
-- no cards
-- no background boxes
-- small row index on right
+- Sparse rows.
+- No cards.
+- No background boxes.
+- No unnecessary divider lines.
+- Small row index on the right.
 
-### 9.5 About Projects
+### 15.5 About Projects
 
-Reuse the same project data from:
+Reuse project data from:
 
 ```txt
 src/data/projects.ts
@@ -665,13 +891,13 @@ src/data/projects.ts
 
 Use a similar asymmetric “Things I’ve built” layout from Home.
 
-### 9.6 About Footer
+### 15.6 About Footer
 
 Use shared Footer component.
 
 ---
 
-## 10. Work Page Contract
+## 16. Work Page Contract
 
 File:
 
@@ -679,7 +905,7 @@ File:
 src/pages/WorkPage.tsx
 ```
 
-Reference screenshot:
+Reference:
 
 ```txt
 docs/design-reference/work-reference.png
@@ -699,12 +925,12 @@ WORKS
 
 Required layout:
 
-- white background
-- header at top
-- horizontal editorial project index
-- large whitespace
-- huge `WORKS` text bottom-left
-- `→ Let’s work together` bottom-right
+- White background.
+- Header at top.
+- Horizontal editorial project index.
+- Large whitespace.
+- Huge `WORKS` text bottom-left.
+- `→ Let’s work together` bottom-right.
 
 Project order:
 
@@ -728,17 +954,20 @@ Polaris Protocol      -> daisy-6.png
 
 Layout requirements:
 
-- do not create a normal 3-column grid
-- Luminary Studio: large square image on the left
-- Orbital Finance: medium horizontal image
-- Plant Shop: medium horizontal image
-- Aether - AI Studio: tall/large image
-- Polaris Protocol: tall image at far right
-- horizontal overflow is acceptable on desktop if needed to preserve the design
+- Do not create a normal 3-column grid.
+- Luminary Studio: large square image on the left.
+- Orbital Finance: medium horizontal image.
+- Plant Shop: medium horizontal image.
+- Aether - AI Studio: tall/large image.
+- Polaris Protocol: tall image at far right.
+- Horizontal overflow is acceptable on desktop if needed.
+- No card borders.
+- No shadows.
+- No rounded cards.
 
 ---
 
-## 11. Project Detail Page Contract
+## 17. Project Detail Page Contract
 
 File:
 
@@ -746,13 +975,13 @@ File:
 src/pages/ProjectDetailPage.tsx
 ```
 
-Reference screenshot:
+Reference:
 
 ```txt
 docs/design-reference/project-detail-reference.png
 ```
 
-Main required route:
+Main route:
 
 ```txt
 /work/luminary-studio
@@ -768,10 +997,13 @@ src/data/projects.ts
 
 If slug is unknown:
 
-- redirect to `/work/luminary-studio`, or
-- render a simple not-found state
+```txt
+redirect to /work/luminary-studio
+```
 
-### 11.1 Project Intro
+or render a simple not-found state.
+
+### 17.1 Project Intro
 
 Large title:
 
@@ -804,12 +1036,13 @@ Scroll Down
 
 Layout requirements:
 
-- large title at top-left
-- small metadata columns aligned across the top section
-- lots of whitespace
-- no heavy card styling
+- Large title top-left.
+- Small metadata columns across the top section.
+- Lots of whitespace.
+- No card styling.
+- No decorative divider.
 
-### 11.2 Gallery
+### 17.2 Gallery
 
 Use this exact image order:
 
@@ -831,16 +1064,17 @@ daisy-4.png
 
 Layout requirements:
 
-- first large full-width landscape image
-- then two equal columns
-- then large full-width landscape image
-- then two equal columns
-- use `object-fit: cover`
-- use aspect ratios to match the reference
+- First large full-width landscape image.
+- Then two equal columns.
+- Then large full-width landscape image.
+- Then two equal columns.
+- Use `object-fit: cover`.
+- Use `aspect-ratio`.
+- Match the reference image proportions.
 
-### 11.3 Next Project
+### 17.3 Next Project
 
-Centered section title:
+Title:
 
 ```txt
 Next project
@@ -864,13 +1098,21 @@ Link:
 /work/polaris-protocol
 ```
 
-### 11.4 Project Detail Footer
+Layout requirements:
+
+- Centered section.
+- Minimal typography.
+- No card border.
+- No shadow.
+- No rounded image.
+
+### 17.4 Project Detail Footer
 
 Use shared Footer component.
 
 ---
 
-## 12. Shared Footer Contract
+## 18. Shared Footer Contract
 
 File:
 
@@ -937,16 +1179,18 @@ LinkedIn
 
 Layout requirements:
 
-- huge black CTA typography
-- tight line-height
-- smile SVG placed after CTA text
-- small metadata columns below
-- lots of whitespace
-- no boxed footer style
+- Huge black CTA typography.
+- Tight line-height.
+- Smile SVG placed after CTA text.
+- Small metadata columns below.
+- Lots of whitespace.
+- No boxed footer style.
+- No gray footer background.
+- No colored footer links.
 
 ---
 
-## 13. Styling Rules
+## 19. CSS Requirements
 
 Use plain CSS.
 
@@ -959,22 +1203,35 @@ src/pages/*.css
 src/components/*.css
 ```
 
-Required CSS behavior:
+Required global behavior:
 
 ```css
 body {
   min-width: 1025px;
+  margin: 0;
+  font-family: var(--font-main);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 ```
 
 Images:
 
 ```css
-img {
-  display: block;
-  max-width: 100%;
-}
-
 .image-cover {
   width: 100%;
   height: 100%;
@@ -982,25 +1239,11 @@ img {
 }
 ```
 
-General rules:
-
-- desktop-first only
-- black text on white background except image hero sections
-- large display headings
-- tight line-height
-- strong whitespace
-- no rounded cards
-- no shadows
-- no generic equal grids where reference is asymmetric
-- use `object-fit: cover`
-- use `aspect-ratio`
-- avoid inline styles
-- use semantic HTML
-
-Recommended display typography direction:
+Display typography direction:
 
 ```css
 .display-title {
+  font-family: var(--font-main);
   font-size: clamp(80px, 12vw, 190px);
   line-height: 0.85;
   letter-spacing: -0.06em;
@@ -1010,7 +1253,7 @@ Recommended display typography direction:
 
 ---
 
-## 14. Components to Prefer
+## 20. Recommended Components
 
 Use or create reusable components where useful:
 
@@ -1036,29 +1279,30 @@ No CMS.
 
 ---
 
-## 15. Implementation Priorities
+## 21. Implementation Priorities
 
 Fix in this order:
 
 ```txt
-1. Routing and page existence
+1. Routes and page existence
 2. Broken asset imports
 3. Project data
 4. Header branding/navigation
-5. Home layout
-6. About layout
-7. Work layout
-8. Project Detail layout
-9. Footer
-10. CSS polish
-11. Build validation
+5. Design system lockdown
+6. Home layout
+7. About layout
+8. Work layout
+9. Project Detail layout
+10. Footer
+11. CSS polish
+12. Build validation
 ```
 
 The priority is matching the supplied references, not preserving the previous wrong implementation.
 
 ---
 
-## 16. Validation Checklist
+## 22. Validation Checklist
 
 Run:
 
@@ -1073,7 +1317,7 @@ npm run typecheck
 npm run lint
 ```
 
-Do not claim typecheck/lint passed if the scripts do not exist.
+Do not claim typecheck or lint passed if the scripts do not exist.
 
 Manually verify these URLs:
 
@@ -1087,41 +1331,85 @@ Manually verify these URLs:
 
 Check:
 
-- Home page exists
-- About page exists
-- Work page exists
-- Project Detail page exists
-- Header links work
-- Project cards link to `/work/:slug`
-- `/work/luminary-studio` works
-- `/project-detail` redirects to `/work/luminary-studio`
-- no old missing assets are imported
-- no external images are used
-- no full-page screenshots are rendered as UI
-- footer uses `smile_face.svg`
-- all images have meaningful alt text
-- desktop layout works at 1025px and above
+```txt
+Home page exists
+About page exists
+Work page exists
+Project Detail page exists
+Header links work
+Project cards link to /work/:slug
+/work/luminary-studio works
+/project-detail redirects to /work/luminary-studio
+No old missing assets are imported
+No external images are used
+No full-page screenshots are rendered as UI
+Footer uses smile_face.svg
+All text uses Inter only
+UI colors are black and white only
+No unnecessary dividers
+No rounded cards
+No card shadows
+Desktop layout works at 1025px and above
+```
 
 ---
 
-## 17. Non-Negotiables
+## 23. Code Search Validation
+
+Before final report, search for violations:
+
+```bash
+rg "font-family|font:" src
+rg "color:|background:|background-color:|linear-gradient|rgb\\(|rgba\\(|#[0-9a-fA-F]{3,8}" src
+rg "border|border-top|border-bottom|border-left|border-right" src
+rg "box-shadow|drop-shadow|filter:" src
+rg "border-radius" src
+```
+
+For each remaining match, verify it is intentional.
+
+Remaining allowed examples:
+
+```css
+font-family: var(--font-main);
+font-family: "Inter", sans-serif;
+color: var(--color-text);
+background: var(--color-bg);
+opacity: 0.65;
+border: none;
+border-radius: 0;
+box-shadow: none;
+```
+
+---
+
+## 24. Non-Negotiables
 
 Do not:
 
-- use the reference screenshots as website images
-- use random external images
-- import missing `flower-*.svg` files
-- import missing `portrait.svg`
-- keep old identity like `Marlowe Vance`
-- keep old project names
-- make the Work page a generic 3-column grid
-- remove the Project Detail page
-- hide Project Detail behind a broken route
-- claim validation passed without running build
+```txt
+Use more than one font
+Use any font except Inter
+Use extra UI colors
+Use random external images
+Use reference screenshots as UI
+Import missing flower SVGs
+Import missing portrait SVG
+Keep old identity like Marlowe Vance
+Keep old project names
+Make Work page a generic 3-column grid
+Remove Project Detail page
+Hide Project Detail behind a broken route
+Add decorative dividers everywhere
+Add rounded cards
+Add shadows
+Add colored buttons
+Claim validation passed without running build
+```
 
 ---
 
-## 18. Final Implementation Report Format
+## 25. Final Implementation Report Format
 
 After changes, report:
 
@@ -1145,10 +1433,15 @@ After changes, report:
 | Section | Asset |
 | ------- | ----- |
 
-## 5. Validation results
+## 5. Design system validation
+
+| Rule | Status |
+| ---- | ------ |
+
+## 6. Validation results
 
 | Command | Result |
 | ------- | ------ |
 
-## 6. Remaining issues / limitations
+## 7. Remaining issues / limitations
 ```
