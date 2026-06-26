@@ -92,7 +92,9 @@ p {
      .page       = page identity/root (one per page: .home/.about/.work/…)
      .section    = a top-level semantic <section> with vertical rhythm
      .container  = inner content-width wrapper (max-width + page gutter)
-   A page is: .page > section.section > .container > content.
+   Most long-form pages use: .page > section.section > .container > content.
+   Editorial / single-viewport sections (e.g. the Work rail) may use custom
+   section classes when Figma requires a full-width or horizontal composition.
    ============================================================ */
 .page {
   display: block;

@@ -19,24 +19,25 @@
 }
 
 /* CTA: three stacked lines, Figma 250/500, lh 0.9, ls -0.10em */
+/* Wrapper anchors the credit (which is not part of the CTA heading). */
+.footer__cta-wrap {
+  position: relative;
+  --cta-indent: 20%; /* SOMETHING line indent (Figma x385 ≈ 22% of frame) */
+  margin-bottom: var(--space-24);
+}
 .footer__cta {
-  position: relative; /* anchor for the absolutely-placed credit */
   display: flex;
   flex-direction: column;
   font-size: clamp(56px, 14.5vw, 250px);
   line-height: 0.9;
   letter-spacing: -0.1em;
   font-weight: var(--fw-medium);
-  margin-bottom: var(--space-24);
 }
 
 /* Figma 85:504: "Design & code by Douglus Nguyen" 28/600, left-aligned in the
-   empty gap beside the indented "SOMETHING" line (~36% down the CTA). Its
-   max-width is tied to the SOMETHING indent so the text can NEVER overlap the
-   CTA at any width — it just wraps to more lines in narrow viewports. */
-.footer__cta {
-  --cta-indent: 20%; /* SOMETHING line indent (Figma x385 ≈ 22% of frame) */
-}
+   empty gap beside the indented "SOMETHING" line. Its max-width is tied to the
+   SOMETHING indent so the text can NEVER overlap the CTA at any width — it just
+   wraps to more lines in narrow viewports. */
 .footer__credit {
   position: absolute;
   /* Figma-derived vertical placement: credit @y10300 vs CTA top @y10057
